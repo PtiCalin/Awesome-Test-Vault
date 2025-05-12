@@ -10,3 +10,4 @@ Use **lowercase**, **plural**, and **kebab-case** folder names.
 | Templates     | `templates/`   |
 | Projects      | `projects/`    |
 | Quests        | `quests/`      |
+
