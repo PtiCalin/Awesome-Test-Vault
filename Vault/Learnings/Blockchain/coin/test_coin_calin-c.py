@@ -1,19 +1,34 @@
 
-# 🪙 Calin Coin – Enhanced Blockchain in Python (PtiCalin Style)
+"""
+🪙 Calin Coin – Educational Blockchain Demo in Python
+Author: PtiCalin ✨
+
+This educational blockchain simulates:
+- Transactions between accounts (Alice & Bob)
+- Validated, immutable blocks
+- A fully linked and hash-verified chain
+
+This system demonstrates:
+✅ State tracking
+✅ Transaction validation
+✅ Block creation
+✅ Blockchain verification
+"""
 
 import hashlib, json, sys, random, copy
 from typing import Dict, List, Any, Union
 
-# ------------------------------ 🔒 HASHING ------------------------------
-
+# ============================== 🔒 HASHING ==============================
 def hash_object(obj: Union[str, Dict]) -> str:
-    """Returns a SHA-256 hash of a given object, ensuring key order for consistency."""
+    """
+    Computes a consistent SHA-256 hash of a JSON-like object.
+    """
     if not isinstance(obj, str):
         obj = json.dumps(obj, sort_keys=True)
     return hashlib.sha256(obj.encode("utf-8")).hexdigest()
 
-# --------------------------- 💸 TRANSACTIONS ----------------------------
-## Create a transaction between Alice and Bob
+# =========================== 💸 TRANSACTIONS ===========================
+
 def create_transaction(max_value: int = 3) -> Dict[str, int]:
     sign = random.choice([-1, 1])
     amount = random.randint(1, max_value)
@@ -21,11 +36,9 @@ def create_transaction(max_value: int = 3) -> Dict[str, int]:
 
 def generate_transaction_pool(size: int = 30) -> List[Dict[str, int]]:
     random.seed(99)
-    """Generates a pool of random transactions."""
-    # Set a seed for reproducibility
     return [create_transaction() for _ in range(size)]
 
-# ----------------------------- 📊 STATE -------------------------------
+# ============================ 📊 STATE ============================
 
 def update_state(txn: Dict[str, int], current_state: Dict[str, int]) -> Dict[str, int]:
     updated = current_state.copy()
@@ -41,7 +54,7 @@ def is_valid_transaction(txn: Dict[str, int], state: Dict[str, int]) -> bool:
             return False
     return True
 
-# ----------------------------- ⛓️ BLOCKS -------------------------------
+# =========================== ⛓️ BLOCK CREATION ===========================
 
 def create_genesis_block() -> (Dict[str, Any], Dict[str, int]):
     state = {"Alice": 50, "Bob": 50}
@@ -64,7 +77,7 @@ def create_block(txns: List[Dict[str, int]], chain: List[Dict[str, Any]]) -> Dic
     }
     return {"hash": hash_object(contents), "contents": contents}
 
-# ------------------------- ✅ VALIDATION ------------------------------
+# =========================== ✅ VALIDATION ============================
 
 def validate_block_hash(block: Dict[str, Any]) -> None:
     if block["hash"] != hash_object(block["contents"]):
@@ -95,9 +108,10 @@ def validate_chain(chain_data: Union[str, List[Dict[str, Any]]]) -> Dict[str, in
         parent = block
     return state
 
-# --------------------------- 🚀 RUN SYSTEM -----------------------------
+# ============================ 🚀 RUN SYSTEM =============================
 
 if __name__ == "__main__":
+    print("🚀 Booting up Calin Coin educational blockchain...")
     txn_pool = generate_transaction_pool()
     chain = []
     genesis, state = create_genesis_block()
@@ -109,10 +123,17 @@ if __name__ == "__main__":
         while txn_pool and len(batch) < BLOCK_SIZE:
             txn = txn_pool.pop()
             if is_valid_transaction(txn, state):
+                print("✅ VALID:", txn)
                 batch.append(txn)
                 state = update_state(txn, state)
+            else:
+                print("❌ INVALID:", txn)
         if batch:
             chain.append(create_block(batch, chain))
+    # 🧪 Trigger validation
+
+    # 🧪 MANUAL TAMPER - Inject a stealthy transaction mutation
+    chain[1]["contents"]["txns"][0]["Alice"] = 5000
 
     final_state = validate_chain(chain)
     print("✅ Calin Coin Chain Validated!")
