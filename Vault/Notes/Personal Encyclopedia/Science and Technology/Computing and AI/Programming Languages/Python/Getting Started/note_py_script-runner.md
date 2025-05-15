@@ -122,16 +122,16 @@ Also tested the debugger. `F5` triggers breakpoint mode — useful for step-by-s
 
 ---
 
+
+
+---
+
+## 🌀 Thoughts
+- I keep forgetting that the terminal needs to be “in” the same folder as the script.
+- VS Code makes it surprisingly smooth to run files without any setup.
+- Not sure yet when to use `Ctrl + F5` vs `F5`. I just pick one and hope it runs.
+
 ### 💡 Ideas for Automating
 
 - Might create a `run.ps1` or `run.bat` file to simplify multi-script workflows
 - Could explore `watchdog` or `entr` to auto-run on file save
-
----
-
-## 🌀 Reflection Dump
-
-- I keep forgetting that the terminal needs to be “in” the same folder as the file. That mental model still hasn’t fully set.
-- I like that VS Code just *knows* what to do with Python once the extension is installed.
-- Still unsure if I should always use `Ctrl + F5` or if there’s a reason to debug by default.
-

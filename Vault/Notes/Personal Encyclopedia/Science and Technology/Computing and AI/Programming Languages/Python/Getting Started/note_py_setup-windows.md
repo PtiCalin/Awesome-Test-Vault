@@ -103,11 +103,9 @@ Worked without issues.
 
 ---
 
-## 🌀 Reflection Dump
+## 🌀 Thoughts
+- I hesitate at the “Add Python to PATH” checkbox. It feels important but unclear.
+- The fact that it works from PowerShell after install surprised me.
+- Noticed how VS Code quietly fixes a lot of setup pain.
+- Still unsure when I’ll need to mess with advanced install options. For now I just stuck to defaults.
 
-The process isn’t hard, but it feels opaque the first time — especially what “Add to PATH” really does.  
-It’s one of those invisible setup decisions that can quietly break everything later if you skip it.
-
-There’s something satisfying about seeing `python` respond from anywhere in the terminal. Like the system finally recognizes your intention.
-
-This install is one of those small steps that unlocks everything else.
