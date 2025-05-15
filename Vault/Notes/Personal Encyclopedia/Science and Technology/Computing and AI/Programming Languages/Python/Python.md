@@ -1,27 +1,36 @@
 ---
 id: python-moc
-title: "🗂️ Python Notes — Map of Content"
+title: 🗂️ Python Notes — Map of Content
 type: moc
 category: programming
 section: Learnings
 role: backend
-tags: [python, index, moc]
-version: 1.0
-status: in progress
+tags:
+  - python
+  - index
+  - moc
+version: 1
+status:
+  - in progress
 visibility: public
 created: 2025-05-15
 updated: 2025-05-15
-summary: "Messy and growing map of all Python-related notes in this encyclopedia. WIP style with links to rough drafts and organized modules."
+summary: Messy and growing map of all Python-related notes in this encyclopedia. WIP style with links to rough drafts and organized modules.
 parent: ""
-children: []
-friends: ["python-introduction"]
-related: ["python-basics", "python-projects", "python-syntax-cheatsheet"]
+children: 
+friends:
+  - python-introduction
+related:
+  - python-basics
+  - python-projects
+  - python-syntax-cheatsheet
+aliases:
 ---
 
-# 🗂️ Python Notes — Map of Content
+# 🗂️ Python — Map of Content
 
 > 🪄 **Work in Progress**  
-> This note is raw, unfinished, and will probably evolve. Notes are half-formed, and that’s okay. It’s a thinking space, not a presentation.
+> This note is raw, unfinished, and will probably evolve. 
 
 ---
 
