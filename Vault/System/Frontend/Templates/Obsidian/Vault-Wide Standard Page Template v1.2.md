@@ -17,8 +17,11 @@ title: "<% title %>"
 aliases: []
 type: <% type %>
 category: 
+section: 
+role: 
+folder: 
 tags: []
-version: 1.1
+version: 1.2
 
 # 📊 Status & Lifecycle
 status: <% status %>                 # draft, in progress, complete, archived
@@ -29,7 +32,7 @@ updated: <% today %>
 # 📚 Context & Description
 summary: ""
 
-# 🧭 Relationships
+# 🧱 Relationships
 parent: ""                           # One parent
 children: []                         # Ordered or unordered children
 friends: []                          # Related items of similar nature
@@ -38,17 +41,16 @@ related: []                          # General related content
 
 ---
 
-> [!nav] 🧭 Vault Navigation  
-> [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[📘 Learnings]] • [[🧠 System]]
-
+> [!nav] 🧱 Vault Navigation  
+> [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
 ---
 
-> 🎛 Quick Actions  
+> 🌛 Quick Actions  
 > ➕ [New Project Ticket](obsidian://new?name=Projects/New%20Project%20-%20<% tp.file.title %>)  
-> 🏹 [New Quest](obsidian://new?name=Quests/New%20Quest%20-%20<% tp.file.title %>)  
+> 🌹 [New Quest](obsidian://new?name=Quests/New%20Quest%20-%20<% tp.file.title %>)  
 > 🎯 [New Task](obsidian://new?name=Tasks/New%20Task%20-%20<% tp.file.title %>)  
-> 📅 [Schedule Event](obsidian://new?name=Events/New%20Event%20-%20<% tp.file.title %>)  
+> 🗕 [Schedule Event](obsidian://new?name=Events/New%20Event%20-%20<% tp.file.title %>)  
 > 📝 [Brain Dump](obsidian://new?name=Notes/Brain%20Dump%20-%20<% tp.file.title %>)  
 > 📚 [New Lesson](obsidian://new?name=Lessons/New%20Lesson%20-%20<% tp.file.title %>)
 
