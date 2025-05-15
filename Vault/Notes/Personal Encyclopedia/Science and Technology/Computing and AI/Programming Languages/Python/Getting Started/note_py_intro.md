@@ -97,7 +97,10 @@ It worked. No friction. Felt oddly satisfying.
 
 ---
 
-## 🌀 Reflection Dump
+## 🌀 Thoughts
+- Not used to indentation being part of syntax — helpful, but a bit fragile.
+- The phrase “executable pseudocode” really does describe it well.
+- Python feels flexible in a way that makes it hard to see its limits (yet).
+- Seeing `import this` was unexpected — there’s a whole vibe encoded in the language.
 
-I like that the syntax doesn’t get in the way of ideas.
 

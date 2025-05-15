@@ -126,21 +126,11 @@ pip install -r requirements.txt
 
 ---
 
-### 🔎 Unanswered Questions
+## 🌀 Thoughts
+- Took me a while to realize `venv` folders don’t copy well between systems.
+- I always forget to activate the venv and wonder why pip is acting weird.
+- Using `.venv` instead of `venv` keeps things cleaner in VS Code.
 
-- Is there a downside to reusing one venv across multiple projects?
-- How does `venv` compare to `conda` and `virtualenv` in edge cases?
-- Can I programmatically detect if I’m inside a venv?
 
----
 
-## 🌀 Reflection Dump
 
-There’s something fascinating about how invisible these environments are. No GUI, no drama — just a little shell shift and suddenly you're in a parallel Python dimension.
-
-I like that it encourages boundaries. Like “this environment is for *this* idea.”  
-Feels like putting on gloves before working with chemicals. Keeps things contained.
-
-Still feels a little strange though. Like building sandcastles in RAM.  
-They’re useful. But ephemeral.  
-Not sure yet how much trust I should put in them long-term.
