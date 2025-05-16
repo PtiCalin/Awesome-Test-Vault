@@ -9,7 +9,7 @@ section: science-and-technology
 role: documentation
 folder: python
 tags: []
-version: 1.2
+version: 1
 
 # 📊 Status & Lifecycle
 status: draft
@@ -109,3 +109,19 @@ Worked without issues.
 - Noticed how VS Code quietly fixes a lot of setup pain.
 - Still unsure when I’ll need to mess with advanced install options. For now I just stuck to defaults.
 
+---
+
+## 🔗 Related Notes
+
+> [!info] 🧠 Relationships  
+> This note is part of a larger structure. Below are its connections:
+
+```dataview
+table
+  parent as "Parent",
+  children as "Subpages",
+  friends as "Friends",
+  related as "Related"
+from ""
+where file.link = this.file.link
+```

@@ -103,4 +103,17 @@ It worked. No friction. Felt oddly satisfying.
 - Python feels flexible in a way that makes it hard to see its limits (yet).
 - Seeing `import this` was unexpected — there’s a whole vibe encoded in the language.
 
+## 🔗 Related Notes
 
+> [!info] 🧠 Relationships  
+> This note is part of a larger structure. Below are its connections:
+
+```dataview
+table
+  parent as "Parent",
+  children as "Subpages",
+  friends as "Friends",
+  related as "Related"
+from ""
+where file.link = this.file.link
+```

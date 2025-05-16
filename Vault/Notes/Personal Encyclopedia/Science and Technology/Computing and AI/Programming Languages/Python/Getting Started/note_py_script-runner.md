@@ -122,10 +122,6 @@ Also tested the debugger. `F5` triggers breakpoint mode — useful for step-by-s
 
 ---
 
-
-
----
-
 ## 🌀 Thoughts
 - I keep forgetting that the terminal needs to be “in” the same folder as the script.
 - VS Code makes it surprisingly smooth to run files without any setup.
@@ -135,3 +131,20 @@ Also tested the debugger. `F5` triggers breakpoint mode — useful for step-by-s
 
 - Might create a `run.ps1` or `run.bat` file to simplify multi-script workflows
 - Could explore `watchdog` or `entr` to auto-run on file save
+
+---
+
+## 🔗 Related Notes
+
+> [!info] 🧠 Relationships  
+> This note is part of a larger structure. Below are its connections:
+
+```dataview
+table
+  parent as "Parent",
+  children as "Subpages",
+  friends as "Friends",
+  related as "Related"
+from ""
+where file.link = this.file.link
+```
