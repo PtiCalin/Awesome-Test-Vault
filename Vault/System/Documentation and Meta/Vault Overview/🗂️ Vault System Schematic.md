@@ -1,7 +1,7 @@
 
 Your Awesome Test Vault is structured into **four core domains**:
 
-[[Vault Structure.png]]
+[[Vault Structure v1.0.png]]
 
 ---
 
