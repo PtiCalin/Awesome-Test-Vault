@@ -1,7 +1,7 @@
 class VaultMap {
   constructor(config = {}) {
     this.vaultName = config.vaultName || "Awesome-Test-Vault";
-    this.hotspots = config.hotspots || this.defaultHotspots();
+    this.hotspots = this.defaultHotspots();
   }
 
   defaultHotspots() {
@@ -58,7 +58,3 @@ class VaultMap {
     wrapper.appendChild(svg);
   }
 }
-
-// Required by CustomJS
-module.exports = { VaultMap };
-
