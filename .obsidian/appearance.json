@@ -1,1 +1,6 @@
-{}
+{
+  "enabledCssSnippets": [
+    "vault-map"
+  ],
+  "accentColor": "#9f5b69"
+}

@@ -14,19 +14,27 @@ tags:
 > _A living map of your mind – click the glowing districts to explore your knowledge city._
 
 <div id="vault-map-wrapper">
-  <img id="vault-map" src="Files and Media/Images/Vault Overview/Vault Map.png" alt="Vault Map" style="width:100%; border-radius: 10px;" />
+  <img id="vault-map" src="Files and Media/Images/Vault Overview/vault-map.png" style="width:100%; border-radius: 10px;" />
 </div>
 
 ```dataviewjs
 const { VaultMap } = await cJS();
 const map = new VaultMap({ vaultName: "Awesome-Test-Vault" });
-map.renderMap();
+
+function runWhenImageReady() {
+  const img = document.getElementById("vault-map");
+  if (!img || !img.complete) {
+    setTimeout(runWhenImageReady, 50);
+    return;
+  }
+  map.renderMap();
+}
+
+runWhenImageReady();
 ```
 
 ---
-
 ## 🧭 Vault OS Navigation Dashboard
----
 
 ```folder-index-content
 ```
