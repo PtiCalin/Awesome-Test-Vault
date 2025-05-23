@@ -9,12 +9,12 @@
 
 ## 📁 files and media
 This section holds external files and media that are not native to the Obsidian Vault
-- 📁 [[Images]] 
+- 📁 [[Files and Media/Images/Images]] 
 - 📁 [[System/Awesome-Test-Vault/Files and Media/Documents/Documents]]
-- 📁 [[Audio]]
-- 📁 [[Video]]
+- 📁 [[System/Awesome-Test-Vault/VAULT/Files and Media/Audio/Audio]]
+- 📁 [[System/Awesome-Test-Vault/VAULT/Files and Media/Video/Video]]
 - 📁 [[System/Awesome-Test-Vault/Files and Media/Web Clippings/Web Clippings]] - Web captures via Obsidian Web Clipper
-- 📁 [[Other media]] 
+- 📁 [[System/Awesome-Test-Vault/VAULT/Files and Media/Other Media/Other Media]] 
 Note: Could also  include "Books", "Bookmarks", "References"... 
 ## 📁 notes
 This section holds Obsidian Vault files in a framework centered around the **Daily Note as Command Center**: 
