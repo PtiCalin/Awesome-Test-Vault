@@ -1,0 +1,27 @@
+#vault-map-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+#vault-map-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+area {
+  cursor: pointer;
+}
+
+.vault-map-label {
+  position: absolute;
+  background: var(--color-base-30);
+  color: var(--text-normal);
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  pointer-events: none;
+  z-index: 999;
+}
