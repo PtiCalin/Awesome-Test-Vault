@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VAULT/Learnings/old-Bash Inspo Builder Script.md",
+                "file": "Awesome-Test-Vault.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "old-Bash Inspo Builder Script"
+              "title": "Awesome-Test-Vault"
             }
           }
         ]
@@ -170,6 +170,12 @@
   },
   "active": "47605447ce4989eb",
   "lastOpenFiles": [
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map.png",
+    "VAULT/Files and Media/Files and Media.md",
+    "Awesome-Test-Vault.md",
+    "CODE_OF_CONDUCT.md",
+    "VAULT/VAULT.md",
+    "Untitled.canvas",
     "VAULT/System/Frontend/Templates/Obsidian/Untitled.md",
     "VAULT/System/Frontend/Templates/Obsidian/Obsidian.md",
     "VAULT/System/Frontend/Templates/Obsidian/Obsidian Templates/Obsidian Templates.md",
@@ -192,10 +198,7 @@
     "VAULT/Learnings/00 Learning Management/Progress Tracker.md",
     "VAULT/Learnings/00 Learning Management/Dashboards.md",
     "VAULT/Learnings/00 Learning Management/Curriculum Overview.md",
-    "VAULT/Learnings/00 Learning Management/00 Learning Management.md",
-    "VAULT/System/Documentation and Meta/Vault Cards/Vault Cards.md",
     "VAULT/System/Frontend/Templates/Obsidian/Quest Card.yaml",
-    "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Workflow_Inspo Description/README.md",
     "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Workflow_Inspo Description/structure-builder_mj-inspo-description.rb",
     "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Workflow_Inspo Description/structure-builder_mj-inspo-description.js",
     "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Workflow_Inspo Description/structure-builder_mj-inspo-description.py",
@@ -205,8 +208,6 @@
     "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Description Reflection Cycle/structure-builder_mj-inspo-description.py",
     "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Description Reflection Cycle/structure-builder_mj-inspo-description.ps1",
     "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Description Reflection Cycle/OIP (2).jpg",
-    "VAULT/System/Backend/Data Models.md",
-    "VAULT/Notes/—.md",
     "VAULT/Files and Media/Images/Vault Overview/Vault Structure.png",
     "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Vault Values.png",
     "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Vault Launch_v2.png",

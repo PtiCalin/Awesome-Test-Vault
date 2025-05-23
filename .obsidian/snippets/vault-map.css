@@ -1,0 +1,32 @@
+#vault-map-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+#vault-map-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+area {
+  cursor: pointer;
+}
+
+#vault-map-wrapper polygon.hotspot:hover {
+  animation: pulseGlow 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes pulseGlow {
+  from {
+    fill: rgba(255,255,255,0.05);
+    stroke: rgba(255,255,255,0.1);
+  }
+  to {
+    fill: rgba(255,255,255,0.15);
+    stroke: rgba(255,255,255,0.8);
+    filter: drop-shadow(0 0 4px rgba(255,255,255,0.9));
+  }
+}
