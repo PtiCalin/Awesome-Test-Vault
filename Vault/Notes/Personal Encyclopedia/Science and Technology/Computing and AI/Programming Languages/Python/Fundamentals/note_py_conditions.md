@@ -9,11 +9,11 @@ section: science-and-technology
 role: documentation
 folder: python
 tags: []
-version: 1
+version: 1.0
 
 # 📊 Status & Lifecycle
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-15
 updated: 2025-05-15
 
@@ -30,8 +30,6 @@ related: []
 
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
-
----
 
 
 ## 🔍 Python Conditions — If, Elif, Else
