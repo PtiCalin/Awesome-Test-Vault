@@ -1,4 +1,5 @@
 ---
+# 📄 Identity & Classification
 id: note_py_moc
 title: "🗂️ Python — Map of Content"
 type: note
@@ -8,19 +9,25 @@ role: documentation
 folder: python
 tags: [python, index, map-of-content, computing]
 version: 1.0
-status: in progress
+
+# 📊 Status & Lifecycle
+status: draft
 visibility: public
 created: 2025-05-15
 updated: 2025-05-15
-summary: "Living index for all Python-related notes, grouped by topic and learning stage."
-parent: "Computing and AI"
+
+# 📚 Context & Description
+summary: ""
+
+# 🧱 Relationships
+parent: ""
 children: []
 friends: []
 related: []
 ---
 
 > 🪄 **Work in Progress**  
-> This living index is a developing overview of everything Python-related in the vault. Notes are in active evolution and structured by theme and complexity.
+> This living index is a developing overview of everything Python-related in the vault. Notes are in active evolution and structured by theme /complexity.
 
 ---
 
@@ -30,46 +37,70 @@ related: []
 - [[note_py_venv-guide]] — Using virtual environments
 - [[note_py_script-runner]] — Running scripts from terminal or IDE
 
-## 📌 Basics
-- [[note_py_syntax-basics]] — Keywords, indentation, structure
-- [[note_py_variables]] — Variables and Types
-- [[note_py_conditions]] — Conditional Logic
-- [[note_py_loops]] — While and For loops
-- [[note_py_functions]] — Defining and using functions
-- [[note_py_input-output]] — Reading input and displaying output
-- [[note_py_operators]] — Arithmetic, Comparison, Logical Operators
-- [[note_py_strings-basic]] — Basic string operations
+## 📂 Fundamentals
+- [[note_py_variables.md|Variables]]
+- [[note_py_functions.md|Functions]]
+- [[note_py_function-args.md|Function-Arguments]]
+- [[note_py_conditions.md|Conditions]]
+- [[note_py_loops.md|Loops]]
+- [[note_py_input-output.md|Input-Output]]
+- [[note_py_string-basics.md|String-Basics]]
+- [[note_py_string-formatting.md|String-Formatting]]
+- [[note_py_operators.md|Operators]]
+- [[note_py_syntax-basics.md|Syntax-Basics]]
+- [[note_py_exceptions.md|Exceptions]]
+- [[note_py_list-comprehensions|List-Comprehensions]]
+- [[note_py_syntax-cheatsheet.md|Cheatsheet]]
 
-## 🧠 Intermediate Concepts
-- [[note_py_lambda]] — Lambda functions
-- [[note_py_list-comprehensions]] — Compact list manipulation
-- [[note_py_map-filter-reduce]] — Functional tools
-- [[note_py_function-args]] — Positional, keyword, *args, **kwargs
-- [[note_py_partial-functions]]
-- [[note_py_closures]]
-- [[note_py_exceptions]] — Exception Handling
+## 📂 Functional Programming
+- [[note_py_lambda.md|Lambda]]
+- [[note_py_closures.md|Closures]]
+- [[note_py_decorators.md|Decorators]]
+- [[note_py_map-filter-reduce.md|Map Filter Reduce]]
+- [[note_py_partial-functions.md|Partial Functions]]
 
-## 🧰 Advanced Tools
-- [[note_py_generators]]
-- [[note_py_decorators]]
-- [[note_py_introspection]] — Code introspection and reflection
+## 📂 Modules & Libraries
+- [[note_py_modules.md|Modules]]
+- [[note_py_module-index.md|Module Index]]
+- [[note_py_stlib.md|Standard Library]]
+- [[note_py_csv-parsing.md|CSV Parsing]]
+- [[note_py_regex.md|Regex]]
+- [[note_py_serialization.md|Serialization]]
+- [[note_py_file-handling.md|File Handling]]
 
-## 📦 Modules & Packages
-- [[note_py_modules]]
-- [[note_py_serialization]] — Pickle, JSON
-- [[note_py_csv-parsing]]
+## 📂 Advanced Python
+- [[note_py_iterators.md|Iterators]]
+- [[note_py_context-managers.md|Context Managers]]
+- [[note_py_type-hints.md|Type Hints]]
+- [[note_py_error-handling.md|Error Handling]]
+- [[note_py_introspection.md|Introspection]]
+- [[note_py_language-reference.md|Language Reference]]
+- [[note_py_dunder-methods.md|Dunder Methods]]
 
-## 🧾 Text Processing
-- [[note_py_string-formatting]]
-- [[note_py_regex]]
+## 📂 Object-Oriented Programming
+- [[note_py_classes.md|Classes]]
+- [[note_py_inheritance.md|Inheritance]]
+- [[note_py_static-class-methods.md|Static & Class Methods]]
 
-## 📖 Reference Docs & Meta
-- [[note_py_glossary]]
-- [[note_py_stdlib]]
-- [[note_py_lang-ref]]
-- [[note_py_index-docs]]
-- [[note_py_module-index]]
-- [[note_py_syntax-cheatsheet]]
+## 📂 Testing
+- [[note_py_unittest.md|Unittest]]
+- [[note_py_pytest.md|Pytest]]
+
+## 📂 Async & Concurrency
+- [[note_py_asyncio.md|Asyncio]]
+- [[note_py_threading.md|Threading]]
+- [[note_py_multiprocessing.md|Multiprocessing]]
+
+## 📂 Web & API Access
+- [[note_py_http-requests.md|HTTP Requests]]
+
+## 📂 Tooling & Packaging
+- [[note_py_package-publishing.md|Package Publishing]]
+- [[note_py_debugging.md|Debugging]]
+- [[note_py_linters.md|Linters]]
+- [[note_py_virtual-environments.md|Virtual Environments]]
+- [[note_py_setup-on-windows.md|Setup on Windows]]
+- [[note_py_projects.md|Projects]]
 
 ## 🛠️ Projects
 - [[note_py_projects]]

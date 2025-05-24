@@ -13,22 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_csv-parsing.md",
-                "mode": "preview",
+                "file": "VAULT/Notes/Notes.md",
+                "mode": "source",
                 "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "note_py_csv-parsing"
+              "title": "Notes"
             }
           }
         ]
@@ -99,36 +90,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0d35648cc1e298ca",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Notes/Daily Notes/journaling-block/journaling-block.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for journaling-block"
-            }
-          },
-          {
             "id": "b01cfc3d887f4bb4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Daily Notes/journaling-block/journaling-block.md",
+                "file": "VAULT/Notes/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from journaling-block"
+              "title": "Outgoing links from Notes"
             }
           },
           {
@@ -165,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,46 +154,46 @@
   },
   "active": "47605447ce4989eb",
   "lastOpenFiles": [
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_partial-functions.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_partial-functions.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_decorators.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_closures.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_lambda.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_syntax-cheatsheet.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_operators.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_string-formatting.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_strings-basic.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_input-output.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_loops.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_function-args.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_functions.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Getting Started/note_py_glossary.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_closures.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_variables.md",
+    "🖼 Media Gallery.md",
+    "💘 Learnings.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_conditions.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_syntax-basics.md",
-    "Awesome-Test-Vault.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/Basics.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_list-comprehensions.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals/note_py_exceptions.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_venv-guide.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_setup-windows.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_projects.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_partial-functions.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_map-filter-reduce.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_list-comprehensions.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_lang-ref.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_introspection.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_generators.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted/note_py_exceptions.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Safety",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Async & Concurrency",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Testing",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Object-Oriented Programming",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_context-managers.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_iterators.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Modules & Libraries/note_py_file-handling.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Modules & Libraries/note_py_serialization.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Modules & Libraries/note_py_regex.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_csv-parsing.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Modules & Libraries/note_py_csv-parsing.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Modules & Libraries/note_py_stdlib.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Modules & Libraries/note_py_module-index.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Modules & Libraries/note_py_modules.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Modules & Libraries",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_partial-functions.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Fundamentals",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python.zip",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_venv-guide.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_variables.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_syntax-cheatsheet.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_syntax-basics.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_strings-basic.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/note_py_string-formatting.md",
     "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
     "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",
-    "VAULT/Files and Media/Images/Fun",
-    "VAULT/Learnings/CLI Helper/examples",
-    "VAULT/Learnings/CLI Helper",
-    "VAULT/Learnings/Workflows",
-    "VAULT/System/Frontend/Snippets/VaultMap.js",
     "VAULT/Files and Media/Images/Vault Overview/vault-map.png",
     "Untitled.canvas",
-    "VAULT/System/Frontend/Templates/Obsidian/Obsidian Templates",
-    "VAULT/System/Frontend/Templates/Obsidian/Quest Card.yaml",
     "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Description Reflection Cycle/OIP (2).jpg",
     "VAULT/Files and Media/Images/Vault Overview/Vault Structure.png",
     "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Vault Values.png",
