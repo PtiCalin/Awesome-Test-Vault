@@ -32,12 +32,14 @@ related: []
 ---
 
 ## 🔰 Getting Started
+
 - [[note_py_intro]] — What is Python, where did it come from, and what is it used for?
 - [[note_py_setup-windows]] — Installing Python on Windows
 - [[note_py_venv-guide]] — Using virtual environments
 - [[note_py_script-runner]] — Running scripts from terminal or IDE
 
 ## 📂 Fundamentals
+
 - [[note_py_variables.md|Variables]]
 - [[note_py_functions.md|Functions]]
 - [[note_py_function-args.md|Function-Arguments]]
@@ -53,6 +55,7 @@ related: []
 - [[note_py_syntax-cheatsheet.md|Cheatsheet]]
 
 ## 📂 Functional Programming
+
 - [[note_py_lambda.md|Lambda]]
 - [[note_py_closures.md|Closures]]
 - [[note_py_decorators.md|Decorators]]
@@ -60,6 +63,7 @@ related: []
 - [[note_py_partial-functions.md|Partial Functions]]
 
 ## 📂 Modules & Libraries
+
 - [[note_py_modules.md|Modules]]
 - [[note_py_module-index.md|Module Index]]
 - [[note_py_stlib.md|Standard Library]]
@@ -69,6 +73,7 @@ related: []
 - [[note_py_file-handling.md|File Handling]]
 
 ## 📂 Advanced Python
+
 - [[note_py_iterators.md|Iterators]]
 - [[note_py_context-managers.md|Context Managers]]
 - [[note_py_type-hints.md|Type Hints]]
@@ -78,23 +83,28 @@ related: []
 - [[note_py_dunder-methods.md|Dunder Methods]]
 
 ## 📂 Object-Oriented Programming
+
 - [[note_py_classes.md|Classes]]
 - [[note_py_inheritance.md|Inheritance]]
 - [[note_py_static-class-methods.md|Static & Class Methods]]
 
 ## 📂 Testing
+
 - [[note_py_unittest.md|Unittest]]
 - [[note_py_pytest.md|Pytest]]
 
 ## 📂 Async & Concurrency
+
 - [[note_py_asyncio.md|Asyncio]]
 - [[note_py_threading.md|Threading]]
 - [[note_py_multiprocessing.md|Multiprocessing]]
 
 ## 📂 Web & API Access
+
 - [[note_py_http-requests.md|HTTP Requests]]
 
 ## 📂 Tooling & Packaging
+
 - [[note_py_package-publishing.md|Package Publishing]]
 - [[note_py_debugging.md|Debugging]]
 - [[note_py_linters.md|Linters]]
@@ -103,6 +113,7 @@ related: []
 - [[note_py_projects.md|Projects]]
 
 ## 🛠️ Projects
+
 - [[note_py_projects]]
 
 ---
@@ -111,30 +122,29 @@ related: []
 
 This learning module was built upon a foundation of trusted and canonical Python resources.
 
-
 ### 🐍 Official Python Documentation
+
 - [Python 3.x Documentation Homepage](https://docs.python.org/3/)
 - [The Python Language Reference](https://docs.python.org/3/reference/index.html)
 - [Python Standard Library Index](https://docs.python.org/3/library/index.html)
 - [Python Glossary](https://docs.python.org/3/glossary.html)
 - [Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
-
 ### 💡 Learning Tools & Reference Guides
+
 - [Real Python](https://realpython.com/)
 - [W3Schools Python Reference](https://www.w3schools.com/python/)
 - [Programiz Python Tutorials](https://www.programiz.com/python-programming)
 - [GeeksForGeeks Python Programming](https://www.geeksforgeeks.org/python-programming-language/)
 - [Learn X in Y minutes – Python](https://learnxinyminutes.com/docs/python/)
 
-
 ### 🔧 Tools Used
+
 - [Python Interpreter (CPython)](https://github.com/python/cpython)
 - [pip Package Manager](https://pip.pypa.io/)
 - [Virtualenv & venv](https://docs.python.org/3/library/venv.html)
 
 ---
 
-
 ```folder-index-content
-```
+``

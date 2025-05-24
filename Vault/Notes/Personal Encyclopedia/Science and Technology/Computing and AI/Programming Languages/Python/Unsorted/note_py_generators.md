@@ -53,7 +53,8 @@ for num in count_up_to(3):
 ```
 
 🧠 Output:
-```
+
+```txt
 1
 2
 3
@@ -81,7 +82,6 @@ for num in count_up_to(3):
 - `yield from` syntax
 - Generator expressions
 - Coroutines (async/await)
-
 
 ---
 
