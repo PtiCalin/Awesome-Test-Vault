@@ -1,57 +1,68 @@
-<%*
-const today = tp.date.now("YYYY-MM-DD");
-const title = tp.file.title;
-const type = await tp.system.suggester(
-  ["note", "lesson", "quest", "project", "task", "journal", "template", "meeting-note", "creative-writing-draft"],
-  "Choose type"
-);
-const status = await tp.system.suggester(["draft", "in progress", "complete", "archived"], "Choose status");
-const visibility = await tp.system.suggester(["public", "private", "draft-only"], "Choose visibility");
--%>
 ---
-
-```yaml
 # 📄 Identity & Classification
-id: <% title.toLowerCase().replaceAll(" ", "-") %>
-title: "<% title %>"
-aliases: []
-type: <% type %>
-category: 
-section: 
-role: 
-folder: 
+id: note_py_venv-guide
+title: "Using virtual environments"
+aliases: ["Using virtual environments"]
+type: note
+category: programming
+section: science-and-technology
+role: documentation
+folder: python
 tags: []
 version: 1.2
 
 # 📊 Status & Lifecycle
-status: <% status %>                 # draft, in progress, complete, archived
-visibility: <% visibility %>         # public, private, draft-only
-created: <% today %>
-updated: <% today %>
+status: draft
+visibility: draft-only
+created: 2025-05-15
+updated: 2025-05-15
 
 # 📚 Context & Description
 summary: ""
 
 # 🧱 Relationships
-parent: ""                           # One parent
-children: []                         # Ordered or unordered children
-friends: []                          # Related items of similar nature
-related: []                          # General related content
-```
-
+parent: ""
+children: []
+friends: []
+related: []
 ---
+
 
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
-## ✍️ Content
+### 🧪 Virtual Environments (`venv`)
 
-<!-- Add content in this section -->
+A virtual environment lets you isolate project dependencies from your global Python install.
 
+---
 
+### 🧱 Create a venv
 
+```bash
+python -m venv venv
+```
 
+Activate it:
 
+- Windows: `venv\Scripts\activate`
+- macOS/Linux: `source venv/bin/activate`
+
+---
+
+### 🔄 Deactivate
+
+```bash
+deactivate
+```
+
+---
+
+### 🔗 Related Concepts
+
+- `requirements.txt`
+- Dependency management
+- `pip freeze`
 
 
 ---
@@ -69,7 +80,7 @@ table
   related as "Related"
 from ""
 where file.link = this.file.link
-
+```
 ---
 
 > 🌛 Quick Actions  

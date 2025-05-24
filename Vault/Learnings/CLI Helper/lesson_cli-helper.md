@@ -34,18 +34,6 @@ related: ["terminal-basics", "bash-functions"]
 
 ---
 
-> 🌛 Quick Actions  
-> ➕ [New Project Ticket](obsidian://new?name=Projects/New%20Project%20-%20CLI%20Helper)  
-> 🌹 [New Quest](obsidian://new?name=Quests/New%20Quest%20-%20CLI%20Helper)  
-> 🎯 [New Task](obsidian://new?name=Tasks/New%20Task%20-%20CLI%20Helper)  
-> 🗕 [Schedule Event](obsidian://new?name=Events/New%20Event%20-%20CLI%20Helper)  
-> 📝 [Brain Dump](obsidian://new?name=Notes/Brain%20Dump%20-%20CLI%20Helper)  
-> 📚 [New Lesson](obsidian://new?name=Lessons/New%20Lesson%20-%20CLI%20Helper)
-
----
-
-## ✍️ Content Starts Here
-
 ### 🧰 What is a CLI Helper?
 
 A **CLI Helper** is a tool, script, or shortcut that enhances the usability and efficiency of working in the **Command Line Interface (CLI)**. CLI Helpers simplify complex commands, automate routine tasks, and improve the readability or speed of terminal workflows.
@@ -110,3 +98,14 @@ table
 from ""
 where file.link = this.file.link
 ```
+---
+
+> 🌛 Quick Actions  
+> ➕ [New Project Ticket](obsidian://new?name=Projects/New%20Project%20-%20CLI%20Helper)  
+> 🌹 [New Quest](obsidian://new?name=Quests/New%20Quest%20-%20CLI%20Helper)  
+> 🎯 [New Task](obsidian://new?name=Tasks/New%20Task%20-%20CLI%20Helper)  
+> 🗕 [Schedule Event](obsidian://new?name=Events/New%20Event%20-%20CLI%20Helper)  
+> 📝 [Brain Dump](obsidian://new?name=Notes/Brain%20Dump%20-%20CLI%20Helper)  
+> 📚 [New Lesson](obsidian://new?name=Lessons/New%20Lesson%20-%20CLI%20Helper)
+
+---
