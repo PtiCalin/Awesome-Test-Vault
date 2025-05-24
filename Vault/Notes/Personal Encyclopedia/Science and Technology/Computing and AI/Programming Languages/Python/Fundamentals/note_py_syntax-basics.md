@@ -1,15 +1,16 @@
 ---
 # 📄 Identity & Classification
 id: note_py_syntax-basics
-title: "Keywords, indentation, structure"
-aliases: ["Keywords, indentation, structure"]
+title: Keywords, indentation, structure
+aliases:
+  - Keywords, indentation, structure
 type: note
 category: programming
 section: science-and-technology
 role: documentation
 folder: python
 tags: []
-version: 1.2
+version: 1.0
 
 # 📊 Status & Lifecycle
 status: draft
@@ -131,7 +132,7 @@ Lesson: Stick to 4 spaces. Always.
 ## 🌀 Thoughts
 
 - Indentation rules are strict, but they make things more readable by default.
-- I keep forgetting to add a colon after `if`, `def`, etc.
+- I tend to forget to add a colon after `if`, `def`, etc.
 - Comments with `#` are surprisingly satisfying. Clean and out of the way.
 - The way line breaks and parentheses interact feels intuitive once I tried it a few times.
 

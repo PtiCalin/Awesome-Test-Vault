@@ -76,5 +76,34 @@ related: []
 
 ---
 
+## 📚 References
+
+This learning module was built upon a foundation of trusted and canonical Python resources.
+
+
+### 🐍 Official Python Documentation
+- [Python 3.x Documentation Homepage](https://docs.python.org/3/)
+- [The Python Language Reference](https://docs.python.org/3/reference/index.html)
+- [Python Standard Library Index](https://docs.python.org/3/library/index.html)
+- [Python Glossary](https://docs.python.org/3/glossary.html)
+- [Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
+
+### 💡 Learning Tools & Reference Guides
+- [Real Python](https://realpython.com/)
+- [W3Schools Python Reference](https://www.w3schools.com/python/)
+- [Programiz Python Tutorials](https://www.programiz.com/python-programming)
+- [GeeksForGeeks Python Programming](https://www.geeksforgeeks.org/python-programming-language/)
+- [Learn X in Y minutes – Python](https://learnxinyminutes.com/docs/python/)
+
+
+### 🔧 Tools Used
+- [Python Interpreter (CPython)](https://github.com/python/cpython)
+- [pip Package Manager](https://pip.pypa.io/)
+- [Virtualenv & venv](https://docs.python.org/3/library/venv.html)
+
+---
+
+
 ```folder-index-content
 ```

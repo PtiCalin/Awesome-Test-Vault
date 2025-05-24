@@ -13,7 +13,7 @@ version: 1.2
 
 # 📊 Status & Lifecycle
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-15
 updated: 2025-05-15
 

@@ -31,9 +31,6 @@ related: []
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
----
-
-
 ## 🔍 Virtual Environments — Overview & Key Takeaways
 
 A **virtual environment** in Python is a self-contained workspace where dependencies are isolated from the system-wide Python install. It allows you to:
@@ -131,6 +128,26 @@ pip install -r requirements.txt
 - I tend to forget to activate the venv and wonder why pip is acting weird.
 - Using `.venv` instead of `venv` keeps things cleaner in VS Code.
 
+---
 
+```dataview
+table
+  parent as "Parent",
+  children as "Subpages",
+  friends as "Friends",
+  related as "Related"
+from ""
+where file.link = this.file.link
+```
 
+---
 
+> 🌛 Quick Actions  
+> ➕ [New Project Ticket](obsidian://new?name=Projects/New%20Project%20-%20<% tp.file.title %>)  
+> 🌹 [New Quest](obsidian://new?name=Quests/New%20Quest%20-%20<% tp.file.title %>)  
+> 🎯 [New Task](obsidian://new?name=Tasks/New%20Task%20-%20<% tp.file.title %>)  
+> 🗕 [Schedule Event](obsidian://new?name=Events/New%20Event%20-%20<% tp.file.title %>)  
+> 📝 [Brain Dump](obsidian://new?name=Notes/Brain%20Dump%20-%20<% tp.file.title %>)  
+> 📚 [New Lesson](obsidian://new?name=Lessons/New%20Lesson%20-%20<% tp.file.title %>)
+
+---

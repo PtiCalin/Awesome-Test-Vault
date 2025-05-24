@@ -1,19 +1,20 @@
 ---
 # 📄 Identity & Classification
 id: note_py_variables
-title: "Variables and Types"
-aliases: ["Variables and Types"]
+title: Variables and Types
+aliases:
+  - Variables and Types
 type: note
 category: programming
 section: science-and-technology
 role: documentation
 folder: python
-tags: []
-version: 1.2
+tags: 
+version: 1.0
 
 # 📊 Status & Lifecycle
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-15
 updated: 2025-05-15
 
@@ -27,7 +28,6 @@ friends: []
 related: []
 ---
 
-
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
@@ -39,7 +39,7 @@ Variables are labels pointing to objects in memory. No need to declare types.
 
 ```python
 x = 5
-name = "Charlie"
+name = "PtiCalin"
 is_happy = True
 ```
 
@@ -72,7 +72,7 @@ x = "now I'm a string"
 
 ```python
 x = 42
-name = "Charlie"
+name = "PtiCalin"
 pi = 3.14
 x = "now I'm a string"
 ```

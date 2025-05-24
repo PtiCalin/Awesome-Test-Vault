@@ -9,11 +9,11 @@ section: science-and-technology
 role: documentation
 folder: python
 tags: []
-version: 1.2
+version: 1.0
 
 # 📊 Status & Lifecycle
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-15
 updated: 2025-05-15
 
@@ -31,23 +31,7 @@ related: []
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
----
-
-> 🌛 Quick Actions  
-> ➕ [New Project Ticket](obsidian://new?name=Projects/New%20Project%20-%20<% tp.file.title %>)  
-> 🌹 [New Quest](obsidian://new?name=Quests/New%20Quest%20-%20<% tp.file.title %>)  
-> 🎯 [New Task](obsidian://new?name=Tasks/New%20Task%20-%20<% tp.file.title %>)  
-> 🗕 [Schedule Event](obsidian://new?name=Events/New%20Event%20-%20<% tp.file.title %>)  
-> 📝 [Brain Dump](obsidian://new?name=Notes/Brain%20Dump%20-%20<% tp.file.title %>)  
-> 📚 [New Lesson](obsidian://new?name=Lessons/New%20Lesson%20-%20<% tp.file.title %>)
-
----
-
-## ✍️ Content Starts Here
-
-## ✍️ Content Starts Here
-
-### 🖨️ Input and Output in Python
+## 🖨️ Input and Output in Python
 
 Python uses simple built-in functions for reading user input and displaying results.
 
@@ -95,7 +79,6 @@ with open("notes.txt", "w") as file:
 - f-strings and formatting
 - Context managers (`with open(...)`)
 
-
 ---
 
 ## 🔗 Related Notes
@@ -112,3 +95,15 @@ table
 from ""
 where file.link = this.file.link
 ```
+
+---
+
+> 🌛 Quick Actions  
+> ➕ [New Project Ticket](obsidian://new?name=Projects/New%20Project%20-%20<% tp.file.title %>)  
+> 🌹 [New Quest](obsidian://new?name=Quests/New%20Quest%20-%20<% tp.file.title %>)  
+> 🎯 [New Task](obsidian://new?name=Tasks/New%20Task%20-%20<% tp.file.title %>)  
+> 🗕 [Schedule Event](obsidian://new?name=Events/New%20Event%20-%20<% tp.file.title %>)  
+> 📝 [Brain Dump](obsidian://new?name=Notes/Brain%20Dump%20-%20<% tp.file.title %>)  
+> 📚 [New Lesson](obsidian://new?name=Lessons/New%20Lesson%20-%20<% tp.file.title %>)
+
+---
