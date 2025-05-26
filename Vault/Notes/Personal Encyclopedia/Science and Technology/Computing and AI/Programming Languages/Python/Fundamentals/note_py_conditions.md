@@ -31,7 +31,6 @@ related: []
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
-
 ## 🔍 Python Conditions — If, Elif, Else
 
 Conditional statements let you run code based on whether a condition is `True`. Python uses `if`, `elif`, and `else` — with colons and indentation to define blocks.

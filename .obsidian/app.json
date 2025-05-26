@@ -1,5 +1,7 @@
 {
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false,
+  "propertiesInDocument": "source"
 }

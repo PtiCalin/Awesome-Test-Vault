@@ -76,7 +76,7 @@ Thank you for being part of this slow magic. 🌿
 
 ---
 
-# 🧡 With Gratitude
+## 🧡 With Gratitude
 
 Your interest, presence, or participation in the Vault contributes to a space where knowledge can grow with care and intention.
 

@@ -1,3 +1,6 @@
+
+
+
 ---
 # 🐚 Bash Learning Guide
 
