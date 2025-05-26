@@ -39,6 +39,29 @@ A **virtual environment** in Python is a self-contained workspace where dependen
 - Avoid dependency conflicts
 - Experiment safely without breaking global packages
 
+---
+
+### 🧱 Create a venv
+
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+- Windows: `venv\Scripts\activate`
+- macOS/Linux: `source venv/bin/activate`
+
+---
+
+### 🔄 Deactivate
+
+```bash
+deactivate
+```
+
+---
+
 ### 📦 How to Create One
 
 ```bash
@@ -124,6 +147,7 @@ pip install -r requirements.txt
 ---
 
 ## 🌀 Thoughts
+
 - Took me a while to realize `venv` folders don’t copy well between systems.
 - I tend to forget to activate the venv and wonder why pip is acting weird.
 - Using `.venv` instead of `venv` keeps things cleaner in VS Code.

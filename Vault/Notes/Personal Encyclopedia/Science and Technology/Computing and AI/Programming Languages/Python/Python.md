@@ -33,10 +33,11 @@ related: []
 
 ## 🔰 Getting Started
 
-- [[note_py_intro]] — What is Python, where did it come from, and what is it used for?
-- [[note_py_setup-windows]] — Installing Python on Windows
-- [[note_py_venv-guide]] — Using virtual environments
-- [[note_py_script-runner]] — Running scripts from terminal or IDE
+- [[note_py_intro|Intro]] — What is Python, where did it come from, and what is it used for?
+- [[note_py_setup-windows|Setup-Windows]] — Installing Python on Windows
+- [[note_py_venv-guide|Virtual-Environement-Guide]] — Using virtual environments
+- [[note_py_script-runner|Script-Runner]] — Running scripts from terminal or IDE
+- [[note_py_glossary|Glossary]]
 
 ## 📂 Fundamentals
 
@@ -59,34 +60,34 @@ related: []
 - [[note_py_lambda.md|Lambda]]
 - [[note_py_closures.md|Closures]]
 - [[note_py_decorators.md|Decorators]]
-- [[note_py_map-filter-reduce.md|Map Filter Reduce]]
+- [[note_py_map-filter-reduce.md|Map-Filter-Reduce]]
 - [[note_py_partial-functions.md|Partial Functions]]
 
 ## 📂 Modules & Libraries
 
 - [[note_py_modules.md|Modules]]
-- [[note_py_module-index.md|Module Index]]
-- [[note_py_stlib.md|Standard Library]]
-- [[note_py_csv-parsing.md|CSV Parsing]]
+- [[note_py_module-index.md|Module-Index]]
+- [[note_py_stlib.md|Standard-Library]]
+- [[note_py_csv-parsing.md|CSV-Parsing]]
 - [[note_py_regex.md|Regex]]
 - [[note_py_serialization.md|Serialization]]
-- [[note_py_file-handling.md|File Handling]]
+- [[note_py_file-handling.md|File-Handling]]
 
 ## 📂 Advanced Python
 
 - [[note_py_iterators.md|Iterators]]
-- [[note_py_context-managers.md|Context Managers]]
-- [[note_py_type-hints.md|Type Hints]]
-- [[note_py_error-handling.md|Error Handling]]
+- [[note_py_context-managers.md|Context-Managers]]
+- [[note_py_type-hints.md|Type-Hints]]
+- [[note_py_error-handling.md|Error-Handling]]
 - [[note_py_introspection.md|Introspection]]
-- [[note_py_language-reference.md|Language Reference]]
-- [[note_py_dunder-methods.md|Dunder Methods]]
+- [[note_py_language-reference.md|Language-Reference]]
+- [[note_py_dunder-methods.md|Dunder-Methods]]
 
 ## 📂 Object-Oriented Programming
 
 - [[note_py_classes.md|Classes]]
 - [[note_py_inheritance.md|Inheritance]]
-- [[note_py_static-class-methods.md|Static & Class Methods]]
+- [[note_py_static-class-methods.md|Static-and-Class-Methods]]
 
 ## 📂 Testing
 
