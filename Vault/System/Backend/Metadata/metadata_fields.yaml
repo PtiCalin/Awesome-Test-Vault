@@ -1,0 +1,24 @@
+# 📋 Metadata Field Definitions
+
+required_fields:
+  - id
+  - title
+  - type
+  - version
+  - status
+  - visibility
+  - created
+  - updated
+
+autopopulated_fields:
+  - id
+  - version
+  - type
+  - element
+  - category
+  - section
+  - topic
+  - parent
+  - children
+  - friends
+  - related

@@ -1,0 +1,10 @@
+# 🔧 Vault Configuration
+
+folder_structure:
+  - type
+  - element
+  - category
+  - section
+  - topic
+
+default_version: 1.0
