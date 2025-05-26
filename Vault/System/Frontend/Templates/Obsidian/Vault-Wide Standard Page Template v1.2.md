@@ -15,9 +15,11 @@ const visibility = await tp.system.suggester(["public", "private", "draft-only"]
 id: <% title.toLowerCase().replaceAll(" ", "-") %>
 title: "<% title %>"
 aliases: []
+element: 
 type: <% type %>
 category: 
-section: 
+section:
+topic: 
 role: 
 folder: 
 tags: []
@@ -38,13 +40,12 @@ children: []                         # Ordered or unordered children
 friends: []                          # Related items of similar nature
 related: []                          # General related content
 ```
-
 ---
 
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
-## ✍️ Content
+## ✍️ Content Title
 
 <!-- Add content in this section -->
 

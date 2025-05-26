@@ -29,7 +29,7 @@ related: []
 
 
 > [!nav] 🧱 Vault Navigation  
-> [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
+> [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[⛮  System]]
 
 ## 🔍 Virtual Environments — Overview & Key Takeaways
 

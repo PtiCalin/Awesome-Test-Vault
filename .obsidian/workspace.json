@@ -84,7 +84,77 @@
   "right": {
     "id": "1c41872f7a937119",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "a32adf230263a07f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8feb505b7e0242e6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Tools & Utilities/note_bash_globbing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for note_bash_globbing"
+            }
+          },
+          {
+            "id": "eb6097a2f8e8cd37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Tools & Utilities/note_bash_globbing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from note_bash_globbing"
+            }
+          },
+          {
+            "id": "2da93e5f71b5c1b9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e53a00b9c72f8d57",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Tools & Utilities/note_bash_globbing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of note_bash_globbing"
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
@@ -104,6 +174,12 @@
   },
   "active": "47605447ce4989eb",
   "lastOpenFiles": [
+    "VAULT/System/Backend/Utilities/Utilities.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Python.md",
+    "VAULT/System/Backend/Utilities/time_utils.py",
+    "VAULT/System/Backend/Utilities/slugify.py",
+    "VAULT/System/Backend/Utilities/yaml_tools.py",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Tools & Utilities/note_bash_globbing.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_map-filter-reduce.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_dunder-methods.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_lang-ref.md",
@@ -127,9 +203,6 @@
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Getting Started/note_bash_intro.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Getting Started/note_bash_install.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Advanced Bash/note_bash_debugging.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Fundamentals/note_bash_variables.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Fundamentals/note_bash_strings.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Fundamentals/note_bash_loops.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Projects & Practice",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Getting Started",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Tools & Utilities",
@@ -137,9 +210,6 @@
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Intermediate Bash",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Fundamentals",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Advanced Bash",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python.zip",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Unsorted",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Safety",
     "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
     "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",
     "VAULT/Files and Media/Images/Vault Overview/vault-map.png",

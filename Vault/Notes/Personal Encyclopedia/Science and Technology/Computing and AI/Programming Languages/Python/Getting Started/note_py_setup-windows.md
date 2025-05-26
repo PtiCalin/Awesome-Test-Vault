@@ -21,7 +21,7 @@ updated: 2025-05-15
 summary: ""
 
 # 🧱 Relationships
-parent: ""
+parent: "Python"
 children: []
 friends: []
 related: []
@@ -29,21 +29,22 @@ related: []
 
 
 > [!nav] 🧱 Vault Navigation  
-> [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
+> [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[⛮  System]]
 
 ---
 
+## 🪟 Setting Up Python on Windows
 
-## 🔍 Installing Python on Windows — Key Notes & Takeaways
+1. 📦 Download Python from [python.org](https://python.org)
+2. ✅ During install, check “Add Python to PATH”
+3. 🖥️ Open PowerShell or CMD
+4. 🧪 Confirm install: `python --version`
 
-Installing Python on Windows is a little more visible than expected — installers, dialogs, choices. Most of it works if you trust the defaults, but a few key steps matter more than others.
-
-### 🧭 What I Needed to Do
 
 1. Download from: [python.org/downloads/windows](https://www.python.org/downloads/windows/)
-2. Launched the `.exe` installer.
-3. **Checked** the box for “Add Python to PATH.” Critical.
-4. Went with “Customize Installation” just to see — left most defaults untouched.
+2. Launch the `.exe` installer.
+3. **Check** the box for “Add Python to PATH.” Critical.
+4. Went with “Customize Installation” (just to see) left most defaults untouched.
 5. Installed.
 
 After install, opened PowerShell and ran:
@@ -54,10 +55,24 @@ python --version
 
 → Output: `Python 3.13.3`  
 That confirmed the install and that the PATH variable was set correctly.
+---
+
+### ⚙️ Optional Tools
+
+- Install VS Code for a great editor
+- Use `pip` to install packages
+- Use Windows Terminal for better experience
 
 ---
 
-### 🧠 Key Points
+### 🛠️ Troubleshooting
+
+- PATH errors? Reinstall with PATH checkbox
+- Use `py` if `python` doesn’t work
+
+---
+
+### ⛮  Key Points
 
 - Always check the “Add Python to PATH” box — missing it leads to hard-to-debug errors.
 - Python installs both `python` and `pip` by default.
@@ -113,7 +128,7 @@ Worked without issues.
 
 ## 🔗 Related Notes
 
-> [!info] 🧠 Relationships  
+> [!info] ⛮  Relationships  
 > This note is part of a larger structure. Below are its connections:
 
 ```dataview

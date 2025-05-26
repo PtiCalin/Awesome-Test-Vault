@@ -9,11 +9,11 @@ section: science-and-technology
 role: documentation
 folder: python
 tags: []
-version: 1.2
+version: 1.0
 
 # 📊 Status & Lifecycle
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-15
 updated: 2025-05-15
 

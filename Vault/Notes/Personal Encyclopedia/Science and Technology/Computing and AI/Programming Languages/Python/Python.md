@@ -1,7 +1,8 @@
 ---
 # 📄 Identity & Classification
-id: note_py_moc
-title: "🗂️ Python — Map of Content"
+id: python
+title: "Python"
+aliases: ["Python", "About Python", "Python Hub", Python MOC"]
 type: note
 category: programming
 section: science-and-technology
@@ -20,16 +21,14 @@ updated: 2025-05-15
 summary: ""
 
 # 🧱 Relationships
-parent: ""
+parent: "Python"
 children: []
 friends: []
 related: []
 ---
 
-> 🪄 **Work in Progress**  
-> This living index is a developing overview of everything Python-related in the vault. Notes are in active evolution and structured by theme /complexity.
 
----
+
 
 ## 🔰 Getting Started
 
