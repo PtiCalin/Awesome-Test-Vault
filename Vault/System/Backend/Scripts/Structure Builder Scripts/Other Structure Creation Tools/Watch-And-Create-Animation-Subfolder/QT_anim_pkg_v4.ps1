@@ -105,7 +105,7 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 Show-Notification -title "Q-R Ready" -message "PourPierre cloned and rebranded like a pro."
             }
 
-            Show-Notification -title "Anim Package Generated" -message "'$rawName' T'es good mon gars! Tu peux aller nettoyer les Questions-Réponses pis l'affaire est Ketchup."
+            Show-Notification -title "Anim Package Generated" -message "'$rawName' T'es good mon gars! Tu peux aller nettoyer les Questions-Reponses pis l'affaire est Ketchup."
         }
     }
 }
