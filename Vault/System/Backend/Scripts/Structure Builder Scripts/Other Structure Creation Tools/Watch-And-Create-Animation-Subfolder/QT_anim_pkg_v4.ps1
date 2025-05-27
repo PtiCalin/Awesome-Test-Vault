@@ -95,8 +95,8 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 $stvFolder = $siblingFolders | Where-Object { $_.Name -like "STV*" } | Select-Object -First 1
 
                 if ($stvFolder) {
-                    $prefixToReplace = ($item.Name -split "-")[0]
-                    $newPrefix = "STV"
+                    $sibPrefix = ($item.Name -split "-")[0]
+                    $stvPrefix = ($stvFolder.Name -split "-")[0]
 
                     Get-ChildItem -Path $item.FullName -Recurse | Where-Object { $_.FullName -notlike "* (animation)*" } | ForEach-Object {
                         $relativePath = $_.FullName.Substring($item.FullName.Length)
@@ -108,8 +108,8 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                         Copy-Item $_.FullName -Destination $target -Recurse -Force
                     }
 
-                    Get-ChildItem -Path $stvFolder.FullName -Recurse -File | Where-Object { $_.Name -like "*$prefixToReplace*" } | ForEach-Object {
-                        $newName = $_.Name -replace $prefixToReplace, $newPrefix
+                    Get-ChildItem -Path $stvFolder.FullName -Recurse -File | Where-Object { $_.Name -like "*$sibPrefix*" } | ForEach-Object {
+                        $newName = $_.Name -replace [regex]::Escape($sibPrefix), $stvPrefix
                         $newPath = Join-Path $_.DirectoryName $newName
                         Rename-Item -Path $_.FullName -NewName $newPath -Force
                     }
@@ -127,3 +127,4 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
 
 Show-Notification -title "Ben's Tray App" -message "Watching for new folders..."
 while ($true) { Start-Sleep -Seconds 10 }
+

@@ -28,7 +28,7 @@ related: []
 ---
 
 > [!nav] 🧱 Vault Navigation  
-> [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
+> [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[🧠 Learnings]] • [[⛮ System]]
 
 ## 🏰 Welcome to the Vault
 
@@ -71,10 +71,24 @@ runWhenImageReady();
 
 ## 🔗 Related Notes
 
-> [!info] 🧠 Relationships  
+> [!info] 🕸  Relationships  
 > This note is part of a larger structure. Below are its connections:
 
 ```dataview
+const { VaultMap } = await import("VaultMap.js");
+const map = new VaultMap({ vaultName: "Awesome-Test-Vault" });
+
+function runWhenImageReady() {
+  const img = document.getElementById("vault-map");
+  if (!img || !img.complete) {
+    setTimeout(runWhenImageReady, 50);
+    return;
+  }
+  map.renderMap();
+}
+
+runWhenImageReady();
+
 table
   parent as "Parent",
   children as "Subpages",
