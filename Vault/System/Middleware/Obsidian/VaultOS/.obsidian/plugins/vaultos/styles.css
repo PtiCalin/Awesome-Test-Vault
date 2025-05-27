@@ -1,0 +1,156 @@
+/* ╔══════════════════════════════════════════════════╗
+   ║    🧠 VaultOS HUD Stylesheet – styles.css        ║
+   ║   Description: Floating HUD with animated UI     ║
+   ║   Compatibility: Includes Safari (-webkit) fix   ║
+   ╚══════════════════════════════════════════════════╝ */
+
+
+/* ─────────────────────────────────────────────
+   🔳 Container: HUD Positioning and Background
+─────────────────────────────────────────────── */
+.vaultos-hud {
+  position: fixed;                  /* Always visible in viewport */
+  bottom: 24px;
+  right: 24px;
+
+  /* Visual background styling */
+  background: linear-gradient(135deg, rgba(18, 20, 30, 0.95), rgba(25, 25, 40, 0.85));
+
+  /* ✅ Safari & iOS support for blur */
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);     /* Modern browsers */
+
+  /* Visual border and rounded edges */
+  border: 1px solid rgba(160, 180, 255, 0.3);
+  border-radius: 16px;
+
+  /* Spacing and aesthetics */
+  padding: 1.25rem 1.5rem;
+  color: #e9e9ff;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+
+  /* Fancy glow effect */
+  box-shadow:
+    0 0 24px rgba(90, 120, 255, 0.4),
+    0 0 6px rgba(180, 200, 255, 0.2) inset;
+
+  z-index: 9999;                   /* Stay on top */
+  transition: all 0.4s ease;
+  animation: vaultFadeIn 0.6s ease-out;
+}
+
+/* ────────────────────────────────
+   🌀 Fade In Animation for HUD
+───────────────────────────────── */
+@keyframes vaultFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+/* ────────────────────────────────
+   🔹 HUD Item Container
+───────────────────────────────── */
+.vaultos-hud .vaultos-hud-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.85rem;
+  padding: 0.25rem 0;
+}
+
+.vaultos-hud .vaultos-hud-item:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ────────────────────────────────
+   💠 Icons (e.g. CPU, Memory, Clock)
+───────────────────────────────── */
+.vaultos-hud .vaultos-hud-icon {
+  font-size: 1.4rem;
+  color: #8cf;
+  filter: drop-shadow(0 0 2px #9af);
+  animation: pulseIcon 2s infinite ease-in-out;
+}
+
+@keyframes pulseIcon {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.85;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+}
+
+
+/* ────────────────────────────────
+   🔢 Displayed Value
+───────────────────────────────── */
+.vaultos-hud .vaultos-hud-value {
+  font-size: 1.3rem;
+  color: #B0F0FF;
+  text-shadow: 0 0 4px rgba(120, 255, 255, 0.3);
+}
+
+
+/* ────────────────────────────────
+   🏷️ Label Styling (interactive text)
+───────────────────────────────── */
+.vaultos-hud .vaultos-hud-label {
+  font-size: 0.95rem;
+  color: #aaa;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* ─ Hover Underline Animation */
+.vaultos-hud .vaultos-hud-label::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ffd966, transparent);
+  opacity: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* ─ Label Hover & Focus Effects */
+.vaultos-hud .vaultos-hud-label:hover,
+.vaultos-hud .vaultos-hud-label:focus,
+.vaultos-hud .vaultos-hud-label:focus-visible {
+  color: #fff;
+  transform: scale(1.05);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.6);
+}
+
+.vaultos-hud .vaultos-hud-label:hover::before,
+.vaultos-hud .vaultos-hud-label:focus::before {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+.vaultos-hud .vaultos-hud-label:active {
+  color: #ffd966;
+  transform: scale(0.96);
+}
+
+.vaultos-hud .vaultos-hud-label:focus-within,
+.vaultos-hud .vaultos-hud-label:focus-within-visible {
+  outline: 1px dashed #ffd966;
+  outline-offset: 2px;
+}
