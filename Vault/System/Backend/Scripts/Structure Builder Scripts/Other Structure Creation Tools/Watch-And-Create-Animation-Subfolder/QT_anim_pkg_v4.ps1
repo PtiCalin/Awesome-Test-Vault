@@ -93,7 +93,7 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                     }
                     Copy-Item $_.FullName -Destination $destination -Recurse -Force
                 }
-                Show-Notification -title "Le diapo est pret" -message "Le contenu de RDY a bien ete copie dans le dossier pour l'animation. Y crois-tu a ca?"
+                Show-Notification -title "Le diapo est pret" -message "Le contenu de RDY a bien ete copi-yeah dans le dossier pour l'animation. Y crois-tu a ca?"
             }
 
             $pourPierreFile = Get-ChildItem -Path $item.FullName -Filter "PourPierre*" -File | Select-Object -First 1
