@@ -5,7 +5,7 @@ Add-Type -AssemblyName System.Drawing
 $trayIcon = New-Object System.Windows.Forms.NotifyIcon
 $trayIcon.Icon = [System.Drawing.SystemIcons]::Information
 $trayIcon.Visible = $true
-$trayIcon.Text = "The Anim Package Creator"
+$trayIcon.Text = "Epic Anim Bundler"
 
 function Show-Notification {
     param ($title, $message)
@@ -42,42 +42,6 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
             $sourceMUS = Join-Path $item.FullName "MUS"
             $sourceRDY = Join-Path $item.FullName "RDY"
 
-            $tries = 0
-            while (!(Test-Path $sourceMUS) -and ($tries -lt 5)) {
-                Start-Sleep -Seconds 1
-                $tries++
-            }
-            if (Test-Path $sourceMUS) {
-                $destMUS = Join-Path $item.FullName "MUS_TEMP_COPY"
-                Copy-Item -Path $sourceMUS -Destination $destMUS -Recurse -Force
-            }
-
-            $tries = 0
-            while (!(Test-Path $sourceRDY) -and ($tries -lt 5)) {
-                Start-Sleep -Seconds 1
-                $tries++
-            }
-            if (Test-Path $sourceRDY) {
-                $rdyFiles = Get-ChildItem -Path $sourceRDY -Recurse
-            }
-
-            $tries = 0
-            $pourPierreFile = $null
-            while (-not $pourPierreFile -and ($tries -lt 5)) {
-                $pourPierreFile = Get-ChildItem -Path $item.FullName -Filter "PourPierre*" -File | Select-Object -First 1
-                if (-not $pourPierreFile) {
-                    Start-Sleep -Seconds 1
-                    $tries++
-                }
-            }
-
-            if ($pourPierreFile) {
-                $extension = $pourPierreFile.Extension
-                $newFileName = "Questions-Reponses_$theme$extension"
-                $destinationPath = Join-Path $item.FullName $newFileName
-                Copy-Item -Path $pourPierreFile.FullName -Destination $destinationPath -Force
-            }
-
             if ($baseName.StartsWith("SIB")) {
                 $siblingFolders = Get-ChildItem -Path $item.Directory.FullName -Directory
                 $stvFolder = $siblingFolders | Where-Object { $_.Name -like "STV*" } | Select-Object -First 1
@@ -102,7 +66,7 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                         Rename-Item -Path $_.FullName -NewName $newPath -Force
                     }
 
-                    Show-Notification -title "SIB->STV Applied" -message "Content copied from '$($item.Name)' to '$($stvFolder.Name)'."
+                    Show-Notification -title "Prefix Swap Done" -message "SIB folder merged into STV and all the names got a snazzy makeover."
                 } else {
                     Write-Warning "No STV folder found in: $($item.Directory.FullName)"
                 }
@@ -111,22 +75,34 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
             $newAnimationPath = Join-Path -Path $item.FullName -ChildPath "$baseName (animation)"
             if (-not (Test-Path $newAnimationPath)) {
                 New-Item -Path $newAnimationPath -ItemType Directory | Out-Null
+                Show-Notification -title "Animation Nest Ready" -message "Created a cozy little animation folder just for you."
             }
 
-            if (Test-Path "$item.FullName\MUS_TEMP_COPY") {
-                Move-Item "$item.FullName\MUS_TEMP_COPY" -Destination "$newAnimationPath\MUS" -Force
+            if (Test-Path $sourceMUS) {
+                $destMUS = Join-Path $newAnimationPath "MUS"
+                Copy-Item -Path $sourceMUS -Destination $destMUS -Recurse -Force
+                Show-Notification -title "MUS Delivered" -message "MUS folder tucked into the animation suite like a VIP."
             }
 
-            if ($rdyFiles) {
-                $rdySource = Join-Path $item.FullName "RDY"
-                $rdyFiles | ForEach-Object {
-                    $destination = Join-Path $newAnimationPath ($_.FullName -replace [regex]::Escape($rdySource), "")
+            if (Test-Path $sourceRDY) {
+                Get-ChildItem -Path $sourceRDY -Recurse | ForEach-Object {
+                    $destination = Join-Path $newAnimationPath ($_.FullName -replace [regex]::Escape($sourceRDY), "")
                     $destinationDir = Split-Path $destination -Parent
                     if (-not (Test-Path $destinationDir)) {
                         New-Item -ItemType Directory -Path $destinationDir -Force | Out-Null
                     }
                     Copy-Item $_.FullName -Destination $destination -Recurse -Force
                 }
+                Show-Notification -title "RDY Imported" -message "RDY folder contents slipped smoothly into place."
+            }
+
+            $pourPierreFile = Get-ChildItem -Path $item.FullName -Filter "PourPierre*" -File | Select-Object -First 1
+            if ($pourPierreFile) {
+                $extension = $pourPierreFile.Extension
+                $newFileName = "Questions-Reponses_$theme$extension"
+                $destinationPath = Join-Path $item.FullName $newFileName
+                Copy-Item -Path $pourPierreFile.FullName -Destination $destinationPath -Force
+                Show-Notification -title "Q-R Ready" -message "PourPierre cloned and rebranded like a pro."
             }
 
             Show-Notification -title "Anim Package Generated" -message "'$rawName' T'es good mon gars! Tu peux aller nettoyer les Questions-Réponses pis l'affaire est Ketchup."
@@ -134,5 +110,5 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
     }
 }
 
-Show-Notification -title "Ben's Tray App" -message "Watching for new folders..."
+Show-Notification -title "Epic Anim Bundler" -message "Watching for new folders like a hawk in shades."
 while ($true) { Start-Sleep -Seconds 10 }
