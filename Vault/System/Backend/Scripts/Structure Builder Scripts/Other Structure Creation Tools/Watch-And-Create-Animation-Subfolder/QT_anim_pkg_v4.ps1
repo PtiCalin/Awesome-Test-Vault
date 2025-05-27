@@ -5,7 +5,7 @@ Add-Type -AssemblyName System.Drawing
 $trayIcon = New-Object System.Windows.Forms.NotifyIcon
 $trayIcon.Icon = [System.Drawing.SystemIcons]::Information
 $trayIcon.Visible = $true
-$trayIcon.Text = "Ben's Automation Engine"
+$trayIcon.Text = "The Anim Package Creator"
 
 function Show-Notification {
     param ($title, $message)
@@ -39,11 +39,6 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 $theme = "Inconnu"
             }
 
-            $newAnimationPath = Join-Path -Path $item.FullName -ChildPath "$baseName (animation)"
-            if (-not (Test-Path $newAnimationPath)) {
-                New-Item -Path $newAnimationPath -ItemType Directory | Out-Null
-            }
-
             $sourceMUS = Join-Path $item.FullName "MUS"
             $sourceRDY = Join-Path $item.FullName "RDY"
 
@@ -53,7 +48,7 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 $tries++
             }
             if (Test-Path $sourceMUS) {
-                $destMUS = Join-Path $newAnimationPath "MUS"
+                $destMUS = Join-Path $item.FullName "MUS_TEMP_COPY"
                 Copy-Item -Path $sourceMUS -Destination $destMUS -Recurse -Force
             }
 
@@ -63,14 +58,7 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 $tries++
             }
             if (Test-Path $sourceRDY) {
-                Get-ChildItem -Path $sourceRDY -Recurse | ForEach-Object {
-                    $destination = Join-Path $newAnimationPath ($_.FullName -replace [regex]::Escape($sourceRDY), "")
-                    $destinationDir = Split-Path $destination -Parent
-                    if (-not (Test-Path $destinationDir)) {
-                        New-Item -ItemType Directory -Path $destinationDir -Force | Out-Null
-                    }
-                    Copy-Item $_.FullName -Destination $destination -Recurse -Force
-                }
+                $rdyFiles = Get-ChildItem -Path $sourceRDY -Recurse
             }
 
             $tries = 0
@@ -120,11 +108,31 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 }
             }
 
-            Show-Notification -title "Ben's Task Finished" -message "'$rawName' has been processed and animation folder is ready."
+            $newAnimationPath = Join-Path -Path $item.FullName -ChildPath "$baseName (animation)"
+            if (-not (Test-Path $newAnimationPath)) {
+                New-Item -Path $newAnimationPath -ItemType Directory | Out-Null
+            }
+
+            if (Test-Path "$item.FullName\MUS_TEMP_COPY") {
+                Move-Item "$item.FullName\MUS_TEMP_COPY" -Destination "$newAnimationPath\MUS" -Force
+            }
+
+            if ($rdyFiles) {
+                $rdySource = Join-Path $item.FullName "RDY"
+                $rdyFiles | ForEach-Object {
+                    $destination = Join-Path $newAnimationPath ($_.FullName -replace [regex]::Escape($rdySource), "")
+                    $destinationDir = Split-Path $destination -Parent
+                    if (-not (Test-Path $destinationDir)) {
+                        New-Item -ItemType Directory -Path $destinationDir -Force | Out-Null
+                    }
+                    Copy-Item $_.FullName -Destination $destination -Recurse -Force
+                }
+            }
+
+            Show-Notification -title "Anim Package Generated" -message "'$rawName' T'es good mon gars! Tu peux aller nettoyer les Questions-Réponses pis l'affaire est Ketchup."
         }
     }
 }
 
 Show-Notification -title "Ben's Tray App" -message "Watching for new folders..."
 while ($true) { Start-Sleep -Seconds 10 }
-
