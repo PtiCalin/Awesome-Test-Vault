@@ -78,7 +78,7 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
 
             if (-not $animationExisted) {
                 New-Item -Path $newAnimationPath -ItemType Directory | Out-Null
-                Show-Notification -title "Dossier Animation Activé!" -message "Voili-voilou, tu pourras pas dire que j'ai jamais rien faite pour toi!"
+                Show-Notification -title "Vla tes dossiers animation!" -message "Tu pourras pas dire que j'ai jamais rien faite pour toi!"
             } else {
                 Show-Notification -title "Dossier Animation Existant" -message "Le dossier d'animation existe deja, on va juste y mettre les nouvelles affaires."
             }
