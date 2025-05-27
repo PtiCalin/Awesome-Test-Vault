@@ -1,5 +1,5 @@
 $watcher = New-Object System.IO.FileSystemWatcher
-$watcher.Path = "C:\Users\benny\Dropbox\Family Room\À FAIRE\02-À Jouer\BEN"
+$watcher.Path = "C:\Users\benny\Desktop\Generation_animation"
 $watcher.Filter = "*"
 $watcher.IncludeSubdirectories = $false
 $watcher.EnableRaisingEvents = $true
