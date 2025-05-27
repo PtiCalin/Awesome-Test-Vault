@@ -43,6 +43,9 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
             $sourceMUS = Join-Path $item.FullName "MUS"
             $sourceRDY = Join-Path $item.FullName "RDY"
 
+            $newAnimationPath = Join-Path -Path $item.FullName -ChildPath "$baseName (animation)"
+            $animationExisted = Test-Path $newAnimationPath
+
             if ($baseName.StartsWith("SIB")) {
                 $siblingFolders = Get-ChildItem -Path $item.Directory.FullName -Directory
                 $stvFolder = $siblingFolders | Where-Object { $_.Name -like "STV*" } | Select-Object -First 1
@@ -73,8 +76,6 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 }
             }
 
-            $newAnimationPath = Join-Path -Path $item.FullName -ChildPath "$baseName (animation)"
-            $animationExisted = Test-Path $newAnimationPath
             if (-not $animationExisted) {
                 New-Item -Path $newAnimationPath -ItemType Directory | Out-Null
                 Show-Notification -title "Dossier Animation Activé!" -message "Voili-voilou, tu pourras pas dire que j'ai jamais rien faite pour toi!"
