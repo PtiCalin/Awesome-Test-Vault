@@ -66,22 +66,22 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                         Rename-Item -Path $_.FullName -NewName $newPath -Force
                     }
 
-                    Show-Notification -title "Prefix Swap Done" -message "SIB folder merged into STV and all the names got a snazzy makeover."
+                    Show-Notification -title "Prefix Swap Done" -message "Let's go mon champion! SIB a bien ete copie dans STV pis les noms de fichiers ont ete mis a jour! Yee Haw!."
                 } else {
-                    Write-Warning "No STV folder found in: $($item.Directory.FullName)"
+                    Write-Warning "Oh Oh! Y te manque un dossier STV ou copier le stock de SIB if you know what I mean?: $($item.Directory.FullName)"
                 }
             }
 
             $newAnimationPath = Join-Path -Path $item.FullName -ChildPath "$baseName (animation)"
             if (-not (Test-Path $newAnimationPath)) {
                 New-Item -Path $newAnimationPath -ItemType Directory | Out-Null
-                Show-Notification -title "Animation Nest Ready" -message "Created a cozy little animation folder just for you."
+                Show-Notification -title "Dossier Animation Activé!" -message "Voili-voilou, tu pourras pas dire que j'ai jamais rien faite pour toi!"
             }
 
             if (Test-Path $sourceMUS) {
                 $destMUS = Join-Path $newAnimationPath "MUS"
                 Copy-Item -Path $sourceMUS -Destination $destMUS -Recurse -Force
-                Show-Notification -title "MUS Delivered" -message "MUS folder tucked into the animation suite like a VIP."
+                Show-Notification -title "La copie de MUS s'est bien passee" -message "Tout est tiguidou par ici!"
             }
 
             if (Test-Path $sourceRDY) {
@@ -93,7 +93,7 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                     }
                     Copy-Item $_.FullName -Destination $destination -Recurse -Force
                 }
-                Show-Notification -title "RDY Imported" -message "RDY folder contents slipped smoothly into place."
+                Show-Notification -title "Le diapo est pret" -message "Le contenu de RDY a bien ete copie dans le dossier pour l'animation. Y crois-tu a ca?"
             }
 
             $pourPierreFile = Get-ChildItem -Path $item.FullName -Filter "PourPierre*" -File | Select-Object -First 1
@@ -102,7 +102,7 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 $newFileName = "Questions-Reponses_$theme$extension"
                 $destinationPath = Join-Path $item.FullName $newFileName
                 Copy-Item -Path $pourPierreFile.FullName -Destination $destinationPath -Force
-                Show-Notification -title "Q-R Ready" -message "PourPierre cloned and rebranded like a pro."
+                Show-Notification -title "Q-R Ready" -message "Document copie et renome avec success, tu  sais ce que ca veut dire ca.........."
             }
 
             Show-Notification -title "Anim Package Generated" -message "'$rawName' T'es good mon gars! Tu peux aller nettoyer les Questions-Reponses pis l'affaire est Ketchup."
@@ -110,5 +110,5 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
     }
 }
 
-Show-Notification -title "Epic Anim Bundler" -message "Watching for new folders like a hawk in shades."
+Show-Notification -title "Epic Anim Bundler" -message "Que jte voyes essayer de gagner du temps en sneakant des dossier icitte. Jte check ptit coquin..."
 while ($true) { Start-Sleep -Seconds 10 }
