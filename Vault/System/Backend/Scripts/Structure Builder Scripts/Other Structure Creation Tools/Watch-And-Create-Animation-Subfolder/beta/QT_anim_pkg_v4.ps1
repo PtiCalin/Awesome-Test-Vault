@@ -72,10 +72,13 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 }
             }
 
+            # Animation folder only created *after* SIB→STV logic is fully complete
             $newAnimationPath = Join-Path -Path $item.FullName -ChildPath "$baseName (animation)"
             if (-not (Test-Path $newAnimationPath)) {
                 New-Item -Path $newAnimationPath -ItemType Directory | Out-Null
                 Show-Notification -title "Dossier Animation Activé!" -message "Voili-voilou, tu pourras pas dire que j'ai jamais rien faite pour toi!"
+            } else {
+                Show-Notification -title "Dossier Animation Existant" -message "Le dossier d'animation existe deja, on va juste y mettre les nouvelles affaires."
             }
 
             if (Test-Path $sourceMUS) {
