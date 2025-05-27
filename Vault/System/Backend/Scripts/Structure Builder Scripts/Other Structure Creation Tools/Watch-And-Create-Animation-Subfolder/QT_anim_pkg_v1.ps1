@@ -1,4 +1,3 @@
-# Set up watcher
 $watcher = New-Object System.IO.FileSystemWatcher
 $watcher.Path = "C:\Users\benny\Desktop\Generation_animation"
 $watcher.Filter = "*"
@@ -6,33 +5,39 @@ $watcher.IncludeSubdirectories = $false
 $watcher.EnableRaisingEvents = $true
 
 Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
-    if (Test-Path $Event.SourceEventArgs.FullPath) {
-        $item = Get-Item $Event.SourceEventArgs.FullPath
-        if ($item.PSIsContainer) {
+    Start-Sleep -Seconds 3
 
-            # Extract base name (no parentheses at end)
+    $path = $Event.SourceEventArgs.FullPath
+    if (Test-Path $path) {
+        $item = Get-Item $path
+        if ($item.PSIsContainer) {
+            Write-Output "Detected new folder: $($item.FullName)"
+
             $rawName = $item.Name
             $baseName = $rawName -replace '\s*\(.*\)$', ''
 
-            # Extract [Theme] after "-MM-DD-YY-" and before any " ("
-            if ($baseName -match "-\d{2}-\d{2}-\d{2}-([^\(]+)") {
-                $theme = $matches[1].Trim()
+            if ($baseName -match "-\d{2}-\d{2}-\d{2}-(.+)$") {
+                $themePart = $matches[1]
+                $theme = $themePart -replace '\s*\(.*\)$', ''
+                $theme = $theme.Trim()
             } else {
                 $theme = "Inconnu"
             }
 
-            # Create the animation folder
             $newAnimationPath = Join-Path -Path $item.FullName -ChildPath "$baseName (animation)"
             if (-not (Test-Path $newAnimationPath)) {
                 New-Item -Path $newAnimationPath -ItemType Directory | Out-Null
                 Write-Output "Created subfolder: $newAnimationPath"
             }
 
-            # Define source folders inside the $item
             $sourceMUS = Join-Path $item.FullName "MUS"
             $sourceRDY = Join-Path $item.FullName "RDY"
 
-            # Step 1: Copy MUS folder
+            $tries = 0
+            while (!(Test-Path $sourceMUS) -and ($tries -lt 5)) {
+                Start-Sleep -Seconds 1
+                $tries++
+            }
             if (Test-Path $sourceMUS) {
                 $destMUS = Join-Path $newAnimationPath "MUS"
                 Copy-Item -Path $sourceMUS -Destination $destMUS -Recurse -Force
@@ -41,7 +46,11 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 Write-Warning "MUS folder not found at: $sourceMUS"
             }
 
-            # Step 2: Copy contents of RDY (not folder itself)
+            $tries = 0
+            while (!(Test-Path $sourceRDY) -and ($tries -lt 5)) {
+                Start-Sleep -Seconds 1
+                $tries++
+            }
             if (Test-Path $sourceRDY) {
                 Get-ChildItem -Path $sourceRDY -Recurse | ForEach-Object {
                     $destination = Join-Path $newAnimationPath ($_.FullName -replace [regex]::Escape($sourceRDY), "")
@@ -56,16 +65,24 @@ Register-ObjectEvent -InputObject $watcher -EventName "Created" -Action {
                 Write-Warning "RDY folder not found at: $sourceRDY"
             }
 
-            # Step 3: Handle PourPierre document
-            $pourPierreFile = Get-ChildItem -Path $item.FullName -Filter "PourPierre*" | Where-Object { -not $_.PSIsContainer } | Select-Object -First 1
+            $tries = 0
+            $pourPierreFile = $null
+            while (-not $pourPierreFile -and ($tries -lt 5)) {
+                $pourPierreFile = Get-ChildItem -Path $item.FullName -Filter "PourPierre*" -File | Select-Object -First 1
+                if (-not $pourPierreFile) {
+                    Start-Sleep -Seconds 1
+                    $tries++
+                }
+            }
+
             if ($pourPierreFile) {
                 $extension = $pourPierreFile.Extension
                 $newFileName = "Questions-Reponses_$theme$extension"
                 $destinationPath = Join-Path $item.FullName $newFileName
                 Copy-Item -Path $pourPierreFile.FullName -Destination $destinationPath -Force
-                Write-Output "✔️ Copied PourPierre file as: $destinationPath"
+                Write-Output "Copied and renamed PourPierre file to: $destinationPath"
             } else {
-                Write-Warning "⚠️ No file starting with 'PourPierre' found in $($item.FullName)"
+                Write-Warning "No PourPierre file found in: $($item.FullName)"
             }
         }
     }
