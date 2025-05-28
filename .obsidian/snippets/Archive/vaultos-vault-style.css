@@ -1,0 +1,87 @@
+
+/* ┌────────────────────────────────────┐
+   │ 🌌 VaultOS - RetroFuturist Style   │
+   └────────────────────────────────────┘ */
+
+/* 💠 Base Layout */
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 15px;
+  background: linear-gradient(to right, #0f111a, #1a1d2b);
+  color: #e0e0ff;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Courier Prime', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.markdown-preview-view {
+  padding: 2em;
+  background-color: rgba(12, 16, 30, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 0 32px rgba(90, 120, 255, 0.1);
+}
+
+/* 🎨 Universal Rounded Panels */
+blockquote, .callout {
+  border-radius: 12px;
+  padding: 1em;
+  margin: 1.5em 0;
+  background-color: rgba(40, 40, 60, 0.5);
+  border-left: 4px solid #88f;
+}
+
+/* 🗺️ MAP Callout */
+.callout[data-callout="map"] {
+  --callout-color: 180, 180, 255;
+  --callout-icon: lucide-map;
+  background-color: rgba(200, 225, 255, 0.08);
+  border-left: 3px solid rgb(120, 160, 255);
+}
+
+/* 🧠 BRAIN Callout */
+.callout[data-callout="brain"] {
+  --callout-color: 255, 190, 240;
+  --callout-icon: lucide-brain;
+  background-color: rgba(255, 220, 250, 0.06);
+  border-left: 3px solid #f9a;
+}
+
+/* 🛠️ MODULE Callout */
+.callout[data-callout="module"] {
+  --callout-color: 180, 255, 200;
+  --callout-icon: lucide-cube;
+  background-color: rgba(220, 255, 230, 0.05);
+  border-left: 3px solid #7f9;
+}
+
+/* 🏆 TROPHY Callout */
+.callout[data-callout="trophy"] {
+  --callout-color: 255, 215, 100;
+  --callout-icon: lucide-award;
+  background-color: rgba(255, 245, 200, 0.08);
+  border-left: 3px solid gold;
+}
+
+/* 🎭 DADA Callout (for quirky content) */
+.callout[data-callout="dada"] {
+  --callout-color: 255, 150, 150;
+  --callout-icon: lucide-zap;
+  background: linear-gradient(135deg, #ffdddd, #ffeedd);
+  color: #2b2b2b;
+  font-family: 'Comic Neue', cursive;
+  border-left: 3px dashed #f88;
+}
+
+/* ✨ Footer Text */
+footer {
+  font-size: 0.8em;
+  color: #777;
+  text-align: center;
+  margin-top: 2em;
+  border-top: 1px dotted #444;
+  padding-top: 1em;
+}

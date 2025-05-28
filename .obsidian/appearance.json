@@ -1,6 +1,16 @@
 {
   "enabledCssSnippets": [
-    "vault-map"
+    "bg_animation",
+    "bg_mouse_follow",
+    "snippets",
+    "variables",
+    "vault-map",
+    "vaultos-callout-snippets",
+    "vaultos-vault-style"
   ],
-  "accentColor": "#9f5b69"
+  "accentColor": "#9f5b69",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "baseFontSize": 14,
+  "monospaceFontFamily": ""
 }

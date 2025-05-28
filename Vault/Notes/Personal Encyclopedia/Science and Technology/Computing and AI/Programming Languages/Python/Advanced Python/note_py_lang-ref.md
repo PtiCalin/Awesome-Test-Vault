@@ -28,7 +28,7 @@ related: []
 ---
 
 
-> [!nav] 🧱 Vault Navigation  
+> [!map] Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
 

@@ -1,0 +1,39 @@
+
+/* Animated starfield background (CSS component) */
+body::before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-size: cover;
+  opacity: 0.2;
+  pointer-events: none;
+  transition: transform 0.2s ease-out;
+}
+
+/* Aurora overlay */
+body::after {
+  content: "";
+  position: fixed;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  width: 300%;
+  height: 300%;
+  background: linear-gradient(130deg, #00f9ff, #8257e5, #ff00c8);
+  background-size: 300% 300%;
+  mix-blend-mode: overlay;
+  opacity: 0.06;
+  animation: auroraWave 60s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes auroraWave {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

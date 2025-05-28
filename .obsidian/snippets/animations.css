@@ -1,0 +1,46 @@
+
+/* ┌────────────────────────────────────┐
+   │ VaultOS Animated Background: Stars + Aurora │
+   └────────────────────────────────────┘ */
+
+body::before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background-size: cover;
+  animation: starfieldMotion 120s linear infinite;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+/* Simulated Aurora gradient wave */
+body::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(130deg, #00f9ff, #8257e5, #ff00c8);
+  background-size: 300% 300%;
+  mix-blend-mode: overlay;
+  opacity: 0.07;
+  animation: auroraWave 60s ease-in-out infinite;
+}
+
+@keyframes starfieldMotion {
+  0% { background-position: 0 0; }
+  100% { background-position: 10000px 10000px; }
+}
+
+@keyframes auroraWave {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

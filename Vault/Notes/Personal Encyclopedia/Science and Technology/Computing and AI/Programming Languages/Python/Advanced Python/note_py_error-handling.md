@@ -1,5 +1,4 @@
 ---
-```yaml
 # 📄 Identity & Classification
 id: error-handling
 title: "Error Handling"
@@ -26,7 +25,6 @@ parent: ""
 children: []
 friends: []
 related: []
-```
 ---
 
 > [!nav] 🧱 Vault Navigation  

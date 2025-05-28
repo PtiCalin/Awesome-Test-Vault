@@ -1,8 +1,37 @@
 {
   "types": {
-    "aliases": "aliases",
-    "cssclasses": "multitext",
+    "id": "text",
+    "title": "text",
+    "aliases": "multitext",
     "tags": "tags",
-    "version": "number"
+    "author(s)": "multitext",
+    "version": "number",
+    "status": "select",
+    "visibility": "select",
+    "created": "date",
+    "updated": "date",
+    "summary": "text",
+    "element": "text",
+    "type": "text",
+    "category": "text",
+    "section": "text",
+    "topic": "text",
+    "parent": "text",
+    "children": "multitext",
+    "siblings": "multitext",
+    "friends": "multitext"
+  },
+  "options": {
+    "status": [
+      "draft",
+      "review",
+      "published",
+      "archived"
+    ],
+    "visibility": [
+      "public",
+      "private",
+      "restricted"
+    ]
   }
 }

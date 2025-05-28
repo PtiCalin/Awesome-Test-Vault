@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_lang-ref.md",
+                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "note_py_lang-ref"
+              "title": "VaultOS build checklist"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"questline\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.5
+    "width": 264.5
   },
   "right": {
     "id": "1c41872f7a937119",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Tools & Utilities/note_bash_globbing.md",
+                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for note_bash_globbing"
+              "title": "Backlinks for VaultOS build checklist"
             }
           },
           {
@@ -143,20 +143,56 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Bash/Tools & Utilities/note_bash_globbing.md",
+                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of note_bash_globbing"
+              "title": "Outline of VaultOS build checklist"
+            }
+          },
+          {
+            "id": "6241e2c3304bbbed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "7e1fc7d0dc1c8ada",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dede5192261f5155",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of VaultOS build checklist"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 511.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -174,10 +210,13 @@
   },
   "active": "47605447ce4989eb",
   "lastOpenFiles": [
-    "VAULT/System/Frontend/Templates/Obsidian/universal_vault_template.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_context-managers.md",
+    "VAULT/Learnings/Automations/Logging/qst_changelog-watcher.md",
     "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
     "Awesome-Test-Vault.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_error-handling.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_lang-ref.md",
+    "VAULT/System/Frontend/Templates/Obsidian/universal_vault_template.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_context-managers.md",
     "VAULT/Learnings/Plugin Development/plugin_config_guide.md",
     "VAULT/Learnings/Plugin Development",
     "VAULT/Learnings/Module Registry/plugin_config_guide.md",
@@ -207,9 +246,6 @@
     "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/rollup-plugin-typescript2/README.md",
     "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/rollup/README.md",
     "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/rollup/LICENSE.md",
-    "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/resolve/SECURITY.md",
-    "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/path-parse/README.md",
-    "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/path-exists/readme.md",
     "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
     "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",
     "VAULT/Files and Media/Images/Vault Overview/vault-map.png",

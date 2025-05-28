@@ -27,7 +27,7 @@ friends: []
 related: []
 ---
 
-> [!nav] 🧱 Vault Navigation  
+> [!map] Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[🧠 Learnings]] • [[⛮ System]]
 
 ## 🏰 Welcome to the Vault
@@ -71,7 +71,7 @@ runWhenImageReady();
 
 ## 🔗 Related Notes
 
-> [!info] 🕸  Relationships  
+> [!rel] Relationships  
 > This note is part of a larger structure. Below are its connections:
 
 ```dataview
