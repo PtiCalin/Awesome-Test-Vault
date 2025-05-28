@@ -1,0 +1,15 @@
+{
+  "name": "vault-structure-builder",
+  "version": "1.0.0",
+  "description": "Scaffold your Obsidian Vault with pre-defined folder structure and YAML folder notes.",
+  "main": "main.ts",
+  "scripts": {
+    "build": "esbuild main.ts --bundle --outfile=dist/main.js --target=es2020 --external:obsidian"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  },
+  "dependencies": {
+    "vault-structure-builder": "file:"
+  }
+}
