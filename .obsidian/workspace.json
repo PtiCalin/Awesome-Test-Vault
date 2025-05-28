@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
-                "mode": "preview",
+                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_lang-ref.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "VaultOS build checklist"
+              "title": "note_py_lang-ref"
             }
           }
         ]
@@ -174,8 +174,10 @@
   },
   "active": "47605447ce4989eb",
   "lastOpenFiles": [
-    "Awesome-Test-Vault.md",
+    "VAULT/System/Frontend/Templates/Obsidian/universal_vault_template.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_context-managers.md",
     "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
+    "Awesome-Test-Vault.md",
     "VAULT/Learnings/Plugin Development/plugin_config_guide.md",
     "VAULT/Learnings/Plugin Development",
     "VAULT/Learnings/Module Registry/plugin_config_guide.md",
@@ -208,8 +210,6 @@
     "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/resolve/SECURITY.md",
     "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/path-parse/README.md",
     "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/path-exists/readme.md",
-    "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/p-locate/readme.md",
-    "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/p-limit/readme.md",
     "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
     "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",
     "VAULT/Files and Media/Images/Vault Overview/vault-map.png",

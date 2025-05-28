@@ -31,23 +31,8 @@ related: []
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
----
 
-> 🌛 Quick Actions  
-> ➕ [New Project Ticket](obsidian://new?name=Projects/New%20Project%20-%20<% tp.file.title %>)  
-> 🌹 [New Quest](obsidian://new?name=Quests/New%20Quest%20-%20<% tp.file.title %>)  
-> 🎯 [New Task](obsidian://new?name=Tasks/New%20Task%20-%20<% tp.file.title %>)  
-> 🗕 [Schedule Event](obsidian://new?name=Events/New%20Event%20-%20<% tp.file.title %>)  
-> 📝 [Brain Dump](obsidian://new?name=Notes/Brain%20Dump%20-%20<% tp.file.title %>)  
-> 📚 [New Lesson](obsidian://new?name=Lessons/New%20Lesson%20-%20<% tp.file.title %>)
-
----
-
-## ✍️ Content Starts Here
-
-## ✍️ Content Starts Here
-
-### 📘 What is the Python Language Reference?
+## 📘 What is the Python Language Reference?
 
 The **Python Language Reference** is the official and detailed specification of how Python works as a language. It’s not a tutorial—it’s the rules.
 
