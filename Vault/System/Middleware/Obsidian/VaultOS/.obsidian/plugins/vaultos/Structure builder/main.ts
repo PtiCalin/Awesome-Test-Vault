@@ -1,4 +1,4 @@
-import { Plugin, TFolder, Vault } from 'obsidian';
+import { Plugin } from 'obsidian';
 
 export default class VaultStructureBuilder extends Plugin {
   async onload() {
@@ -7,14 +7,16 @@ export default class VaultStructureBuilder extends Plugin {
       name: '🧱 Generate Vault Structure',
       callback: () => this.buildStructure(),
     });
+
+    console.log('✅ VaultStructureBuilder plugin loaded');
   }
 
   onunload() {
-    console.log("VaultStructureBuilder plugin unloaded.");
+    console.log('❌ VaultStructureBuilder plugin unloaded');
   }
 
   buildStructure() {
-    const vault: Vault = this.app.vault;
+    const vault = this.app.vault;
     const folders = [
       "VAULT/Files and media/Audio",
       "VAULT/Files and media/Documents",

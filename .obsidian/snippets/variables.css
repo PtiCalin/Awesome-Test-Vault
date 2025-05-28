@@ -1,0 +1,29 @@
+:root {
+  --hud-bg: linear-gradient(135deg, rgba(18, 20, 30, 0.95), rgba(25, 25, 40, 0.85));
+  --hud-blur: blur(16px);
+  --hud-border: 1px solid rgba(160, 180, 255, 0.3);
+  --hud-radius: 16px;
+  --hud-font: 'JetBrains Mono', monospace;
+  --hud-font-color: #e9e9ff;
+  --hud-glow: 0 0 24px rgba(90, 120, 255, 0.4),
+              0 0 6px rgba(180, 200, 255, 0.2) inset;
+  --icon-color: #8cf;
+  --value-color: #B0F0FF;
+  --label-color: #aaa;
+  --hover-color: #fff;
+  --active-color: #ffd966;
+  --tooltip-bg: rgba(25, 25, 40, 0.95);
+}
+
+/* Example usage in CSS:
+.vaultos-hud {
+  background: var(--hud-bg);
+  -webkit-backdrop-filter: var(--hud-blur);
+  backdrop-filter: var(--hud-blur);
+  border: var(--hud-border);
+  border-radius: var(--hud-radius);
+  font-family: var(--hud-font);
+  color: var(--hud-font-color);
+  box-shadow: var(--hud-glow);
+}
+*/
