@@ -8,9 +8,11 @@ created: 2025-05-27
 ---
 
 ## 🧠 Overview
+
 This guide defines the user interface language of VaultOS HUDs, panels, and modals.
 
 ## 🎯 Design Principles
+
 - **Minimal UI:** Avoid clutter. Keep focus on modular information.
 - **Pulsing Animation:** Used for live data (e.g. CPU, clock).
 - **Backdrop Blur:** Creates depth. Works with Safari fallback.
@@ -19,6 +21,7 @@ This guide defines the user interface language of VaultOS HUDs, panels, and moda
 ## 🧱 Vault HUD Components
 
 ### `.vaultos-hud`
+
 > Floating status/control widget
 
 - Fixed bottom-right
