@@ -54,6 +54,7 @@ export default class VaultStructureBuilder extends Plugin {
 id: ${name?.toLowerCase() || 'section'}.md
 title: "${name}"
 aliases: []
+tags: []
 author: 
 element: core
 type: section

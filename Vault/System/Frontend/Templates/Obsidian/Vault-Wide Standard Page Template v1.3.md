@@ -3,6 +3,7 @@
 id: <% title.toLowerCase().replaceAll(" ", "-") %>
 title: "<% title %>"
 aliases: []
+tags: 
 author: 
 element: 
 type: <% type %>
