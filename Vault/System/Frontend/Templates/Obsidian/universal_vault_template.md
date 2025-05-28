@@ -33,7 +33,7 @@ let layer1 = tp.file.folder(true).split("/")[1];
 let nav = "";
 switch(layer1) {
   case "Notes":
-    nav = "> [!map] 🗺 Notes Navigation\n[[Awesome-Test-Vault.md|🏡 Home]] • [[Notes/Projects/Projects.md|📁 Projects]] • [[Notes/Calendar/Calendar.md|📆 Calendar]] • [[Notes/People/People.md|👥 People]]";
+    nav = "> [!map] 🗺 Notes Navigation\n[[Awesome-Test-Vault.md|🏡 Home]] • [[📚 Encyclopedia]] • [[Notes/Projects/Projects.md|📁 Projects]] • [[Notes/Calendar/Calendar.md|📆 Calendar]] • [[Notes/People/People.md|👥 People]]";
     break;
   case "Learning":
     nav = "> [!map] 🧠 Learnings Navigation\n[[Awesome-Test-Vault.md|🏡 Home]] • [[Learning/Progress.md|📈 Progress]] • [[Learning/Nuggets.md|💎 Nuggets Bank]] • [[Learning/Skill Tree.md|🌳 Skill Tree]]";
@@ -45,7 +45,8 @@ switch(layer1) {
     nav = "> [!map] ⚙️ System Navigation\n[[Awesome-Test-Vault.md|🏡 Home]] • [[System/Backend.md|🧱 Backend]] • [[System/Frontend.md|🎨 Frontend]] • [[System/Middleware.md|🔌 Middleware]]";
     break;
   default:
-    nav = "> [!map] Navigation\n[[Awesome-Test-Vault.md|🏡 Home]]";
+    nav = "> [!map] Navigation\n[[Awesome-Test-Vault.md|🏡 Home]] •  > [[Files and Media.md|🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[🧠 Learnings]] • [[⚙️ System]]
+";
 }
 %>
 <%- nav %>

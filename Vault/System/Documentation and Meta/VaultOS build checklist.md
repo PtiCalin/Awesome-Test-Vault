@@ -22,7 +22,7 @@ friends: []
 related: []
 ---
 
-> [!info]+ VaultOS Checklist
+> [!nav]+ VaultOS Checklist
 > Each item represents a modular feature or system component of the VaultOS plugin architecture. Mark as completed when implemented.
 
 ## Checklist

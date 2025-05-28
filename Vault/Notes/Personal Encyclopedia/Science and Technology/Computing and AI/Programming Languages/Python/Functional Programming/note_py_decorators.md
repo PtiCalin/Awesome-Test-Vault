@@ -27,7 +27,7 @@ friends: []
 related: []
 ---
 
-> [!nav] 🧱 Vault Navigation  
+> [!nav] Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
 ## 🧩 What are Python Decorators?

@@ -6,7 +6,10 @@
     "variables",
     "vault-map",
     "vaultos-callout-snippets",
-    "vaultos-vault-style"
+    "vaultos-vault-style",
+    "animations",
+    "img-maps",
+    "vault-style"
   ],
   "accentColor": "#9f5b69",
   "interfaceFontFamily": "",
