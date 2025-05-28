@@ -1,0 +1,129 @@
+/*─────────────────────────────────────┐
+ │ 📁 VaultOS Snippet Utilities        │
+ └─────────────────────────────────────*/
+
+/* 🟦 Glassy box with hover pop */
+.hud-box {
+  background: rgba(30, 30, 50, 0.8);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  border: 1px solid rgba(120, 140, 255, 0.3);
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hud-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 16px rgba(120, 140, 255, 0.4);
+}
+
+/* 🔲 Rounded panel with soft shadow */
+.hud-panel {
+  background-color: #1a1a2a;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* 🌟 Glowing label for icons or status */
+.hud-glow {
+  color: #9cf;
+  font-weight: bold;
+  text-shadow: 0 0 6px rgba(150, 200, 255, 0.5);
+}
+
+/* 🎛️ Mini stat card */
+.hud-stat {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  background: linear-gradient(145deg, #1f1f2f, #2b2b3f);
+  color: #ccefff;
+  font-size: 0.95rem;
+}
+
+/* 💡 Toggle badge for states */
+.hud-badge {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  background: #444;
+  color: #eee;
+  border-radius: 6px;
+  display: inline-block;
+  margin-left: 0.5rem;
+  transition: background 0.3s ease;
+}
+.hud-badge.active {
+  background: #5faaff;
+  color: #fff;
+}
+.hud-badge.error {
+  background: #ff4d6d;
+  color: #fff;
+}
+
+/* 🌀 Fade in animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* 📊 Progress bar */
+.hud-progress {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.hud-progress .bar {
+  height: 100%;
+  background: linear-gradient(90deg, #5faaff, #9cf);
+  transition: width 0.3s ease;
+}
+.hud-progress .bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  opacity: 0.5;
+}
+
+/* 🖱️ Clickable link style */
+.hud-link {
+  color: #5faaff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.hud-link:hover {
+  color: #9cf;
+  text-decoration: underline;
+}
+
+/* 🖼️ Image with hover effect */
+.hud-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hud-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
