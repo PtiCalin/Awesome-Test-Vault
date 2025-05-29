@@ -5,7 +5,7 @@
 
 /* 💠 Base Layout */
 body {
-  font-family: '', monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 15px;
   background: linear-gradient(to right, #0f111a, #1a1d2b);
   color: #e0e0ff;
@@ -34,20 +34,20 @@ blockquote, .callout {
   border-left: 4px solid #88f;
 }
 
-/* 🗺️ Nav Bar Callout */
-.callout[data-callout="nav"] {
+/* 🗺️ MAP Callout */
+.callout[data-callout="map"] {
   --callout-color: 180, 180, 255;
   --callout-icon: lucide-map;
   background-color: rgba(200, 225, 255, 0.08);
   border-left: 3px solid rgb(120, 160, 255);
 }
 
-/* 📝 IDEA (Braindump) Callout */
-.callout[data-callout="idea"] {
-  --callout-color: 255, 200, 100;
-  --callout-icon: lucide-lightbulb;
-  background-color: rgba(255, 240, 200, 0.05);
-  border-left: 3px solid #ffb;
+/* 🧠 BRAIN Callout */
+.callout[data-callout="brain"] {
+  --callout-color: 255, 190, 240;
+  --callout-icon: lucide-brain;
+  background-color: rgba(255, 220, 250, 0.06);
+  border-left: 3px solid #f9a;
 }
 
 /* 🛠️ MODULE Callout */
@@ -66,68 +66,14 @@ blockquote, .callout {
   border-left: 3px solid gold;
 }
 
-/* 📅 EVENT Callout */
-.callout[data-callout="event"] {
+/* 🎭 DADA Callout (for quirky content) */
+.callout[data-callout="dada"] {
   --callout-color: 255, 150, 150;
-  --callout-icon: lucide-calendar;
-  background-color: rgba(255, 220, 220, 0.05);
-  border-left: 3px solid #f88;
-}
-
-/* 🗂️ TASK Callout */
-.callout[data-callout="task"] {
-  --callout-color: 150, 200, 255;
-  --callout-icon: lucide-check-square;
-  background-color: rgba(200, 230, 255, 0.05);
-  border-left: 3px solid #88f;
-}
-
-/* 📚 BOOK Callout */
-.callout[data-callout="book"] {
-  --callout-color: 200, 255, 200;
-  --callout-icon: lucide-book;
-  background-color: rgba(220, 255, 220, 0.05);
-  border-left: 3px solid #8f8;
-}
-
-/* 🖼️ IMAGE Callout */
-.callout[data-callout="image"] {
-  --callout-color: 255, 180, 180;
-  --callout-icon: lucide-image;
-  background-color: rgba(255, 230, 230, 0.05);
-  border-left: 3px solid #f88;
-}
-
-/* 📊 DATA Callout */
-.callout[data-callout="data"] {
-  --callout-color: 180, 255, 255;
-  --callout-icon: lucide-database;
-  background-color: rgba(200, 255, 255, 0.05);
-  border-left: 3px solid #8ff;
-}
-
-/* 📖 NOTE Callout */
-.callout[data-callout="note"] {
-  --callout-color: 255, 220, 180;
-  --callout-icon: lucide-file-text;
-  background-color: rgba(255, 240, 220, 0.05);
-  border-left: 3px solid #ffb;
-}
-
-/* 📌 PINNED Callout */
-.callout[data-callout="pinned"] {
-  --callout-color: 255, 150, 200;
-  --callout-icon: lucide-pin;
-  background-color: rgba(255, 220, 240, 0.05);
-  border-left: 3px solid #f99;
-}
-
-/* 🗃️ ARCHIVE Callout */
-.callout[data-callout="archive"] {
-  --callout-color: 200, 200, 255;
-  --callout-icon: lucide-archive;
-  background-color: rgba(220, 220, 255, 0.05);
-  border-left: 3px solid #88f;
+  --callout-icon: lucide-zap;
+  background: linear-gradient(135deg, #ffdddd, #ffeedd);
+  color: #2b2b2b;
+  font-family: 'Comic Neue', cursive;
+  border-left: 3px dashed #f88;
 }
 
 /* ✨ Footer Text */

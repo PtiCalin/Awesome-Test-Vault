@@ -1,0 +1,24 @@
+/* Callout styles for Obsidian */
+
+/** 🗺️ Custom styling for navigation callouts **/
+
+.callout[data-callout="map"] {
+  --callout-color: 180, 180, 255;
+  --callout-icon: lucide-map;
+  background-color: rgba(200, 225, 255, 0.08);
+  border-left: 3px solid rgb(120, 160, 255);
+  border-radius: 10px;
+  padding: 0.8em 1.2em;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.callout[data-callout="map"] .callout-title {
+  font-weight: 700;
+  color: #cceeff;
+  letter-spacing: 0.03em;
+}
+
+.callout[data-callout="map"] .callout-content {
+  font-size: 0.95em;
+  line-height: 1.5;
+}

@@ -1,0 +1,53 @@
+
+/* ┌────────────────────────────────────┐
+   │ VaultOS Font Suite Configuration   │
+   └────────────────────────────────────┘ */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Fira+Code&family=Orbitron:wght@700&family=Newsreader:opsz@6..72&family=Share+Tech+Mono&family=Major+Mono+Display&display=swap');
+
+/* Primary font styles */
+body {
+  font-family: 'Fira Code', monospace, var(--font-text);
+  font-size: 15px;
+  line-height: 1.6;
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+
+/* Titles */
+h1, h2, h3, h4 {
+  font-family: 'Orbitron', sans-serif, var(--font-header);
+  text-transform: uppercase;
+}
+
+/* UI + navigation blocks */
+.callout[data-callout="map"] {
+  font-family: 'Archivo', sans-serif;
+}
+
+/* Quotes */
+blockquote {
+  font-family: 'Newsreader', serif;
+  font-style: italic;
+  color: #ccc;
+  border-left: 4px solid #88c;
+}
+
+/* Code blocks */
+.markdown-preview-view code,
+.cm-s-obsidian .cm-inline-code {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.9em;
+}
+
+/* Fun Inserts */
+.callout[data-callout="fun1"] {
+  font-family: 'Major Mono Display', monospace;
+}
+.callout[data-callout="fun2"] {
+  font-family: 'Digital 7 Mono', monospace;
+}
+.callout[data-callout="fun3"] {
+  font-family: 'groovy-kombo-font', cursive;
+}

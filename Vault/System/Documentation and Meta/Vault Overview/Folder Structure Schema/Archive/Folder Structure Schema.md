@@ -5,6 +5,6 @@ tags: [system, Backend, Folder Structure Schema]
 type: system-note
 ---
 
-# Folder Structure Schema
+## Folder Structure Schema
 
 This is the **Folder Structure Schema** note inside the System section.

@@ -1,0 +1,33 @@
+{
+  "defaultPreset": "standard",
+  "autoMigrateObsidian": false,
+  "lastUsedPreset": null,
+  "defaultRoot": "VAULT/",
+  "usePresets": true,
+  "presetsPath": "vaultos/scr/modules/folder-scaffolding/config/structure_presets.json",
+  "generateFolderNotes": true,
+  "injectYAMLFrontmatter": true,
+  "yamlDefaults": {
+    "tags": ["#vaultos", "#folder"],
+    "type": "folder",
+    "category": "core",
+    "visibility": "public"
+  },
+  "enableDashboardMode": true,
+  "dashboardFields": [
+    "title",
+    "type",
+    "category",
+    "status",
+    "created",
+    "updated",
+    "summary"
+  ],
+  "autoTagBasedOnPath": true,
+  "logToConsole": true,
+  "showNotifications": true,
+  "successMessage": "✨ Folder structure deployed! Check your vault for changes.",
+  "dryRunPreviewEnabled": true,
+  "createDailyFolders": false,
+  "dateFormat": "YYYY-MM-DD"
+}

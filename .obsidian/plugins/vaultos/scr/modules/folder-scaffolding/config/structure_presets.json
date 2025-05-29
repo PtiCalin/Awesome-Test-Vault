@@ -1,0 +1,42 @@
+{
+  "standard": {
+    "VAULT/": [
+      "00 Inbox",
+      "10 Projects",
+      "20 Learnings",
+      "30 Knowledge",
+      "40 References",
+      "50 Archive",
+      "System/Backend",
+      "System/Frontend",
+      "System/Plugins",
+      "System/Docs"
+    ],
+    "10 Projects/": [
+      "_Active",
+      "_Paused",
+      "_Completed"
+    ],
+    "20 Learnings/": [
+      "_Modules",
+      "_Logs",
+      "_Map of Content"
+    ],
+    "30 Knowledge/": [
+      "_Concepts",
+      "_Frameworks",
+      "_Glossary"
+    ],
+    "40 References/": [
+      "_Books",
+      "_Articles",
+      "_Websites"
+    ],
+    "System/": [
+      "Backend",
+      "Frontend",
+      "Plugins",
+      "Docs"
+    ]
+  }
+}

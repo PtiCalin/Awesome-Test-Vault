@@ -9,7 +9,9 @@
     "jsx": "preserve",
     "allowJs": true,
     "sourceMap": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*", "main.ts"],
+  "exclude": ["dist"]
 }

@@ -114,8 +114,6 @@ related: []
 
 ### Styles
 
-
-
 ---
 
 ## Progression and Development Plan

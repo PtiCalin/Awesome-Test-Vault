@@ -74,7 +74,7 @@ runWhenImageReady();
 > [!rel] Relationships  
 > This note is part of a larger structure. Below are its connections:
 
-```dataview
+```dataviewjs
 const { VaultMap } = await import("VaultMap.js");
 const map = new VaultMap({ vaultName: "Awesome-Test-Vault" });
 
