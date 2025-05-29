@@ -1,27 +1,27 @@
 {
   "main": {
-    "id": "31f500b11cb8c31b",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "dec84217bfc6b0bc",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "47605447ce4989eb",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_decorators.md",
+                "file": "Awesome-Test-Vault.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "note_py_decorators"
+              "title": "Awesome-Test-Vault"
             },
-            "group": "db088a30fd212698"
+            "group": "b52e433620e995ba"
           }
         ]
       }
@@ -80,39 +80,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 200
   },
   "right": {
     "id": "1c41872f7a937119",
     "type": "split",
     "children": [
       {
-        "id": "47b615a25bcddb56",
+        "id": "1f7b7999b8f4db7f",
         "type": "tabs",
-        "dimension": 30.128205128205128,
-        "children": [
-          {
-            "id": "dede5192261f5155",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_decorators.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of note_py_decorators"
-            },
-            "group": "db088a30fd212698"
-          }
-        ]
-      },
-      {
-        "id": "907fb8baad7a3c7f",
-        "type": "tabs",
-        "dimension": 36.59188034188034,
+        "dimension": 48.21142552055526,
         "children": [
           {
             "id": "658abe1fadbaddc4",
@@ -120,27 +97,65 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_decorators.md"
+                "file": "Awesome-Test-Vault.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for note_py_decorators"
+              "title": "File properties for Awesome-Test-Vault"
             },
-            "group": "db088a30fd212698"
+            "group": "8dfad8d06b21f02f"
+          }
+        ]
+      },
+      {
+        "id": "423db17587e32800",
+        "type": "tabs",
+        "dimension": 15.216230646022424,
+        "children": [
+          {
+            "id": "5ee762c31198e69d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Awesome-Test-Vault.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Awesome-Test-Vault"
+            },
+            "group": "8dfad8d06b21f02f"
           }
         ]
       },
       {
         "id": "a32adf230263a07f",
         "type": "tabs",
-        "dimension": 33.27991452991453,
+        "dimension": 36.572343833422316,
         "children": [
           {
-            "id": "8feb505b7e0242e6",
+            "id": "2638d89ed8ad4711",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Awesome-Test-Vault.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Awesome-Test-Vault"
+            },
+            "group": "8dfad8d06b21f02f"
+          },
+          {
+            "id": "b6db13eb4ce23bce",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_decorators.md",
+                "file": "Awesome-Test-Vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,23 +165,9 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for note_py_decorators"
-            }
-          },
-          {
-            "id": "eb6097a2f8e8cd37",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_decorators.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from note_py_decorators"
+              "title": "Backlinks for Awesome-Test-Vault"
             },
-            "group": "db088a30fd212698"
+            "group": "b52e433620e995ba"
           },
           {
             "id": "2da93e5f71b5c1b9",
@@ -184,21 +185,6 @@
             }
           },
           {
-            "id": "e53a00b9c72f8d57",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_decorators.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of note_py_decorators"
-            }
-          },
-          {
             "id": "6241e2c3304bbbed",
             "type": "leaf",
             "state": {
@@ -212,12 +198,11 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,18 +214,23 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "47605447ce4989eb",
+  "active": "2638d89ed8ad4711",
   "lastOpenFiles": [
+    "CONTRIBUTING.md",
+    "Awesome-Test-Vault.md",
+    "🗓 Daily Notes.md",
+    "CODE_OF_CONDUCT.md",
+    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_decorators.md",
     "VAULT/System/Frontend/Templates/Obsidian/Vault-Wide Standard Page Template v1.2.md",
     "VAULT/System/Frontend/Templates/Obsidian/image.png",
     "VAULT/System/Frontend/Templates/Obsidian/Vault-Wide Standard Page Template v1.3.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_map-filter-reduce.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_lambda.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_closures.md",
-    "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Functional Programming/note_py_decorators.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Object-Oriented Programming/note_py_classes.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Object-Oriented Programming/note_py_static-class-methods.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Object-Oriented Programming/note_py_inheritance.md",
@@ -249,7 +239,6 @@
     "VAULT/System/Documentation and Meta/Metadata Standards/Tags Metadata Standards.md",
     "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
     "VAULT/Learnings/Automations/Logging/qst_changelog-watcher.md",
-    "Awesome-Test-Vault.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_error-handling.md",
     "VAULT/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Python/Advanced Python/note_py_lang-ref.md",
     "VAULT/System/Frontend/Templates/Obsidian/universal_vault_template.md",
@@ -268,8 +257,6 @@
     "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json",
     "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/typescript/lib/pl/diagnosticMessages.generated.json",
     "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/typescript/lib/ko/diagnosticMessages.generated.json",
-    "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/typescript/SECURITY.md",
-    "VAULT/System/Backend/Scripts/Native Plugins/VaultOS-Plugin-Test/node_modules/typescript/README.md",
     "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
     "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",
     "VAULT/Files and Media/Images/Vault Overview/vault-map.png",

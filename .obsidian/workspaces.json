@@ -1,0 +1,229 @@
+{
+  "workspaces": {
+    "VaultOS-Homepage": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "4509724f8bf84da7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e7a7b303c61786dc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Awesome-Test-Vault.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Awesome-Test-Vault"
+                },
+                "group": "b52e433620e995ba"
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "c469e394b4c19b17",
+        "type": "split",
+        "children": [
+          {
+            "id": "06b0f0286b37b1df",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "75cbba21a196a498",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "f145686c89db2591",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "[\"questline\"]",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "85078b5058c38cc5",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "right": {
+        "id": "1c41872f7a937119",
+        "type": "split",
+        "children": [
+          {
+            "id": "1f7b7999b8f4db7f",
+            "type": "tabs",
+            "dimension": 48.21142552055526,
+            "children": [
+              {
+                "id": "658abe1fadbaddc4",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Awesome-Test-Vault.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Awesome-Test-Vault"
+                },
+                "group": "8dfad8d06b21f02f"
+              }
+            ]
+          },
+          {
+            "id": "423db17587e32800",
+            "type": "tabs",
+            "dimension": 15.216230646022424,
+            "children": [
+              {
+                "id": "5ee762c31198e69d",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Awesome-Test-Vault.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Awesome-Test-Vault"
+                },
+                "group": "8dfad8d06b21f02f"
+              }
+            ]
+          },
+          {
+            "id": "a32adf230263a07f",
+            "type": "tabs",
+            "dimension": 36.572343833422316,
+            "children": [
+              {
+                "id": "2638d89ed8ad4711",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Awesome-Test-Vault.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Awesome-Test-Vault"
+                },
+                "group": "8dfad8d06b21f02f"
+              },
+              {
+                "id": "b6db13eb4ce23bce",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Awesome-Test-Vault.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Awesome-Test-Vault"
+                },
+                "group": "b52e433620e995ba"
+              },
+              {
+                "id": "2da93e5f71b5c1b9",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "6241e2c3304bbbed",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 312.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "templater-obsidian:Templater": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "markdown-importer:Open format converter": false,
+          "zk-prefixer:Create new unique note": false,
+          "homepage:Open homepage": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "2638d89ed8ad4711",
+      "mtime": "2025-05-29T14:13:01-04:00"
+    }
+  },
+  "active": "VaultOS-Homepage"
+}
