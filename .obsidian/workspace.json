@@ -89,7 +89,7 @@
       {
         "id": "1f7b7999b8f4db7f",
         "type": "tabs",
-        "dimension": 48.21142552055526,
+        "dimension": 39.989321943406296,
         "children": [
           {
             "id": "658abe1fadbaddc4",
@@ -108,7 +108,7 @@
       {
         "id": "423db17587e32800",
         "type": "tabs",
-        "dimension": 15.216230646022424,
+        "dimension": 28.990923651895358,
         "children": [
           {
             "id": "5ee762c31198e69d",
@@ -130,7 +130,7 @@
       {
         "id": "a32adf230263a07f",
         "type": "tabs",
-        "dimension": 36.572343833422316,
+        "dimension": 31.019754404698347,
         "children": [
           {
             "id": "2638d89ed8ad4711",
@@ -216,7 +216,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "2638d89ed8ad4711",
   "lastOpenFiles": [
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/module-manager.zip",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/trophies/config/config.json",

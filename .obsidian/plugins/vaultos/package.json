@@ -1,0 +1,21 @@
+{
+  "name": "vaultos",
+  "version": "0.1.0",
+  "description": "The VaultOS kernel plugin for managing subplugins and vault automations.",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [],
+  "author": "Charlie Bouchard",
+  "license": "MIT",
+  "dependencies": {
+    "vaultos": "file:"
+  }
+}

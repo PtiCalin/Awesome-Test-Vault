@@ -21,13 +21,13 @@ It acts as the **central kernel** of a modular plugin ecosystem built around **V
 
 A VaultOS subplugin is a mini-plugin folder prefixed with:
 
-```
+```txt
 .obsidian/plugins/vaultos_<moduleName>
 ```
 
 Each subplugin is self-contained and may include:
 
-```
+```txt
 vaultos_myplugin/
 ├── index.ts
 ├── wizzard.ts
@@ -44,7 +44,7 @@ vaultos_myplugin/
 
 ## 📂 VaultOS Structure
 
-```
+```txt
 .obsidian/plugins/vaultos/
 ├── main.ts                → VaultOS plugin entry
 ├── manifest.json          → Obsidian plugin declaration
@@ -80,7 +80,7 @@ vaultos_myplugin/
 - `VaultOS: Open Module Manager Panel`
 - `VaultOS: Refresh Module Metadata`
 
-*(To be registered in upcoming releases.)*
+(To be registered in upcoming releases.)
 
 ---
 
@@ -96,12 +96,5 @@ vaultos_myplugin/
 
 ## 👩‍💻 Credits
 
-Built with love by [@charliebouchard](https://github.com/charliebouchard)  
+Built with love by [@PtiCalin](https://github.com/PtiCalin)  
 Engineered for self-growing minds 🧠✨
-
----
-
-## 📢 Feedback & Contributions
-
-This is an experimental system in active development.  
-Got a feature idea or bug? Open an issue or a discussion!

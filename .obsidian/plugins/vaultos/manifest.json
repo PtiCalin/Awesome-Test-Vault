@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "minAppVersion": "0.15.0",
   "description": "Modular plugin orchestrator for VaultOS subplugins",
-  "author": "Charlie Bouchard",
-  "authorUrl": "https://github.com/charliebouchard",
+  "author": "PtiCalin",
+  "authorUrl": "https://github.com/PtiCalin",
   "main": "dist/main.js"
 }

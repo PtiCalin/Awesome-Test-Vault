@@ -1,0 +1,100 @@
+{
+  "vaultos": {
+    "enabled": true,
+    "developerMode": true,
+    "autoCompileManifest": true,
+    "logLevel": "info",
+    "watchSubpluginPrefix": "vaultos_",
+    "pluginVersion": "0.1.0",
+    "created": "2025-05-29T00:00:00Z",
+    "description": "VaultOS plugin orchestrator core config file"
+  },
+  "community": {
+    "discord": "https://discord.gg/dX8ZPDrN",
+    "github": "https://github.com/PtiCalin"
+  },
+  "paths": {
+    "subpluginDir": ".obsidian/plugins/",
+    "templateDir": "src/templates/",
+    "logFile": "data/module-log.jsonl",
+    "metadataFile": "data/module-metadata.json",
+    "manifestFile": "vaultos/manifest.json",
+    "userSettings": "data/user-settings.json"
+  },
+  "watcher": {
+    "enabled": true,
+    "recursive": false
+  },
+  "scaffolder": {
+    "defaultAuthor": "Charlie Bouchard",
+    "defaultVersion": "0.1.0",
+    "injectCreatedDate": true,
+    "safeOverwrite": true
+  },
+  "logger": {
+    "maxLogSize": 5000,
+    "appendMode": true
+  },
+  "cache": {
+    "autoupdateOnLoad": true,
+    "trackCompiled": true
+  },
+  "orchestrator": {
+    "autoRunOnBoot": false,
+    "include": [
+      "validator",
+      "relocator",
+      "converter"
+    ],
+    "compileManifestOnRun": true
+  },
+  "ui": {
+    "enableControlPanel": true,
+    "defaultPanelPosition": "right",
+    "showIcons": true,
+    "theme": "dark",
+    "customCssPath": "src/css/custom.css"
+  },
+  "security": {
+    "requireSignature": true,
+    "allowUnsafeScripts": false,
+    "trustedSources": [
+      "https://example.com/trusted-scripts/"
+    ]
+  },
+  "features": {
+    "experimental": false,
+    "beta": false,
+    "stable": true
+  },
+  "notifications": {
+    "enableAlerts": true,
+    "alertLevel": "warning",
+    "logToConsole": true
+  },
+  "backup": {
+    "enableAutoBackup": true,
+    "intervalSeconds": 86400,
+    "backupPath": "data/backups/",
+    "maxBackupCount": 10
+  },
+  "roles": {
+    "enableAccessControl": true,
+    "defaultRole": "user",
+    "definitions": {
+      "admin": {
+        "permissions": [
+          "manage_plugins",
+          "view_logs",
+          "configure_settings"
+        ]
+      },
+      "user": {
+        "permissions": [
+          "view_content",
+          "edit_content"
+        ]
+      }
+    }
+  }
+}
