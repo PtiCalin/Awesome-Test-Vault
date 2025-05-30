@@ -1,6 +1,6 @@
 import { Plugin } from "obsidian";
 import { registerWatcher } from "./src/core/watcher";
-import { registerModuleManagerView } from "./src/core/view";
+import { registerModuleManagerView, VaultOSPanelView, VAULTOS_PANEL_VIEW } from "./src/core/view";
 import { logModuleAction } from "./src/core/logger";
 import { updateModuleCache } from "./src/core/cache";
 import { compileManifest } from "./src/ops/compilator";
@@ -14,6 +14,13 @@ export default class VaultOSPlugin extends Plugin {
 
     // Register VaultOS control panel view
     registerModuleManagerView(this.app);
+
+    // 🔲 Open VaultOS panel in the left sidebar
+    const leaf = (this as any).app.workspace.getLeftLeaf(false);
+    await leaf.setViewState({
+      type: VAULTOS_PANEL_VIEW,
+      active: true,
+    });
 
     // Initial metadata caching
     updateModuleCache("vaultos", {

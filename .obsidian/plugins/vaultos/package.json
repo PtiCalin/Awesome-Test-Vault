@@ -4,10 +4,13 @@
   "description": "The VaultOS kernel plugin for managing subplugins and vault automations.",
   "main": "main.js",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w"
+    "build": "rollup -c && node dist/ops/compilator.js"
+  },
+  "dev": "rollup -c -w"
   },
   "devDependencies": {
+    "@types/node": "^22.15.28",
+    "obsidian": "^1.8.7",
     "rollup": "^3.0.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^5.0.0"

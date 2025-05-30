@@ -1,0 +1,1 @@
+{"name":"reflection-block-inserter","version":"0.1.0","description":"Insert random reflection blocks from a local JSON prompt pool.","main":"main.js","scripts":{"build":"esbuild main.ts --bundle --outfile=main.js --target=es2020"},"devDependencies":{"esbuild":"^0.17.0","obsidian":"latest"},"dependencies":{"reflection-block-inserter":"file:"}}

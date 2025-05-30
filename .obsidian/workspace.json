@@ -13,15 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
+                "file": "Awesome-Test-Vault.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "VaultOS build checklist"
-            },
-            "group": "b52e433620e995ba"
+              "title": "Awesome-Test-Vault"
+            }
           }
         ]
       }
@@ -80,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1c41872f7a937119",
@@ -97,57 +97,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md"
+                "file": "Awesome-Test-Vault.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for VaultOS build checklist"
-            }
-          }
-        ]
-      },
-      {
-        "id": "423db17587e32800",
-        "type": "tabs",
-        "dimension": 28.990923651895358,
-        "children": [
-          {
-            "id": "5ee762c31198e69d",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of VaultOS build checklist"
-            }
-          }
-        ]
-      },
-      {
-        "id": "a32adf230263a07f",
-        "type": "tabs",
-        "dimension": 31.019754404698347,
-        "children": [
-          {
-            "id": "2638d89ed8ad4711",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from VaultOS build checklist"
+              "title": "File properties for Awesome-Test-Vault"
             }
           },
           {
-            "id": "b6db13eb4ce23bce",
+            "id": "af67915e41f92a30",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -163,8 +120,65 @@
               },
               "icon": "links-coming-in",
               "title": "Backlinks for VaultOS build checklist"
-            },
-            "group": "b52e433620e995ba"
+            }
+          }
+        ]
+      },
+      {
+        "id": "423db17587e32800",
+        "type": "tabs",
+        "dimension": 28.990923651895358,
+        "children": [
+          {
+            "id": "5ee762c31198e69d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Awesome-Test-Vault.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Awesome-Test-Vault"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a32adf230263a07f",
+        "type": "tabs",
+        "dimension": 31.019754404698347,
+        "children": [
+          {
+            "id": "2638d89ed8ad4711",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Awesome-Test-Vault.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Awesome-Test-Vault"
+            }
+          },
+          {
+            "id": "b6db13eb4ce23bce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "VaultOS build checklist"
+            }
           },
           {
             "id": "2da93e5f71b5c1b9",
@@ -216,19 +230,32 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2638d89ed8ad4711",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/module-manager.zip",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/trophies/config/config.json",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/universal-template/config/config.json",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/yaml-assistant/config/config.json",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/skill-tree/config/config.json",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/progress-tracker/config/config.json",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/nuggets/config/config.json",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/module-manager/templates/wizzard.ts.hbs",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/module-manager/templates/index.ts.hbs",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/module-manager/templates/README.md.hbs",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/module-manager/templates/config.json.hbs",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Wish List.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Testing.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Documentation.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Development.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Configuration Notes.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Compatibility.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Plugin API.md",
+    "VAULT/System/Middleware/Obsidian/Plugins/Enabled Plugins.md",
+    "VAULT/System/Middleware/Obsidian/Plugins",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/vault.config.json",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/vault-map.css",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/variables.css",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/tsconfig.json",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/styles.css",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/snippets.css",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/rollup.config.js",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/plugin_config.json",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/package.json",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/module_registry.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/@esbuild/win32-x64/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/README.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/LICENSE.md",
+    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/README.md",
+    "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/trophies/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/universal-template/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/yaml-assistant/README.md",
@@ -241,19 +268,6 @@
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/game-tools/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/folder-dashboard/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/block-inserter/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/auto-logging/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/archive/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/animated-homepage/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/yaml-assistant/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/universal-template/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/trophies/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/skill-tree/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/progress-tracker/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/nuggets/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/museum/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/module-manager/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/media-sorting/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/vaultos/scr/modules/game-tools/README.md",
     "VAULT/System/Frontend/Templates/Obsidian/image.png",
     "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
     "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",

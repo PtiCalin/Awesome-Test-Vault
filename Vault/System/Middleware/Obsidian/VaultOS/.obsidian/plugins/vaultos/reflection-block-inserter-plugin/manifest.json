@@ -1,1 +1,0 @@
-{"id": "reflection-block-inserter", "name": "Reflection Block Inserter", "author": "PtiCalin", "version": "0.1.0", "description": "Insert a random reflection block into your note from a local prompt pool.", "main": "main.js", "minAppVersion": "0.12.0"}

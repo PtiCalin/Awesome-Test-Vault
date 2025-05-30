@@ -1,0 +1,50 @@
+/* Wrapper for the image + SVG overlay */
+#vault-map-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* The vault map image */
+#vault-map-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/* The interactive SVG layer */
+#vault-map-wrapper svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  pointer-events: none; /* allow click-through unless overridden */
+}
+
+/* Enable pointer interaction on polygons only */
+#vault-map-wrapper polygon.hotspot {
+  pointer-events: auto;
+  cursor: pointer;
+  fill: rgba(255, 255, 255, 0.01);
+  stroke: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Glow animation on hover */
+#vault-map-wrapper polygon.hotspot:hover {
+  animation: pulseGlow 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes pulseGlow {
+  from {
+    fill: rgba(255, 255, 255, 0.05);
+    stroke: rgba(255, 255, 255, 0.1);
+  }
+  to {
+    fill: rgba(255, 255, 255, 0.15);
+    stroke: rgba(255, 255, 255, 0.8);
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.9));
+  }
+}
