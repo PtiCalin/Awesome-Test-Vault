@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Awesome-Test-Vault.md",
+                "file": "VAULT/Notes/Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Awesome-Test-Vault"
+              "title": "Notes"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 294.5
   },
   "right": {
     "id": "1c41872f7a937119",
@@ -97,10 +96,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Awesome-Test-Vault.md"
+                "file": "VAULT/Notes/Notes.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Awesome-Test-Vault"
+              "title": "File properties for Notes"
             }
           },
           {
@@ -135,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Awesome-Test-Vault.md",
+                "file": "VAULT/Notes/Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Awesome-Test-Vault"
+              "title": "Outline of Notes"
             }
           }
         ]
@@ -157,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Awesome-Test-Vault.md",
+                "file": "VAULT/Notes/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Awesome-Test-Vault"
+              "title": "Outgoing links from Notes"
             }
           },
           {
@@ -230,8 +229,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "75cbba21a196a498",
   "lastOpenFiles": [
+    "Awesome-Test-Vault.md",
+    "VAULT/Learnings/Workflows/Plugin development/Project Setup.md",
+    "VAULT/Learnings/Workflows/Plugin development",
     "VAULT/System/Middleware/Obsidian/Plugins/Plugin Wish List.md",
     "VAULT/System/Middleware/Obsidian/Plugins/Plugin Testing.md",
     "VAULT/System/Middleware/Obsidian/Plugins/Plugin Documentation.md",
@@ -249,7 +251,6 @@
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/snippets.css",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/rollup.config.js",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/plugin_config.json",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/package.json",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/module_registry.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/@esbuild/win32-x64/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/README.md",
@@ -266,8 +267,6 @@
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/museum/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/media-sorting/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/game-tools/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/folder-dashboard/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/block-inserter/README.md",
     "VAULT/System/Frontend/Templates/Obsidian/image.png",
     "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
     "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",
