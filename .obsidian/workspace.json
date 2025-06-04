@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VAULT/Notes/Notes.md",
+                "file": "Awesome-Test-Vault.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "Awesome-Test-Vault"
             }
           }
         ]
@@ -96,10 +96,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "VAULT/Notes/Notes.md"
+                "file": "Awesome-Test-Vault.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Notes"
+              "title": "File properties for Awesome-Test-Vault"
             }
           },
           {
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VAULT/Notes/Notes.md",
+                "file": "Awesome-Test-Vault.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Notes"
+              "title": "Outline of Awesome-Test-Vault"
             }
           }
         ]
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VAULT/Notes/Notes.md",
+                "file": "Awesome-Test-Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Notes"
+              "title": "Outgoing links from Awesome-Test-Vault"
             }
           },
           {
@@ -229,8 +229,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "75cbba21a196a498",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map",
+    "VAULT/Notes/Notes.md",
     "Awesome-Test-Vault.md",
     "VAULT/Learnings/Workflows/Plugin development/Project Setup.md",
     "VAULT/Learnings/Workflows/Plugin development",
@@ -265,12 +267,10 @@
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/nuggets/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/module-manager/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/museum/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/media-sorting/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/game-tools/README.md",
     "VAULT/System/Frontend/Templates/Obsidian/image.png",
     "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
     "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",
-    "VAULT/Files and Media/Images/Vault Overview/vault-map.png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/vault-map.png",
     "Untitled.canvas",
     "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Description Reflection Cycle/OIP (2).jpg",
     "VAULT/Files and Media/Images/Vault Overview/Vault Structure.png",

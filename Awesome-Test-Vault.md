@@ -1,30 +1,28 @@
 ---
-# 📄 Identity & Classification
 id: vault-map-homepage
-title: "🏰 Welcome to the Vault"
-aliases: []
+title: 🏰 Welcome to the Vault
+aliases: 
 type: note
 category: vault
 section: structure
 role: homepage
 folder: system
-tags: [homepage, interactive, vault-map, dashboard, MOC]
+tags:
+  - homepage
+  - interactive
+  - vault-map
+  - dashboard
+  - MOC
 version: 1.2
-
-# 📊 Status & Lifecycle
 status: in progress
 visibility: public
-created: <% tp.date.now("YYYY-MM-DD") %>
-updated: <% tp.date.now("YYYY-MM-DD") %>
-
-# 📚 Context & Description
-summary: "Landing page and map for navigating the Awesome-Test-Vault, featuring dynamic visual overlays and interactive dashboards."
-
-# 🧱 Relationships
+created: 
+updated: 
+summary: Landing page and map for navigating the Awesome-Test-Vault, featuring dynamic visual overlays and interactive dashboards.
 parent: ""
-children: []
-friends: []
-related: []
+children: 
+friends: 
+related:
 ---
 
 > [!map] Vault Navigation  
