@@ -24,16 +24,16 @@ def divide(x, y):
         return x / y
 def calculator():
     input1 = float(input("Enter first number: "))
-    input2 = operation = input("Enter operation (+, -, *, /): ")
-    input3 = float(input("Enter second number: "))
+    operation = input("Enter operation (+, -, *, /): ")
+    input2 = float(input("Enter second number: "))
     if operation == '+':
-        print(f"{input1} + {input3} = {add(input1, input3)}")
+        print(f"{input1} + {input2} = {add(input1, input2)}")
     elif operation == '-':
-        print(f"{input1} - {input3} = {subtract(input1, input3)}")
+        print(f"{input1} - {input2} = {subtract(input1, input2)}")
     elif operation == '*':
-        print(f"{input1} * {input3} = {multiply(input1, input3)}")
+        print(f"{input1} * {input2} = {multiply(input1, input2)}")
     elif operation == '/':
-        print(f"{input1} / {input3} = {divide(input1, input3)}")
+        print(f"{input1} / {input2} = {divide(input1, input2)}")
     else:
         print("Invalid operator. Please use +, -, *, or /.")
         
