@@ -231,6 +231,14 @@
   },
   "active": "41647ed1bcba4faf",
   "lastOpenFiles": [
+    "VAULT/Museum/Hall of Knowledge/Arena/Arena.md",
+    "VAULT/Museum/Hall of Knowledge/Greenhouse/Greenhouse.md",
+    "VAULT/Museum/Hall of Knowledge/🏀 Sports & Recreation/🏀 Sports & Recreation.md",
+    "VAULT/Museum/Hall of Knowledge/🧑‍🤝‍🧑 Society & Humanities/🧑‍🤝‍🧑 Society & Humanities.md",
+    "VAULT/Museum/Hall of Knowledge/🛕 Religion & Spirituality/🛕 Religion & Spirituality.md",
+    "VAULT/Museum/Hall of Knowledge/🌍 Geography & Environment/🌍 Geography & Environment.md",
+    "VAULT/Museum/Hall of Knowledge/⚖️ Law & Politics/⚖️ Law & Politics.md",
+    "VAULT/Museum/Hall of Knowledge/⚖️ Law & Politics/⚖️ Law & Politics",
     "VAULT/Museum/Hall of Knowledge/Arena",
     "VAULT/Museum/Hall of Knowledge/Greenhouse",
     "VAULT/Museum/Hall of Knowledge/greenhouse",
@@ -240,8 +248,6 @@
     "VAULT/Museum/Hall of Knowledge/🛠️ Practical Skills, Trades & Traditional Craftsmanship",
     "VAULT/Museum/Hall of Knowledge/🛕 Religion & Spirituality",
     "VAULT/Museum/Hall of Knowledge/🩺 Health & Medicine",
-    "VAULT/Museum/Hall of Knowledge/🧮 Mathematics & Logic",
-    "VAULT/Museum/Hall of Knowledge/🧠 Philosophy & Thought",
     "VAULT/Museum/Hall of Knowledge/Main Hall/Main Hall.md",
     "VAULT/Museum/Hall of Knowledge/Courtyard/Courtyard.md",
     "VAULT/Museum/Hall of Knowledge/Hall of Knowledge.md",
@@ -271,12 +277,6 @@
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/@esbuild/win32-x64/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/LICENSE.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/README.md",
-    "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/trophies/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/universal-template/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/yaml-assistant/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/skill-tree/README.md",
     "Untitled.canvas"
   ]
 }
