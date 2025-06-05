@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "88b2f4dba596a4c4",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "41647ed1bcba4faf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Awesome-Test-Vault.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Awesome-Test-Vault"
+              "title": "New tab"
             }
           }
         ]
@@ -95,11 +90,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Awesome-Test-Vault.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Awesome-Test-Vault"
+              "title": "File properties"
             }
           },
           {
@@ -134,13 +127,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Awesome-Test-Vault.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Awesome-Test-Vault"
+              "title": "Outline"
             }
           }
         ]
@@ -156,12 +148,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Awesome-Test-Vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Awesome-Test-Vault"
+              "title": "Outgoing links"
             }
           },
           {
@@ -229,13 +220,42 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "41647ed1bcba4faf",
   "lastOpenFiles": [
-    "VAULT/Files and Media/Images/Vault Overview/Vault Map",
-    "VAULT/Notes/Notes.md",
+    "VAULT/Museum/Hall of Knowledge/Courtyard/Courtyard.md",
+    "VAULT/Museum/Hall of Knowledge/Arena/Arena.md",
+    "VAULT/Museum/Hall of Knowledge/Greenhouse/Greenhouse.md",
+    "VAULT/Museum/Hall of Knowledge/🏀 Sports & Recreation/🏀 Sports & Recreation.md",
+    "VAULT/Museum/Hall of Knowledge/🧑‍🤝‍🧑 Society & Humanities/🧑‍🤝‍🧑 Society & Humanities.md",
+    "VAULT/Museum/Hall of Knowledge/🛕 Religion & Spirituality/🛕 Religion & Spirituality.md",
+    "VAULT/Museum/Hall of Knowledge/🌍 Geography & Environment/🌍 Geography & Environment.md",
+    "VAULT/Museum/Hall of Knowledge/⚖️ Law & Politics/⚖️ Law & Politics.md",
+    "VAULT/Museum/Hall of Knowledge/⚖️ Law & Politics/⚖️ Law & Politics",
+    "VAULT/Museum/Hall of Knowledge/Arena",
+    "VAULT/Museum/Hall of Knowledge/Greenhouse",
+    "VAULT/Museum/Hall of Knowledge/greenhouse",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/Arena",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/Greenhouse",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/Courtyard",
+    "VAULT/Museum/Hall of Knowledge/🛠️ Practical Skills, Trades & Traditional Craftsmanship",
+    "VAULT/Museum/Hall of Knowledge/🛕 Religion & Spirituality",
+    "VAULT/Museum/Hall of Knowledge/🩺 Health & Medicine",
+    "VAULT/Museum/Hall of Knowledge/Main Hall/Main Hall.md",
+    "VAULT/Museum/Hall of Knowledge/Hall of Knowledge.md",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/Main Hall/Hall of Knowledge - Main Hall.png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/Main Hall/Hall of Knowledge - Floorplan - Groundfloor.png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/Untitled.md",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/vault-map.png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/🎨 Arts & Culture/Visual Arts/Arts & Culture (1).png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (9).png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (8).png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (7).png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (6).png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (5).png",
+    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Musum/Hall of Knowledge/🎨 Arts & Culture/Built & Decorative Arts/Arts & Culture (4).png",
     "Awesome-Test-Vault.md",
+    "VAULT/Notes/Notes.md",
     "VAULT/Learnings/Workflows/Plugin development/Project Setup.md",
-    "VAULT/Learnings/Workflows/Plugin development",
     "VAULT/System/Middleware/Obsidian/Plugins/Plugin Wish List.md",
     "VAULT/System/Middleware/Obsidian/Plugins/Plugin Testing.md",
     "VAULT/System/Middleware/Obsidian/Plugins/Plugin Documentation.md",
@@ -244,39 +264,10 @@
     "VAULT/System/Middleware/Obsidian/Plugins/Plugin Compatibility.md",
     "VAULT/System/Middleware/Obsidian/Plugins/Plugin API.md",
     "VAULT/System/Middleware/Obsidian/Plugins/Enabled Plugins.md",
-    "VAULT/System/Middleware/Obsidian/Plugins",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/vault.config.json",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/vault-map.css",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/variables.css",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/tsconfig.json",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/styles.css",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/snippets.css",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/rollup.config.js",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/plugin_config.json",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/module_registry.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/@esbuild/win32-x64/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/README.md",
     "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/LICENSE.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/README.md",
-    "VAULT/System/Documentation and Meta/VaultOS build checklist.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/trophies/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/universal-template/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/yaml-assistant/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/skill-tree/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/progress-tracker/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/nuggets/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/module-manager/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/scr/modules/museum/README.md",
-    "VAULT/System/Frontend/Templates/Obsidian/image.png",
-    "VAULT/Files and Media/Images/Fun/Behave differently when observed.jpg",
-    "VAULT/Files and Media/Images/Fun/Susan Album Party.jpg",
-    "VAULT/Files and Media/Images/Vault Overview/Vault Map/vault-map.png",
-    "Untitled.canvas",
-    "VAULT/System/Backend/Folder Structure Schema/Structure Builder Scripts/Other Structure Creation Tools/Midjourney Description Reflection Cycle/OIP (2).jpg",
-    "VAULT/Files and Media/Images/Vault Overview/Vault Structure.png",
-    "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Vault Values.png",
-    "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Vault Launch_v2.png",
-    "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Vault Launch_v1.png",
-    "VAULT/Files and Media/Images/Vault Overview/Vault Cards/Templates System_v2.png"
+    "Untitled.canvas"
   ]
 }
