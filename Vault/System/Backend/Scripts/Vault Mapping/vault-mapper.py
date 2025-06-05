@@ -2,9 +2,17 @@ import os
 import yaml
 import re
 import csv
+import argparse
 
-# Define the path to the vault
-vault_path = "path/to/your/vault"  # ← CHANGE THIS TO YOUR VAULT PATH
+# Parse command line arguments for the vault path
+parser = argparse.ArgumentParser(description="Map metadata from an Obsidian vault")
+parser.add_argument("vault_path", nargs="?", help="Path to the vault to scan")
+args = parser.parse_args()
+
+if args.vault_path:
+    vault_path = args.vault_path
+else:
+    parser.error("vault_path argument is required. Provide the path to your vault.")
 
 # Prepare output data
 metadata_log = []
