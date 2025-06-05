@@ -1,0 +1,1 @@
+![[Hall of Knowledge-exterior.png]]
