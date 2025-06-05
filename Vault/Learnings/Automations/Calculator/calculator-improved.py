@@ -39,6 +39,8 @@ def calculator():
         print(f"{input1} * {input2} = {multiply(input1, input2)}")
     elif operation == '/':
         print(f"{input1} / {input2} = {divide(input1, input2)}")
+    elif operation == '**':
+        print(f"{input1} ** {input2} = {input1 ** input2}")
 
     else:
         print("Invalid operator. Please use a valid operator.")
