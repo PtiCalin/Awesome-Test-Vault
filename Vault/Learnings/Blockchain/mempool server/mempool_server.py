@@ -31,8 +31,14 @@ REJECT_MESSAGES = [
 # ------------------- 🔐 Signature Check -------------------
 def verify_transaction_signature(txn: Dict) -> bool:
     try:
-        signature = bytes.fromhex(txn.pop("signature"))
-        message = json.dumps(txn, sort_keys=True).encode("utf-8")
+        signature_hex = txn.get("signature")
+        if not signature_hex:
+            return False
+        signature = bytes.fromhex(signature_hex)
+
+        txn_copy = txn.copy()
+        txn_copy.pop("signature", None)
+        message = json.dumps(txn_copy, sort_keys=True).encode("utf-8")
         vk = VerifyingKey.from_string(bytes.fromhex(txn["sender"]), curve=SECP256k1)
         return vk.verify(signature, message)
     except Exception:
