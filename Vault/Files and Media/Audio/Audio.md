@@ -1,7 +1,34 @@
 ---
+# 📄 Identity & Classification
+id: audio
 title: "Audio"
-created: 2025-05-01
+aliases: []
 tags: [media-section, Audio]
+author(s):
+element: media
+type: note
+category:
+section:
+topic:
+role:
+folder: Files and Media/Audio
+tags: []
+version: 1.3
+
+# 📊 Status & Lifecycle
+status: draft
+visibility: public
+created: 2025-05-01
+updated: 2025-05-01
+
+# 📚 Context & Description
+summary: ""
+
+# 🧱 Relationships
+parent: ""
+children: []
+friends: []
+related: []
 ---
 
 # Audio
