@@ -35,6 +35,7 @@ related:
 <div id="vault-map-wrapper">
   <img id="vault-map" src="Files and Media/Images/Vault Overview/vault-map.png" style="width:100%; border-radius: 10px;" />
 </div>
+![[vault-map.png]]
 
 ```dataviewjs
 const { VaultMap } = await cJS();
@@ -54,7 +55,10 @@ runWhenImageReady();
 
 ---
 
+
 ## 🧭 Vault OS Navigation Dashboard
+
+
 
 ```folder-index-content
 ```

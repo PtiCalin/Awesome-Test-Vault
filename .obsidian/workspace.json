@@ -11,10 +11,15 @@
             "id": "41647ed1bcba4faf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Vault/System/Frontend/Snippets/Custom CSS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Custom CSS"
             }
           }
         ]
@@ -90,9 +95,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Vault/System/Frontend/Snippets/Custom CSS.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Custom CSS"
             }
           },
           {
@@ -127,12 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Vault/System/Frontend/Snippets/Custom CSS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Custom CSS"
             }
           }
         ]
@@ -148,11 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Vault/System/Frontend/Snippets/Custom CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Custom CSS"
             }
           },
           {
@@ -207,7 +216,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -216,12 +224,16 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
-      "homepage:Open homepage": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
     }
   },
   "active": "41647ed1bcba4faf",
   "lastOpenFiles": [
+    "Vault/System/Frontend/Snippets/Image Maps/Hall of Knowledge - Main Hall.md",
+    "Awesome-Test-Vault.md",
+    "Vault/System/Frontend/Snippets/Image Maps",
     "VAULT/Museum/Hall of Knowledge/🧑‍🤝‍🧑 Society & Humanities/🧑‍🤝‍🧑 Society & Humanities.md",
     "VAULT/Museum/Hall of Knowledge/🛕 Religion & Spirituality/🛕 Religion & Spirituality.md",
     "VAULT/Museum/Hall of Knowledge/🏀 Sports & Recreation/🏀 Sports & Recreation.md",
@@ -244,7 +256,6 @@
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/Arena",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/Greenhouse",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/Courtyard",
-    "VAULT/Museum/Hall of Knowledge/🛠️ Practical Skills, Trades & Traditional Craftsmanship",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/Untitled.md",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/vault-map.png",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/🎨 Arts & Culture/Visual Arts/Arts & Culture (1).png",
@@ -253,7 +264,6 @@
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (7).png",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (6).png",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (5).png",
-    "Awesome-Test-Vault.md",
     "VAULT/Notes/Notes.md",
     "VAULT/Learnings/Workflows/Plugin development/Project Setup.md",
     "VAULT/System/Middleware/Obsidian/Plugins/Plugin Wish List.md",
