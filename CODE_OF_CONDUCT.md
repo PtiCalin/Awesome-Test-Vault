@@ -1,3 +1,11 @@
+---
+id: code-of-conduct
+title: "📜 Awesome Test Vault – Code of Conduct"
+created: 2025-06-08
+updated: 2025-06-08
+tags: []
+---
+
 # 📜 Awesome Test Vault – Code of Conduct
 
 Welcome to the Awesome Test Vault! 🎉  
