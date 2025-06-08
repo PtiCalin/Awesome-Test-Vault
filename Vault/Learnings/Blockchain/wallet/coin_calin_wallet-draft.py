@@ -68,5 +68,4 @@ if __name__ == "__main__":
     print("\n🔐 Private Key:", priv_key)
     print("📬 Public Key:", pub_key)
     print("🧂 Salt (save this!):", salt.hex())
-    print("\n🔑 Your wallet is ready! Keep your keys and salt safe."
-          )
+    print("\n🔑 Your wallet is ready! Keep your keys and salt safe.")
