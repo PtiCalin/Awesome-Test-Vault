@@ -1,0 +1,5 @@
+# Ignore node dependencies globally
+node_modules/
+
+# Ignore test scaffolding zip files
+Vault/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/VaultOS_Structure_Script_Kit.zip
