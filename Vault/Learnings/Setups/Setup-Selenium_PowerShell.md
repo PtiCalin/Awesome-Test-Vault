@@ -41,7 +41,7 @@ Go to → https://github.com/mozilla/geckodriver/releases
 Download the **latest Windows 64-bit** `.zip`.
 
 **B. Extract `geckodriver.exe` to:**
-```
+```powershell
 C:\WebDrivers\geckodriver.exe
 ```
 
@@ -68,10 +68,9 @@ msedge --version
 Go to → https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 
 **C. Extract `msedgedriver.exe` to:**
-```
+```powershell
 C:\WebDrivers\msedgedriver.exe
 ```
-
 **D. Ensure folder is in your PATH.**
 
 **E. Test it:**

@@ -9,7 +9,7 @@ This is an Obsidian community plugin designed to scaffold a clean, modular folde
 ### 📁 1. Install the Plugin
 Place the extracted plugin folder here:
 
-```
+```bash
 <YourVault>/.obsidian/plugins/vault-structure-builder/
 ```
 
@@ -26,7 +26,7 @@ npm run build
 ```
 
 If successful, this will output:
-```
+```bash
 dist/main.js  ✅
 ```
 
@@ -46,7 +46,7 @@ dist/main.js  ✅
 
 Open the Command Palette (Ctrl+P or Cmd+P) and search for:
 
-```
+```bash
 🧱 Generate Vault Structure
 ```
 
@@ -62,7 +62,7 @@ This will:
 
 In `VAULT/System/Backend/Scripts/`, there's also:
 
-```
+```bash
 vault-like-structure.sh
 ```
 
