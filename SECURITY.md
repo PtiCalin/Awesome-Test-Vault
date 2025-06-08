@@ -1,3 +1,11 @@
+---
+id: security-policy
+title: "🛡️ Security Policy"
+created: 2025-06-08
+updated: 2025-06-08
+tags: []
+---
+
 # 🛡️ Security Policy
 
 Welcome to the Awesome Test Vault!  

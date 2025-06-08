@@ -1,3 +1,11 @@
+---
+id: vaultos-readme
+title: "🧠 VaultOS"
+created: 2025-06-08
+updated: 2025-06-08
+tags: []
+---
+
 # 🧠 VaultOS
 
 **VaultOS** is a self-extending plugin management and operations system for Obsidian.
