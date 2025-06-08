@@ -23,4 +23,4 @@ body:
   id: reasons
   attributes:
     label: Why change this?
-    description: Why would this make the vault better?
+    description: Why would this make the project better?

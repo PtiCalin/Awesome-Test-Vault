@@ -6,3 +6,6 @@ Vault/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/Vault
 Vault/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding.zip
 # Ignore local dependencies in VaultOS test scaffolding
 Vault/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/
+
+# Ignore issue template archive
+.github/ISSUE_TEMPLATE.zip

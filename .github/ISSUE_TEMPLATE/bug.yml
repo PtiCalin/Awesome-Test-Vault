@@ -1,5 +1,5 @@
-name: 🪲 Bug Report (Vault Related)
-description: Report a bug or glitch inside the vault.
+name: 🪲 Bug Report
+description: Report a bug or glitch in the project.
 title: 'Bug: {Issue Summary}'
 labels:
 - bug

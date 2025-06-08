@@ -1,5 +1,5 @@
 name: 🧭 Documentation Task
-description: Improve the README, wiki, or vault documentation.
+description: Improve the README, wiki, or project documentation.
 title: 'Docs: {Area}'
 labels:
 - documentation

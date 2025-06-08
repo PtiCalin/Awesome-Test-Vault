@@ -1,9 +1,9 @@
 name: ✍️ New Content Entry
-description: Log a new page, template, or section added to the vault.
+description: Log a new page, template, or section added to the project.
 title: 'New: {Page or Template Name}'
 labels:
 - new content
-- vault growth
+- content growth
 body:
 - type: textarea
   id: description
@@ -16,7 +16,7 @@ body:
   id: location
   attributes:
     label: Where is it located?
-    description: Folder/path inside the vault.
+    description: Folder/path in the project.
   validations:
     required: true
 - type: textarea

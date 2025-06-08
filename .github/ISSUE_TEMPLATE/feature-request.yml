@@ -1,5 +1,5 @@
 name: 🌟 Feature Request
-description: Suggest a new template, tool, workflow, or system for the vault.
+description: Suggest a new template, tool, workflow, or system for this project.
 title: 'Feature: {Idea}'
 labels:
 - feature request
@@ -16,7 +16,7 @@ body:
   id: benefit
   attributes:
     label: Why would it be useful?
-    description: Explain why this would improve the vault.
+    description: Explain why this would improve the project.
 - type: textarea
   id: notes
   attributes:

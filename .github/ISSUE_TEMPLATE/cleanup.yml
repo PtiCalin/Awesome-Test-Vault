@@ -1,4 +1,4 @@
-name: 🧹 Vault Cleanup
+name: 🧹 Project Cleanup
 description: 'Schedule a cleaning session: archiving, deleting, merging.'
 title: 'Cleanup: {Scope}'
 labels:
