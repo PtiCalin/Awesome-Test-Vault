@@ -29,3 +29,4 @@ find "$VAULT_DIR" -type f -name "*.md" | while read -r file; do
     fi
   fi
 done
+
