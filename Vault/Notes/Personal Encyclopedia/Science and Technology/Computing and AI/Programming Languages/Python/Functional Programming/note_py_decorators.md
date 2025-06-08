@@ -56,7 +56,7 @@ greet()
 ```
 
 🧠 Output:
-```
+```text
 Before the call
 Hello!
 After the call

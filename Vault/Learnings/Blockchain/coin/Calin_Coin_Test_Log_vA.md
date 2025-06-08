@@ -43,7 +43,7 @@ python calin_coin-a.py
 ```
 
 **Output:**
-```
+```text
 ✅ Calin Coin chain successfully validated.
 Final state: {'Alice': 72, 'Bob': 28}
 Genesis Block Hash: 7c88a4312054f89a2b73b04989cd9b9e1ae437e1048f89fbb4e18a08479de507
@@ -60,7 +60,7 @@ Script runs without errors. Hashes and final state match expected behavior.
 **Goal:** Confirm that output remains consistent across multiple runs.
 
 **Output Sample (x5 runs):**
-```
+```text
 Final state: {'Alice': 72, 'Bob': 28}
 Block #1 Hash: 7a91fc8206c5351293fd11200b33b7192e87fad6545504068a51aba868bc6f72
 ```
@@ -78,7 +78,7 @@ chain[1]['hash'] = "badcafedeadbeef1234567890"
 ```
 
 **Output:**
-```
+```text
 Exception: Hash does not match contents of block 1
 ```
 
@@ -95,7 +95,7 @@ txnBuffer.insert(0, {'Alice': -5, 'Bob': 2})  # Invalid: net ≠ 0
 ```
 
 **Debug Print Output:**
-```
+```text
 ❌ Invalid transaction skipped: {'Alice': -5, 'Bob': 2}
 ✅ Calin Coin chain successfully validated.
 ```

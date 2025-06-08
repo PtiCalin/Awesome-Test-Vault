@@ -37,8 +37,8 @@ Random Seeds: `random.seed(99)`  , `random.seed(42)`
 **Command:**  
 `python calin_coin-b.py`
 
-**Output:**  
-```
+**Output:**
+```text
 ✅ Calin Coin Chain Validated!
 📦 Final Blockchain State: {'Alice': 33, 'Bob': 67}
 🔗 Genesis Block Hash: 7c88a4312054f89a2b73b04989cd9b9e1ae437e1048f89fbb4e18a08479de507
@@ -56,8 +56,8 @@ Random Seeds: `random.seed(99)`  , `random.seed(42)`
 
 **Goal:** Confirm that output remains consistent across multiple runs.
 
-**Output Sample:**  
-```
+**Output Sample:**
+```text
 ✅ Calin Coin Chain Validated!
 📦 Final Blockchain State: {'Alice': 33, 'Bob': 67}
 🔗 Genesis Block Hash: 7c88a4312054f89a2b73b04989cd9b9e1ae437e1048f89fbb4e18a08479de507
@@ -77,8 +77,8 @@ Random Seeds: `random.seed(99)`  , `random.seed(42)`
 chain[1]['hash'] = "deadbeef0000000000000000000000000000000000000000000000000000000000"
 ```
 
-**Output:**  
-```
+**Output:**
+```text
 ValueError: Block 1 hash mismatch
 ```
 
@@ -97,8 +97,8 @@ ValueError: Block 1 hash mismatch
 txn_pool.insert(0, {"Alice": -999, "Bob": 500})  # Invalid: net ≠ 0
 ```
 
-**Debug Print Output:**  
-```
+**Debug Print Output:**
+```text
 ❌ INVALID: {'Alice': -999, 'Bob': 500}
 ```
 
@@ -117,8 +117,8 @@ txn_pool.insert(0, {"Alice": -999, "Bob": 500})  # Invalid: net ≠ 0
 chain[1]['contents']['txns'][0]['Alice'] = 5000
 ```
 
-**Output:**  
-```
+**Output:**
+```text
 ValueError: Invalid transaction
 ```
 
