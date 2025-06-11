@@ -3,9 +3,7 @@
 id: yaml
 title: "Yaml"
 aliases: ["About Yaml"]                          # Alternate titles
-tags: [yaml
-
-]                                    # Key terms
+tags: [yaml]                                    # Key terms
 author(s):                           # Lists contributors (Default: PtiCalin)
 element: 
 type: <% type %>
@@ -102,6 +100,71 @@ bio: >
 
 ---
 
+🌐 Common Use Cases
+
+- Configuration Files: .github/workflows/, docker-compose.yml, obsidian.json
+- CI/CD Pipelines: GitHub Actions, GitLab CI
+- Cloud & Infrastructure: Kubernetes manifests
+- Metadata Definitions: Obsidian frontmatter
+
+---
+
+⚠️ Gotchas & Best Practices
+
+- Always use spaces (never tabs)
+- Indentation matters — inconsistent spacing will break parsing
+- Strings with special characters should be wrapped in quotes
+- Avoid complex structures where readability breaks down
+
+---
+
+📚 YAML in the Vault Ecosystem
+
+- In the Awesome Test Vault and VaultOS, YAML is foundational for:
+- File metadata (via frontmatter)
+- Plugin configurations
+- Structured templates (e.g., learning logs, story blocks, project tickets)
+
+
+📌 Reference Snippet (Frontmatter Template)
+
+```yaml
+# 📄 Identity & Classification
+id: <% title.toLowerCase().replaceAll(" ", "-") %>
+title: "<% title %>"
+aliases: []                          # Alternate titles
+tags: [
+
+]                                    # Key terms
+author(s):                           # Lists contributors (Default: PtiCalin)
+element: 
+type: <% type %>
+category: 
+section:
+topic: 
+role: 
+folder: 
+tags: []
+version: 1.3                         # (Default 1.0)
+
+# 📊 Status & Lifecycle
+status: <% status %>                 # draft, in progress, complete, archived (Default: Draft)
+visibility: <% visibility %>         # public, private (Default: public)
+created: <% today %>
+updated: <% today %>
+
+# 📚 Context & Description
+summary: ""
+
+# 🧱 Relationships
+parent: ""                           # One parent
+children: []                         # Ordered or unordered children
+friends: []                          # Related items of similar nature
+related: []                          # General related content
+```
+
+---
+
 ## 🔗 Related Notes
 
 > [!info] 🧠 Relationships  
@@ -116,3 +179,4 @@ table
 from ""
 where file.link = this.file.link
 ```
+---
