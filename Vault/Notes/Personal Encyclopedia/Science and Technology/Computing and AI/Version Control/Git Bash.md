@@ -1,13 +1,45 @@
 ---
+# 📄 Identity & Classification
+id: git-bash
 title: "Git Bash"
+aliases: []                          # Alternate titles
+tags: [git, bash, version-control
+]
+author(s):                           # Lists contributors (Default: PtiCalin)
+element:
+type: <% type %>
+category:
+section:
+topic:
+role:
+folder:
+tags: []
+version: 1.3                         # (Default 1.0)
+
+# 📊 Status & Lifecycle
+status: <% status %>                 # draft, in progress, complete, archived (Default: Draft)
+visibility: <% visibility %>         # public, private (Default: public)
 created: 2025-05-30
-type: note
-tags: [git, bash, version-control]
-parent: "Version Control"
-children: []
+updated: 2025-05-30
+
+# 📚 Context & Description
+summary: ""
+
+# 🧱 Relationships
+parent: "Version Control"            # One parent
+children: []                         # Ordered or unordered children
+friends: []                          # Related items of similar nature
+related: []                          # General related content
 ---
 
-# Git Bash
+> [!nav] 🧱 Vault Navigation
+<!-- Relative Nav Bars -->
+<!-- Notes -->
+<!-- Learnings -->
+<!-- Libraries -->
+<!-- System -->
+
+## ✍️ Git Bash
 
 Git Bash is a Windows application that bundles the GNU Bash shell with the Git distributed version-control system. It provides a Unix-style command-line environment on Windows so developers can run familiar Git workflows without needing a full Linux setup.
 
@@ -67,3 +99,18 @@ $ git push -u origin feat/encyclopedia-notes
 - Other shells: PowerShell, Zsh, Fish
 
 See also: [[Git Bash Learning Module]] for step-by-step drills and an extended cheatsheet. Official references: <https://gitforwindows.org> and <https://git-scm.com>.
+
+## 🔗 Related Notes
+
+> [!info] 🧠 Relationships
+> This note is part of a larger structure. Below are its connections:
+
+```dataview
+table
+  parent as "Parent",
+  children as "Subpages",
+  friends as "Friends",
+  related as "Related"
+from ""
+where file.link = this.file.link
+```
