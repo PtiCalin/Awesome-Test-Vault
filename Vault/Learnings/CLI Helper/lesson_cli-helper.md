@@ -75,6 +75,7 @@ Run `gitlog-pretty` to see a color-coded Git history graph—no memorization nee
 ### 🧱 Build Your Own CLI Helpers
 
 Start small:
+
 - Use `alias` for common commands
 - Define functions in your `.bashrc` or `.zshrc`
 - Write `.sh` scripts for tasks with multiple steps
@@ -98,6 +99,7 @@ table
 from ""
 where file.link = this.file.link
 ```
+
 ---
 
 > 🌛 Quick Actions  
