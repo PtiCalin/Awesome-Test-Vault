@@ -100,6 +100,46 @@ bio: >
 # This is a comment
 ```
 
+### 🧾 YAML Syntax Cheatsheet
+
+#### Quick Summary
+YAML (YAML Ain’t Markup Language) is a human-readable data serialization format used for config files and data exchange.
+
+#### Core Concepts
+- **Key-Value Pairs**: Basic unit, like a dictionary.
+- **Indentation**: Uses spaces (not tabs!) to nest.
+- **Lists**: Use `-` to denote list items.
+- **Scalars**: strings, integers, booleans.
+
+#### Syntax Examples
+
+```yaml
+name: PtiCalin
+projects:
+  - VaultOS
+  - Veridonia
+features:
+  automation: true
+  plugins:
+    count: 7
+    custom: yes
+```
+
+#### Tips & Tools
+- Strings with special characters: use quotes
+- Use `---` to denote the start of a YAML doc
+- Multiline strings: use `|` (literal) or `>` (folded)
+
+#### Gotchas
+- Don’t mix tabs and spaces
+- Don’t forget colons `:` and indent levels
+- Booleans like `yes` / `no` might be interpreted as strings or truthy values
+
+#### Related
+- [[Obsidian YAML Templates]]
+- [[Frontmatter Metadata]]
+- [[JSON vs YAML]]
+
 ---
 
 ## 🔗 Related Notes
