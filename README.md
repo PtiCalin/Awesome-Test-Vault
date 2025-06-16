@@ -1,11 +1,3 @@
----
-id: readme
-title: "🧠 Awesome Test Vault"
-created: 2025-06-08
-updated: 2025-06-08
-tags: []
----
-
 # 🧠 Awesome Test Vault
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat&logo=appveyor&logoColor=white&theme=calm)](./LICENSE.md)
