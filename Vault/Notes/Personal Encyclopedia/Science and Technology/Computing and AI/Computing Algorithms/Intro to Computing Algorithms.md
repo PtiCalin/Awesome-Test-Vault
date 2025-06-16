@@ -1,14 +1,3 @@
----
-title: "Intro to Computing Algorithms"
-created: 2025-06-08
-type: note
-tags: [note, Computing Algorithms]
-parent: "Computing Algorithms"
-children: []
----
-
-# Intro to Computing Algorithms
-
 An algorithm is a step-by-step set of instructions designed to solve a problem or perform a computation. Algorithms form the core of computer science, enabling everything from simple arithmetic to advanced AI.
 
 They are logic engines—abstract machines that transform input into output by following a precise, finite process.
@@ -67,3 +56,4 @@ function linearSearch(list, target):
 - "Algorithmic Complexity & Optimization"
 - "Turing Machines & Computability"
 - "Pseudocode vs Code"
+
