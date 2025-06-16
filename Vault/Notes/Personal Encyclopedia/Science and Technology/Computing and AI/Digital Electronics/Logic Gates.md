@@ -1,12 +1,35 @@
 ---
+# 📄 Identity & Classification
+id: logic-gates
 title: "Logic Gates"
-created: 2025-04-30
+aliases: []
+tags: [logic-gates, digital-electronics]
+author(s):
+element:
 type: note
-tags: [note, Digital Electronics]
+category:
+section:
+topic:
+role:
+folder:
+tags: []
+version: 1.3
+
+# 📊 Status & Lifecycle
+status: draft
+visibility: public
+created: 2025-04-30
+updated: 2025-04-30
+
+# 📚 Context & Description
+summary: "Logic gates are the fundamental building blocks of digital electronics."
+
+# 🧱 Relationships
 parent: "Digital Electronics"
 children: []
+friends: []
+related: []
 ---
-
 # ⚙️ Logic Gates
 
 ## 🧭 Summary
@@ -58,3 +81,19 @@ print("XOR:", A ^ B)
 - "Boolean Algebra"
 - "Flip-Flops and Registers"
 - "Combinational vs Sequential Logic"
+
+## 🔗 Related Notes
+
+> [!info] 🧠 Relationships
+> This note is part of a larger structure. Below are its connections:
+
+```dataview
+table
+  parent as "Parent",
+  children as "Subpages",
+  friends as "Friends",
+  related as "Related"
+from ""
+where file.link = this.file.link
+
+---
