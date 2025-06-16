@@ -1,10 +1,34 @@
 ---
+# 📄 Identity & Classification
+id: networks
 title: "Networks"
+aliases: []
+tags: [networks, computing]
+author(s):
+element:
+type: note
+category:
+section:
+topic:
+role:
+folder:
+tags: []
+version: 1.3
+
+# 📊 Status & Lifecycle
+status: draft
+visibility: public
 created: 2025-04-30
-type: topic
-tags: [topic]
+updated: 2025-04-30
+
+# 📚 Context & Description
+summary: "A network is a collection of interconnected devices that communicate and share resources."
+
+# 🧱 Relationships
 parent: "Computing and AI"
 children: []
+friends: []
+related: []
 ---
 
 # Networks
@@ -76,3 +100,18 @@ Networks are the infrastructure behind the internet, emails, video calls, blockc
 - [[OSI Model vs TCP/IP Stack]]
 - [[Wireless Networking (Wi-Fi, LTE, 5G)]]
 - [[Network Simulation Tools (e.g., Wireshark, Packet Tracer)]]
+
+## 🔗 Related Notes
+
+> [!info] 🧠 Relationships
+> This note is part of a larger structure. Below are its connections:
+
+```dataview
+table
+  parent as "Parent",
+  children as "Subpages",
+  friends as "Friends",
+  related as "Related"
+from ""
+where file.link = this.file.link
+```
