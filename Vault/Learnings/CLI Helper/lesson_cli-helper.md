@@ -1,5 +1,4 @@
 ---
-```yaml
 # 📄 Identity & Classification
 id: cli-helper
 title: "CLI Helper"
@@ -26,7 +25,7 @@ parent: "shell-basics"
 children: []
 friends: ["bash-aliases", "tldr", "fzf"]
 related: ["terminal-basics", "bash-functions"]
-```
+
 ---
 
 > [!nav] 🧱 Vault Navigation  

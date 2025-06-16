@@ -1,5 +1,4 @@
 ---
-```yaml
 # 📄 Identity & Classification
 id: extract-helper
 title: "Universal Extract Helper"
@@ -26,7 +25,7 @@ parent: "cli-helper"
 children: []
 friends: ['cli-helper', 'file-utilities']
 related: ['compression']
-```
+
 ---
 
 > [!nav] 🧱 Vault Navigation  
@@ -43,8 +42,6 @@ related: ['compression']
 > 📚 [New Lesson](obsidian://new?name=Lessons/New%20Lesson%20-%20Universal%20Extract%20Helper)
 
 ---
-
-## ✍️ Content Starts Here
 
 ### 🔧 Universal Extract Helper
 

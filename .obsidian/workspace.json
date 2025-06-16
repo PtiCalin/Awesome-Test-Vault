@@ -4,25 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "88b2f4dba596a4c4",
+        "id": "c625307fb3e36b34",
         "type": "tabs",
         "children": [
           {
-            "id": "41647ed1bcba4faf",
+            "id": "8f0c80091cf7b9fe",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vault/System/Frontend/Snippets/Custom CSS.md",
+                "file": "Vault/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Yaml/Yaml.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Custom CSS"
+              "title": "Yaml"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,10 +107,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Vault/System/Frontend/Snippets/Custom CSS.md"
+                "file": "Vault/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Yaml/Yaml.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Custom CSS"
+              "title": "File properties for Yaml"
             }
           },
           {
@@ -134,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vault/System/Frontend/Snippets/Custom CSS.md",
+                "file": "Vault/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Yaml/Yaml.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Custom CSS"
+              "title": "Outline of Yaml"
             }
           }
         ]
@@ -156,12 +167,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vault/System/Frontend/Snippets/Custom CSS.md",
+                "file": "Vault/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Yaml/Yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Custom CSS"
+              "title": "Outgoing links from Yaml"
             }
           },
           {
@@ -229,10 +240,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "41647ed1bcba4faf",
+  "active": "75cbba21a196a498",
   "lastOpenFiles": [
-    "Vault/System/Frontend/Snippets/Image Maps/Hall of Knowledge - Main Hall.md",
+    "Vault/Files and Media/Images/Vault Overview/Vault Map.zip",
+    "Vault/Files and Media/Images/Vault Overview/Vault Cards.zip",
+    "Vault/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Yaml/config.js",
+    "Vault/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Yaml/Yaml-Work.md",
+    "Vault/Learnings/CLI Helper/lesson_cli-helper.md",
+    "Vault/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Yaml/Yaml.md",
+    "Vault/Notes/Personal Encyclopedia/Science and Technology/Computing and AI/Programming Languages/Yaml",
+    "Vault/Learnings/Automations/Calculator/Calculator.md",
+    "Vault/Learnings/Automations/Logging/qst_changelog-watcher.md",
+    "Vault/Learnings/Automations/Logging/qst_media-log-pipeline.md",
+    "Vault/Learnings/CLI Helper/examples/extract-helper.md",
+    "Vault/Learnings/CLI Helper/examples/examples.md",
+    "Vault/Learnings/CLI Helper/CLI Helper.md",
     "Awesome-Test-Vault.md",
+    "Vault/Museum/Hall of Knowledge/Main Hall/Main Hall.md",
+    "Vault/Museum/Hall of Knowledge/Hall of Knowledge.md",
+    "Vault/System/Frontend/Snippets/Custom CSS.md",
+    "Vault/Learnings/Blockchain.zip",
+    "Vault/System/Frontend/Snippets/Image Maps/Hall of Knowledge - Main Hall.md",
     "Vault/System/Frontend/Snippets/Image Maps",
     "VAULT/Museum/Hall of Knowledge/🧑‍🤝‍🧑 Society & Humanities/🧑‍🤝‍🧑 Society & Humanities.md",
     "VAULT/Museum/Hall of Knowledge/🛕 Religion & Spirituality/🛕 Religion & Spirituality.md",
@@ -252,10 +280,6 @@
     "VAULT/Museum/Hall of Knowledge/⚖️ Law & Politics/⚖️ Law & Politics",
     "VAULT/Museum/Hall of Knowledge/Arena",
     "VAULT/Museum/Hall of Knowledge/Greenhouse",
-    "VAULT/Museum/Hall of Knowledge/greenhouse",
-    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/Arena",
-    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/Greenhouse",
-    "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/Courtyard",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/Untitled.md",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/vault-map.png",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/🎨 Arts & Culture/Visual Arts/Arts & Culture (1).png",
@@ -264,19 +288,6 @@
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (7).png",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (6).png",
     "VAULT/Files and Media/Images/Vault Overview/Vault Map/Museum/Hall of Knowledge/🎨 Arts & Culture/drafts/Arts & Culture (5).png",
-    "VAULT/Notes/Notes.md",
-    "VAULT/Learnings/Workflows/Plugin development/Project Setup.md",
-    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Wish List.md",
-    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Testing.md",
-    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Documentation.md",
-    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Development.md",
-    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Configuration Notes.md",
-    "VAULT/System/Middleware/Obsidian/Plugins/Plugin Compatibility.md",
-    "VAULT/System/Middleware/Obsidian/Plugins/Plugin API.md",
-    "VAULT/System/Middleware/Obsidian/Plugins/Enabled Plugins.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/module_registry.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/@esbuild/win32-x64/README.md",
-    "VAULT/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_modules/esbuild/README.md",
     "Untitled.canvas"
   ]
 }
