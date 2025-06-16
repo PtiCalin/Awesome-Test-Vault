@@ -9,3 +9,4 @@ Vault/System/Backend/Scripts/Plugins/draft-vaultos/test/Folder Scaffolding/node_
 
 # Ignore issue template archive
 .github/ISSUE_TEMPLATE.zip
+__pycache__/
