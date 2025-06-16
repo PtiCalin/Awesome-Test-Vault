@@ -1,12 +1,35 @@
 ---
+# 📄 Identity & Classification
+id: encryption
 title: "Encryption"
-created: 2025-04-30
+aliases: []
+tags: [encryption, cybersecurity]
+author(s):
+element:
 type: note
-tags: [note, Cybersecurity]
+category:
+section:
+topic:
+role:
+folder:
+tags: []
+version: 1.3
+
+# 📊 Status & Lifecycle
+status: in progress
+visibility: public
+created: 2025-04-30
+updated: 2025-04-30
+
+# 📚 Context & Description
+summary: "Encryption is the process of converting plaintext into ciphertext so that only authorized parties can access the original data."
+
+# 🧱 Relationships
 parent: "Cybersecurity"
 children: []
+friends: []
+related: []
 ---
-
 # Encryption
 
 ## Summary
@@ -44,3 +67,19 @@ While not strictly encryption, cryptographic hashes provide data integrity and a
 ## Related Topics
 - [[Post-Quantum Cryptography]]
 - [[Zero Knowledge Proofs]]
+
+## 🔗 Related Notes
+
+> [!info] 🧠 Relationships
+> This note is part of a larger structure. Below are its connections:
+
+```dataview
+table
+  parent as "Parent",
+  children as "Subpages",
+  friends as "Friends",
+  related as "Related"
+from ""
+where file.link = this.file.link
+
+---
