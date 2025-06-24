@@ -113,6 +113,7 @@ ARTS_TOPICS=(
   ["Built and Decorative Arts"]="Architecture|Interior Design|Landscaping and Garden Design|Urbanism|Glasswork|Metalworking|Ceramics and Pottery|Woodworking|Jewelry Design"
   ["Visual Arts"]="Drawing|Painting|Printmaking|Sculpture|Textile Arts|3D Art|Digital Arts|Mixed Media|Illustration|Calligraphy"
   ["Performing Arts"]="Dance|Theatre|Opera|Music|Cinema|Performance Art|Improv"
+  ["Cinema and TV"]="Reality Television"
   ["Literary Arts"]="Literature|Poetry|Storytelling"
   ["Meta-Arts Theory Systems Institutions"]="Art History|Symbolism in Arts|Conceptualizing an Art Project|Artistic Practices and Methodologies|Artistic Movements and Styles|The Art Scene and Communities|Art Curation and Exhibition|Funding and Granting Arts"
 )
@@ -269,7 +270,7 @@ for domain in "${!TOPICS[@]}"; do
     create_markdown_pair "$topic_path" "$topic" "topic" "$domain"
   done
 
-  if [[ "$domain" == "Arts & Culture" ]]; then
+  if [[ "$domain" == "Arts and Culture" ]]; then
     create_structure_from_map "$domain_path" "$domain" ARTS_TOPICS
   elif [[ "$domain" == "Economics & Business" ]]; then
     create_structure_from_map "$domain_path" "$domain" ECON_TOPICS
