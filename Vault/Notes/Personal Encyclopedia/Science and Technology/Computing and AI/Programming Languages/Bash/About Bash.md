@@ -1,14 +1,42 @@
-
-
-
 ---
+# 📄 Identity & Classification
+id: about-bash
+title: "About Bash"
+aliases: []
+type: note
+category: programming
+section: science-and-technology
+role: documentation
+folder: bash
+tags: [intro]
+version: 1.2
+
+# 📊 Status & Lifecycle
+status: draft
+visibility: draft-only
+created: 2025-05-26
+updated: 2025-05-26
+
+# 📚 Context & Description
+summary: "Overview and quick-reference commands for the Bash shell"
+
+# 🧱 Relationships
+parent: ""
+children: []
+friends: []
+related: []
+---
+
+> [!nav] 🧱 Vault Navigation
+> [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[⛮  System]]
+
 # 🐚 Bash Learning Guide
 
 > A beginner-friendly and structured guide to navigating your system and scripting with Bash. This is not just a cheat sheet — it's a growing, modular knowledge base for your command-line fluency.
 
 ---
 
-BASH stands for 
+BASH stands for **Bourne Again SHell**.
 
 
 
@@ -204,3 +232,20 @@ Bash isn’t just for navigating. It can:
 🧩 **Next Steps**:
 - add a section on `cp`, `mv`, and `rm`?
 - include `chmod`, `chown`, or `cron` usage?
+
+---
+
+## 🔗 Related Notes
+
+> [!info] 🧠 Relationships
+> This note is part of a larger structure. Below are its connections:
+
+```dataview
+table
+  parent as "Parent",
+  children as "Subpages",
+  friends as "Friends",
+  related as "Related"
+from ""
+where file.link = this.file.link
+```
