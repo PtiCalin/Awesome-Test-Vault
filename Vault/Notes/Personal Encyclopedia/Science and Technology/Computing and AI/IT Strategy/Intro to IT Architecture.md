@@ -1,12 +1,25 @@
 ---
+id: intro-to-it-architecture
 title: "Intro to IT Architecture"
+aliases: []
+tags: [note, IT Architecture]
+author(s): PtiCalin
+version: 1.3
+status: draft
+visibility: public
 created: 2025-04-30
-type: note
-tags: [note, "IT Architecture"]
+updated: 2025-04-30
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "IT Strategy"
 parent: "IT Strategy"
 children: []
+siblings: []
+friends: []
 ---
-
 # Intro to IT Architecture
 
 This note explores the foundations of **IT Architecture** and how it guides technology direction within organisations.

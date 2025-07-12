@@ -1,12 +1,25 @@
 ---
-title: "Survivor"
-created: 2025-06-24
-type: note
+id: survivor
+title: Survivor
+aliases: []
 tags: [note, Survivor]
+author(s): PtiCalin
+version: 1.3
+status: draft
+visibility: public
+created: 2025-06-24
+updated: 2025-06-24
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Arts and Culture"
+section: "Performing Arts"
+topic: "Cinema and TV"
 parent: "Reality Television"
 children: []
+siblings: []
+friends: []
 ---
-
 # Survivor
 
 This note explores the **Survivor** television series.

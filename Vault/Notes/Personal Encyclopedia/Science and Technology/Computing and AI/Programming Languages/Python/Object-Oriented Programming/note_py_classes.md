@@ -1,37 +1,25 @@
 ---
-```yaml
-# 📄 Identity & Classification
 id: classes
-title: "Classes"
+title: Classes
 aliases: []
-type: note
-element: encyclopedia-entry
-category: science-and-technology
-section: computing-and-ai
-topic: programming-language
-role: documentation
-folder: python
 tags: []
-version: 1.0
-summary: 
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
 visibility: public
 created: 2025-05-24
 updated: 2025-05-24
-
-# 📚 Context & Description
-summary: "Defining classes, objects"
-
-# 🧱 Relationships
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Programming Languages"
 parent: ""
 children: []
+siblings: []
 friends: []
-related: []
-```
 ---
-
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[⛮  System]]
 

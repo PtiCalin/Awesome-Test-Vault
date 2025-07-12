@@ -1,37 +1,25 @@
 ---
-# 📄 Identity & Classification
 id: data-structures
 title: "Data Structures"
-aliases: ["Structures de Données"]
+aliases: []
 tags: [data-structures, computing, programming, algorithms]
-author(s): ["Charlie Bouchard"]
-element: concept
-type: note
-category: Computing and AI
-section: Core Concepts
-topic: Data Architecture
-role: Reference
-folder: "Personal Encyclopedia/Science and Technology/Computing and AI"
-version: 1.1
-
-# 📊 Status & Lifecycle
-status: stable
+author(s): PtiCalin
+version: 1.3
+status: draft
 visibility: public
 created: 2025-06-08
-updated: 2025-06-16
-
-# 📚 Context & Description
-summary: >
-  A data structure is a specialized format for organizing, storing, accessing, and modifying data.
-  It determines how efficiently a program can solve problems or scale with increased input.
-
-# 🧱 Relationships
+updated: 2025-06-08
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Data Structures"
 parent: "Computing and AI"
-children: ["Big O Notation", "Algorithms"]
-friends: ["Abstract Data Types", "Object-Oriented Programming"]
-related: ["Data Types", "Memory Management"]
+children: [Big O Notation, Algorithms]
+siblings: []
+friends: []
 ---
-
 # 🧱 Data Structures
 
 ## 🧭 Summary

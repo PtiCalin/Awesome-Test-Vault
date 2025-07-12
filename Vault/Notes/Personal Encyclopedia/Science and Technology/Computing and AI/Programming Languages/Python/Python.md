@@ -1,35 +1,25 @@
 ---
-# 📄 Identity & Classification
 id: python
-title: "Python"
-aliases: ["Python", "About Python", "Python Hub", Python MOC"]
-type: note
-category: programming
-section: science-and-technology
-role: documentation
-folder: python
+title: Python
+aliases: []
 tags: [python, index, map-of-content, computing]
-version: 1.0
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
 visibility: public
 created: 2025-05-15
 updated: 2025-05-15
-
-# 📚 Context & Description
 summary: ""
-
-# 🧱 Relationships
-parent: "Python"
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Programming Languages"
+parent: Python
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
-
-
-
 ## 🔰 Getting Started
 
 - [[note_py_intro|Intro]] — What is Python, where did it come from, and what is it used for?

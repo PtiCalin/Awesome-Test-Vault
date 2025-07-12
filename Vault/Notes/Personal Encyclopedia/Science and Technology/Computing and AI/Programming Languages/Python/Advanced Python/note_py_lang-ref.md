@@ -1,33 +1,25 @@
 ---
-# 📄 Identity & Classification
-id: note_py_lang-ref
+id: the-python-language-reference
 title: "The Python Language Reference"
-aliases: ["The Python Language Reference"]
-type: note
-category: programming
-section: science-and-technology
-role: documentation
-folder: python
+aliases: []
 tags: []
-version: 1.2
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-15
 updated: 2025-05-15
-
-# 📚 Context & Description
 summary: ""
-
-# 🧱 Relationships
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Programming Languages"
 parent: ""
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
-
 > [!map] Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 

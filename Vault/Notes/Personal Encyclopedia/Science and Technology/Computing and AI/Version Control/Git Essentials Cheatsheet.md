@@ -1,32 +1,25 @@
 ---
-# 📄 Identity & Classification
 id: git-essentials-cheatsheet
 title: "Git Essentials Cheatsheet"
-aliases: ["Git Cheat Sheet"]
-type: note
-category: programming
-section: science-and-technology
-role: documentation
-folder: version-control
+aliases: []
 tags: [git, cheatsheet]
-version: 1.0
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
 visibility: public
-created: <% today %>
-updated: <% today %>
-
-# 📚 Context & Description
-summary: "Quick reference for common Git commands and workflows."
-
-# 🧱 Relationships
+created: "<% today %>"
+updated: "<% today %>"
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Version Control"
 parent: "Version Control"
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
 > [!nav] 🧱 Vault Navigation
 <!-- Relative Nav Bars -->
 <!-- Notes -->

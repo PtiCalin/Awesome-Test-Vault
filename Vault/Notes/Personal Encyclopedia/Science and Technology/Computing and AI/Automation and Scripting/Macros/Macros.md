@@ -1,12 +1,25 @@
 ---
-title: "Macros"
-created: 2025-06-08
-type: note
+id: macros
+title: Macros
+aliases: []
 tags: [note, macros]
+author(s): PtiCalin
+version: 1.3
+status: draft
+visibility: public
+created: 2025-06-08
+updated: 2025-06-08
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Automation and Scripting"
 parent: "Automation and Scripting"
 children: []
+siblings: []
+friends: []
 ---
-
 # ⚙️ Macros
 
 ## 🧭 Summary

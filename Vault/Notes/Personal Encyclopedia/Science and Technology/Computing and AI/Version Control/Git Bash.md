@@ -1,37 +1,25 @@
 ---
-# 📄 Identity & Classification
 id: git-bash
 title: "Git Bash"
-aliases: []                          # Alternate titles
-tags: [git, bash, version-control
-]
-author(s):                           # Lists contributors (Default: PtiCalin)
-element:
-type: <% type %>
-category:
-section:
-topic:
-role:
-folder:
+aliases: []
 tags: []
-version: 1.3                         # (Default 1.0)
-
-# 📊 Status & Lifecycle
-status: <% status %>                 # draft, in progress, complete, archived (Default: Draft)
-visibility: <% visibility %>         # public, private (Default: public)
+author(s): PtiCalin
+version: 1.3
+status: draft
+visibility: public
 created: 2025-05-30
 updated: 2025-05-30
-
-# 📚 Context & Description
 summary: ""
-
-# 🧱 Relationships
-parent: "Version Control"            # One parent
-children: []                         # Ordered or unordered children
-friends: []                          # Related items of similar nature
-related: []                          # General related content
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Version Control"
+parent: "Version Control"            # One parent"
+children: "[]                         # Ordered or unordered children"
+siblings: []
+friends: []
 ---
-
 > [!nav] 🧱 Vault Navigation
 <!-- Relative Nav Bars -->
 <!-- Notes -->

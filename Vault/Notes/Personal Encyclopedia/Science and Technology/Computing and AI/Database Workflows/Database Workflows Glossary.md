@@ -1,32 +1,25 @@
 ---
-# 📄 Identity & Classification
-id: database_workflows_glossary
+id: database-workflows-glossary
 title: "Database Workflows Glossary"
-aliases: ["Database Workflows Glossary"]
-type: note
-category: computing
-section: science-and-technology
-role: documentation
-folder: computing-and-ai
+aliases: []
 tags: [glossary]
-version: 1.0
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
 visibility: public
 created: 2025-06-08
 updated: 2025-06-08
-
-# 📚 Context & Description
-summary: "Glossary for database workflows"
-
-# 🧱 Relationships
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Database Workflows"
 parent: "Computing and AI"
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
 ## Glossary for Database Workflows
 
 ### A

@@ -1,32 +1,25 @@
 ---
-# 📄 Identity & Classification
 id: encryption-basics-cheatsheet
 title: "Encryption Basics Cheatsheet"
-aliases: ["Encryption Cheatsheet"]
-type: note
-category: cybersecurity
-section: science-and-technology
-role: documentation
-folder: cybersecurity
+aliases: []
 tags: [encryption, cheatsheet]
-version: 1.0
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
 visibility: public
-created: <% today %>
-updated: <% today %>
-
-# 📚 Context & Description
-summary: "Quick reference for common encryption concepts and commands."
-
-# 🧱 Relationships
-parent: "Cybersecurity"
+created: "<% today %>"
+updated: "<% today %>"
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: Cybersecurity
+parent: Cybersecurity
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
 > [!nav] 🧱 Vault Navigation
 <!-- Relative Nav Bars -->
 <!-- Notes -->
