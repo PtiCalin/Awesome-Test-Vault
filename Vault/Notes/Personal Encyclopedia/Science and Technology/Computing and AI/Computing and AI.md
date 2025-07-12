@@ -30,6 +30,7 @@ strategic side of information technology and artificial intelligence.
 - [[Networks]]
 - [[Programming Languages]]
 - [[Version Control]]
+- [[Vault Engineering]]
 
 ## 📚 Glossaries
 
