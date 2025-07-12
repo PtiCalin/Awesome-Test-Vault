@@ -1,33 +1,25 @@
 ---
-# 📄 Identity & Classification
-id: note_py_partial-functions
+id: partial-functions
 title: "Partial functions"
-aliases: ["Partial functions"]
-type: note
-category: programming
-section: science-and-technology
-role: documentation
-folder: python
+aliases: []
 tags: []
-version: 1.0
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
 visibility: public
 created: 2025-05-15
 updated: 2025-05-15
-
-# 📚 Context & Description
 summary: ""
-
-# 🧱 Relationships
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Programming Languages"
 parent: ""
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
-
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 

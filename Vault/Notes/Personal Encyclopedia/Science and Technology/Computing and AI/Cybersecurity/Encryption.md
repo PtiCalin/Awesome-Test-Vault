@@ -1,34 +1,24 @@
 ---
-# 📄 Identity & Classification
 id: encryption
-title: "Encryption"
+title: Encryption
 aliases: []
-tags: [encryption, cybersecurity]
-author(s):
-element:
-type: note
-category:
-section:
-topic:
-role:
-folder:
 tags: []
+author(s): PtiCalin
 version: 1.3
-
-# 📊 Status & Lifecycle
-status: in progress
+status: draft
 visibility: public
 created: 2025-04-30
 updated: 2025-04-30
-
-# 📚 Context & Description
-summary: "Encryption is the process of converting plaintext into ciphertext so that only authorized parties can access the original data."
-
-# 🧱 Relationships
-parent: "Cybersecurity"
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: Cybersecurity
+parent: Cybersecurity
 children: []
+siblings: []
 friends: []
-related: []
 ---
 # Encryption
 

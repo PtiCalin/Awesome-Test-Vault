@@ -1,12 +1,25 @@
 ---
+id: big-o-notation
 title: "Big O Notation"
+aliases: []
+tags: [note, computational complexity]
+author(s): PtiCalin
+version: 1.3
+status: draft
+visibility: public
 created: 2025-04-30
-type: note
-tags: [note, "computational complexity"]
+updated: 2025-04-30
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Computational Complexity"
 parent: "Computational Complexity"
 children: []
+siblings: []
+friends: []
 ---
-
 # ⏱️ Big O Notation
 
 ## 🧭 Summary

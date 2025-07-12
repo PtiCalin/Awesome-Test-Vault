@@ -1,36 +1,25 @@
 ---
-# 📄 Identity & Classification
 id: networks
-title: "Networks"
+title: Networks
 aliases: []
-tags: [networks, computing]
-author(s):
-element:
-type: note
-category:
-section:
-topic:
-role:
-folder:
 tags: []
+author(s): PtiCalin
 version: 1.3
-
-# 📊 Status & Lifecycle
 status: draft
 visibility: public
 created: 2025-04-30
 updated: 2025-04-30
-
-# 📚 Context & Description
-summary: "A network is a collection of interconnected devices that communicate and share resources."
-
-# 🧱 Relationships
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: Networks
 parent: "Computing and AI"
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
 # Networks
 
 ## 🧭 Summary

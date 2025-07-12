@@ -1,32 +1,25 @@
 ---
-# 📄 Identity & Classification
 id: debugging
-title: "Debugging"
+title: Debugging
 aliases: []
-type: note
-category: programming
-section: science-and-technology
-role: documentation
-folder: bash
 tags: []
-version: 1.2
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-26
 updated: 2025-05-26
-
-# 📚 Context & Description
-summary: "Debugging with -x and trap"
-
-# 🧱 Relationships
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Programming Languages"
 parent: ""
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[⛮  System]]
 

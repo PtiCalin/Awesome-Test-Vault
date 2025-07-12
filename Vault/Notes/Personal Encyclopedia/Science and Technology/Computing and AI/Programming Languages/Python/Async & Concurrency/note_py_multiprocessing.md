@@ -1,34 +1,25 @@
 ---
-```yaml
-# 📄 Identity & Classification
 id: multiprocessing
-title: "Multiprocessing"
+title: Multiprocessing
 aliases: []
-type: note
-category: programming
-section: science-and-technology
-role: documentation
-folder: python
 tags: []
-version: 1.2
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-24
 updated: 2025-05-24
-
-# 📚 Context & Description
-summary: "Intro to multiprocessing module"
-
-# 🧱 Relationships
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Programming Languages"
 parent: ""
 children: []
+siblings: []
 friends: []
-related: []
-```
 ---
-
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 

@@ -1,34 +1,24 @@
 ---
-# 📄 Identity & Classification
 id: cryptography
-title: "Cryptography"
+title: Cryptography
 aliases: []
-tags: [cryptography, cybersecurity]
-author(s):
-element:
-type: note
-category:
-section:
-topic:
-role:
-folder:
 tags: []
-version: 1.0
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
 visibility: public
 created: 2025-06-08
 updated: 2025-06-08
-
-# 📚 Context & Description
-summary: "Cryptography is the science of securing communication and data through encoding methods that make information unreadable to unauthorized parties."
-
-# 🧱 Relationships
-parent: "Cybersecurity"
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: Cybersecurity
+parent: Cybersecurity
 children: []
+siblings: []
 friends: []
-related: []
 ---
 # Cryptography
 

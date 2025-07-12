@@ -1,33 +1,25 @@
 ---
-# 📄 Identity & Classification
-id: note_py_map-filter-reduce
+id: functional-tools
 title: "Functional tools"
-aliases: ["Functional tools"]
-type: note
-category: programming
-section: science-and-technology
-role: documentation
-folder: python
+aliases: []
 tags: []
-version: 1.2
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-15
 updated: 2025-05-15
-
-# 📚 Context & Description
 summary: ""
-
-# 🧱 Relationships
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Programming Languages"
 parent: ""
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
-
 > [!nav] Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 

@@ -1,34 +1,24 @@
 ---
-# 📄 Identity & Classification
 id: logic-gates
 title: "Logic Gates"
 aliases: []
-tags: [logic-gates, digital-electronics]
-author(s):
-element:
-type: note
-category:
-section:
-topic:
-role:
-folder:
 tags: []
+author(s): PtiCalin
 version: 1.3
-
-# 📊 Status & Lifecycle
 status: draft
 visibility: public
 created: 2025-04-30
 updated: 2025-04-30
-
-# 📚 Context & Description
-summary: "Logic gates are the fundamental building blocks of digital electronics."
-
-# 🧱 Relationships
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Digital Electronics"
 parent: "Digital Electronics"
 children: []
+siblings: []
 friends: []
-related: []
 ---
 # ⚙️ Logic Gates
 

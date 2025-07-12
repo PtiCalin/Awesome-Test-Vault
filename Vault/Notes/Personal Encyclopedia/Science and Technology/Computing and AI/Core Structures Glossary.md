@@ -1,32 +1,25 @@
 ---
-# 📄 Identity & Classification
-id: core_structures_glossary
+id: core-structures-glossary
 title: "Core Structures Glossary"
-aliases: ["Core Structures Glossary"]
-type: note
-category: computing
-section: science-and-technology
-role: documentation
-folder: computing-and-ai
+aliases: []
 tags: [glossary]
-version: 1.0
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
 visibility: public
 created: 2025-06-08
 updated: 2025-06-08
-
-# 📚 Context & Description
-summary: "Glossary of computing and AI terms for core structures"
-
-# 🧱 Relationships
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: ""
 parent: "Computing and AI"
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
 ## 📚 Glossary for Core Structures
 
     - A language in which the type of all variables is known at compile time; Java and C++ are statically typed.

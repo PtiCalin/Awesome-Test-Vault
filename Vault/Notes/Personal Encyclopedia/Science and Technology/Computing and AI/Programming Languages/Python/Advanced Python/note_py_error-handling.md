@@ -1,32 +1,25 @@
 ---
-# 📄 Identity & Classification
 id: error-handling
 title: "Error Handling"
 aliases: []
-type: note
-category: programming
-section: science-and-technology
-role: documentation
-folder: python
 tags: []
-version: 1.2
-
-# 📊 Status & Lifecycle
+author(s): PtiCalin
+version: 1.3
 status: draft
-visibility: draft-only
+visibility: public
 created: 2025-05-24
 updated: 2025-05-24
-
-# 📚 Context & Description
-summary: "Chaining, custom errors, try/except/else/finally"
-
-# 🧱 Relationships
+summary: ""
+element: Notes
+type: "Personal Encyclopedia"
+category: "Science and Technology"
+section: "Computing and AI"
+topic: "Programming Languages"
 parent: ""
 children: []
+siblings: []
 friends: []
-related: []
 ---
-
 > [!nav] 🧱 Vault Navigation  
 > [[🖼 Media Gallery]] • [[🗓 Daily Notes]] • [[📚 Encyclopedia]] • [[💘 Learnings]] • [[🧠 System]]
 
